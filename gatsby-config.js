@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Wish to go`,
+    description: `Improve visitor engagement in your travel blog site.`,
+    author: `@wish_to_go`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,34 +24,6 @@ module.exports = {
 				path: `${__dirname}/src/pages`,
 			}
 		},
-		// {
-    //   resolve: 'gatsby-transformer-remark',
-    //   options: {
-    //     plugins: [
-    //       {
-    //         resolve: 'gatsby-remark-relative-images',
-    //         options: {
-    //           name: 'uploads',
-    //         },
-    //       },
-    //       {
-    //         resolve: 'gatsby-remark-images',
-    //         options: {
-    //           // It's important to specify the maxWidth (in pixels) of
-    //           // the content container as this plugin uses this as the
-    //           // base for generating different widths of each image.
-    //           maxWidth: 2048,
-    //         },
-    //       },
-    //       {
-    //         resolve: 'gatsby-remark-copy-linked-files',
-    //         options: {
-    //           destinationDir: 'static',
-    //         },
-    //       },
-    //     ],
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
