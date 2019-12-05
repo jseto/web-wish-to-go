@@ -2723,6 +2723,14 @@ export type StringQueryOperatorInput = {
   glob?: Maybe<Scalars['String']>,
 };
 
+export type IndexQueryVariables = {};
+
+
+export type IndexQuery = { markdownRemark: Maybe<{ frontmatter: Maybe<(
+      Pick<MarkdownRemarkFrontmatter, 'title' | 'subheading'>
+      & { backgroundImage: Maybe<{ childImageSharp: Maybe<{ fluid: Maybe<GatsbyImageSharpFluidFragment> }> }> }
+    )> }> };
+
 export type GatsbyImageSharpFixedFragment = Pick<ImageSharpFixed, 'base64' | 'width' | 'height' | 'src' | 'srcSet'>;
 
 export type GatsbyImageSharpFixed_TracedSvgFragment = Pick<ImageSharpFixed, 'tracedSVG' | 'width' | 'height' | 'src' | 'srcSet'>;

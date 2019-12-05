@@ -1,11 +1,16 @@
-import React from "react"
-import { Link } from "gatsby"
+import * as React from "react"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import { IndexQuery } from "../../graphql-types"
 
-const IndexPage = ({data}) => {
+export interface GraphQLProps {
+	data: IndexQuery;
+}
+
+const Index: React.FC<GraphQLProps> = ({data}) => {
 	const { backgroundImage, title, subheading } = data.markdownRemark.frontmatter;
 
 	return (
@@ -71,10 +76,10 @@ const IndexPage = ({data}) => {
 	)
 }
 
-export default IndexPage
+export default Index
 
 export const query = graphql`
-query MyQuery {
+query Index {
   markdownRemark(frontmatter: {pageTemplate: {eq: "index"}, blockName: {eq: "header"}}) {
     frontmatter {
 			title
