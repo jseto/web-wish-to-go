@@ -1,17 +1,23 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import { graphql, Link } from "gatsby"
+import {Layout} from "../components/layout"
+import { SEO } from "../components/seo"
 import { IndexQuery } from "../../graphql-types"
+import logo from '../images/logo.svg';
+import { HTMLContent } from "../components/content"
 
 export interface GraphQLProps {
 	data: IndexQuery;
 }
 
 const Index: React.FC<GraphQLProps> = ({data}) => {
-	const { backgroundImage, title, subheading } = data.markdownRemark.frontmatter;
+	const { backgroundImage, title, heading, subheading } = data.markdownRemark.frontmatter;
+	const { html } = data.markdownRemark;
+
+	const description = 'description';
+	const intro = 'intro';
+	const BlogRoll = ()=><div>BlogRoll</div>
+	const Features = ()=><div>Features</div>
 
 	return (
 	  <Layout>
@@ -47,7 +53,7 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 	            padding: '0.25em',
 	          }}
 	        >
-	          {title}
+	          {heading}
 	        </h1>
 	        <h3
 	          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
@@ -63,15 +69,55 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 	          {subheading}
 	        </h3>
 	      </div>
-	    </div>
+			</div>
 
-	    <h1>Hi people</h1>
-	    <p>Welcome to your new Gatsby site.{data.markdownRemark.frontmatter.title}</p>
-	    <p>Now go build something great.</p>
-	    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-	      <Image src="gatsby-astronaut.png" maxWidth="300"/>
-	    </div>
-	    <Link to="/page-2/">Go to page 2</Link>
+			<section className="section section--gradient">
+	      <div className="container">
+	        <div className="section">
+	          <div className="columns">
+	            <div className="column is-10 is-offset-1">
+	              <div className="content">
+	                <div className="content">
+	                  <div className="tile">
+											<img src={logo} alt="Wish to go" style={{ width: '200px' }} />
+											<HTMLContent className="content" content={html} />
+	                  </div>
+	                </div>
+	                <div className="columns">
+	                  <div className="column is-12">
+	                    <h3 className="has-text-weight-semibold is-size-2">
+	                      {heading}
+	                    </h3>
+	                    <p>{description}</p>
+	                  </div>
+	                </div>
+	                <Features />
+	                <div className="columns">
+	                  <div className="column is-12 has-text-centered">
+	                    <Link className="btn" to="/products">
+	                      See all products
+	                    </Link>
+	                  </div>
+	                </div>
+	                <div className="column is-12">
+	                  <h3 className="has-text-weight-semibold is-size-2">
+	                    Latest stories
+	                  </h3>
+	                  <BlogRoll />
+	                  <div className="column is-12 has-text-centered">
+	                    <Link className="btn" to="/blog">
+	                      Read more
+	                    </Link>
+	                  </div>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
+
+
 	  </Layout>
 	)
 }
@@ -81,8 +127,10 @@ export default Index
 export const query = graphql`
 query Index {
   markdownRemark(frontmatter: {pageTemplate: {eq: "index"}, blockName: {eq: "header"}}) {
+		html
     frontmatter {
 			title
+			heading
 			subheading
       backgroundImage {
         childImageSharp {

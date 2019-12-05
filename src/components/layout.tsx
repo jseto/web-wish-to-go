@@ -4,14 +4,14 @@
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
-import React from 'react';
+import * as React from 'react';
 import { Fragment } from "react"
 import * as PropTypes from "prop-types"
 import './all.sass'
-import Navbar from "./navbar";
+import { Navbar } from "./navbar";
 import Footer from './footer'
 
-const Layout = ({ children }) => {
+export const Layout = ({ children }) => {
   return (
     <Fragment>
 			<Navbar/>
