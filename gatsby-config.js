@@ -5,6 +5,7 @@ module.exports = {
     author: `@wish_to_go`,
   },
   plugins: [
+		`gatsby-plugin-ts`,
     `gatsby-plugin-react-helmet`,
 		'gatsby-plugin-sass',
 		`gatsby-plugin-sharp`,
