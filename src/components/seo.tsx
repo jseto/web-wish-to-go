@@ -69,7 +69,7 @@ export const SEO = ({ description, lang, meta, title }) => {
       ].concat(meta)}
     >
 			<link href="https://wish-to-go.web.app/wish-to-go.css" rel="stylesheet"/>
-			<script type="text/javascript" src="https://wish-to-go.web.app/wish-to-go.bundle.js"></script>
+			<script async type="text/javascript" src="https://wish-to-go.web.app/wish-to-go.bundle.js"></script>
 		</Helmet>
   )
 }

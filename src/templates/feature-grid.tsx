@@ -4,28 +4,30 @@ import PreviewCompatibleImage from '../components/preview-compatible-image';
 import { FeatureGridQuery } from '../../graphql-types';
 
 export interface GraphQLProps {
-	data?: FeatureGridQuery;
+	data: FeatureGridQuery;
 }
 
 const FeatureGrid: React.FC<GraphQLProps> = ({ data }) => (
   <div className="columns is-multiline">
-    {data.markdownRemark.frontmatter.features.map(item => (
-      <div key={item.text} className="column is-6">
-        <section className="section">
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block',
-              }}
-            >
-              <PreviewCompatibleImage imageInfo={item} />
-            </div>
-          </div>
-          <p>{item.text}</p>
-        </section>
-      </div>
-    ))}
+    {
+			data.markdownRemark.frontmatter.features.map( item => (
+	      <div key={item.text} className="column is-6">
+	        <section className="section">
+	          <div className="has-text-centered">
+	            <div
+	              style={{
+	                width: '240px',
+	                display: 'inline-block',
+	              }}
+	            >
+	              <PreviewCompatibleImage imageInfo={item} />
+	            </div>
+	          </div>
+	          <p>{item.text}</p>
+	        </section>
+	      </div>
+	    ))
+		}
   </div>
 )
 
