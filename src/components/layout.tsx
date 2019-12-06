@@ -15,14 +15,6 @@ interface LayoutState {
 }
 
 export class Layout extends React.Component<{}, LayoutState> {
-	componentDidMount() {
-		// this.setState({ script: <h1>mounted</h1> })
-		// this.setState({
-		// 	script:	<script type="text/javascript" src="https://wish-to-go.web.app/wish-to-go.bundle.js?a5c0a9f19c90178de5ca"></script>
- 		// })
-		// (document as any).wtgInit()
-	}
-
 	render() {
 		const children = this.props.children;
 

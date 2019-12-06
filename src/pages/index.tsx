@@ -2,22 +2,19 @@ import * as React from "react"
 import { graphql, Link } from "gatsby"
 import {Layout} from "../components/layout"
 import { SEO } from "../components/seo"
+import WhatIsIt from "../templates/what-is-it"
+import FeatureGrid from "../templates/feature-grid"
 import { IndexQuery } from "../../graphql-types"
-import logo from '../images/logo.svg';
-import { HTMLContent } from "../components/content"
 
-export interface GraphQLProps {
+interface GraphQLProps {
 	data: IndexQuery;
 }
 
 const Index: React.FC<GraphQLProps> = ({data}) => {
-	const { backgroundImage, title, heading, subheading } = data.markdownRemark.frontmatter;
-	const { html } = data.markdownRemark;
+	const { backgroundImage, heading, subheading } = data.markdownRemark.frontmatter;
 
 	const description = 'description';
-	const intro = 'intro';
 	const BlogRoll = ()=><div>BlogRoll</div>
-	const Features = ()=><div>Features</div>
 
 	return (
 	  <Layout>
@@ -77,12 +74,7 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 	          <div className="columns">
 	            <div className="column is-10 is-offset-1">
 	              <div className="content">
-	                <div className="content">
-	                  <div className="tile">
-											<img src={logo} alt="Wish to go" style={{ width: '200px' }} />
-											<HTMLContent className="content" content={html} />
-	                  </div>
-	                </div>
+									<WhatIsIt/>
 	                <div className="columns">
 	                  <div className="column is-12">
 	                    <h3 className="has-text-weight-semibold is-size-2">
@@ -91,7 +83,7 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 	                    <p>{description}</p>
 	                  </div>
 	                </div>
-	                <Features />
+	                <FeatureGrid />
 	                <div className="columns">
 	                  <div className="column is-12 has-text-centered">
 	                    <Link className="btn" to="/products">

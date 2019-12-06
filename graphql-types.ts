@@ -737,6 +737,8 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___backgroundImage___publicURL' |
   'childMarkdownRemark___frontmatter___backgroundImage___id' |
   'childMarkdownRemark___frontmatter___backgroundImage___children' |
+  'childMarkdownRemark___frontmatter___features' |
+  'childMarkdownRemark___frontmatter___features___text' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
   'childMarkdownRemark___fileAbsolutePath' |
@@ -1558,6 +1560,44 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___backgroundImage___childMarkdownRemark___timeToRead' |
   'frontmatter___backgroundImage___childMarkdownRemark___tableOfContents' |
   'frontmatter___backgroundImage___childMarkdownRemark___children' |
+  'frontmatter___features' |
+  'frontmatter___features___image___birthtime' |
+  'frontmatter___features___image___birthtimeMs' |
+  'frontmatter___features___image___sourceInstanceName' |
+  'frontmatter___features___image___absolutePath' |
+  'frontmatter___features___image___relativePath' |
+  'frontmatter___features___image___extension' |
+  'frontmatter___features___image___size' |
+  'frontmatter___features___image___prettySize' |
+  'frontmatter___features___image___modifiedTime' |
+  'frontmatter___features___image___accessTime' |
+  'frontmatter___features___image___changeTime' |
+  'frontmatter___features___image___birthTime' |
+  'frontmatter___features___image___root' |
+  'frontmatter___features___image___dir' |
+  'frontmatter___features___image___base' |
+  'frontmatter___features___image___ext' |
+  'frontmatter___features___image___name' |
+  'frontmatter___features___image___relativeDirectory' |
+  'frontmatter___features___image___dev' |
+  'frontmatter___features___image___mode' |
+  'frontmatter___features___image___nlink' |
+  'frontmatter___features___image___uid' |
+  'frontmatter___features___image___gid' |
+  'frontmatter___features___image___rdev' |
+  'frontmatter___features___image___blksize' |
+  'frontmatter___features___image___ino' |
+  'frontmatter___features___image___blocks' |
+  'frontmatter___features___image___atimeMs' |
+  'frontmatter___features___image___mtimeMs' |
+  'frontmatter___features___image___ctimeMs' |
+  'frontmatter___features___image___atime' |
+  'frontmatter___features___image___mtime' |
+  'frontmatter___features___image___ctime' |
+  'frontmatter___features___image___publicURL' |
+  'frontmatter___features___image___id' |
+  'frontmatter___features___image___children' |
+  'frontmatter___features___text' |
   'excerpt' |
   'rawMarkdownBody' |
   'fileAbsolutePath' |
@@ -1683,6 +1723,21 @@ export type MarkdownRemarkFrontmatter = {
   heading?: Maybe<Scalars['String']>,
   subheading?: Maybe<Scalars['String']>,
   backgroundImage?: Maybe<File>,
+  features?: Maybe<Array<Maybe<MarkdownRemarkFrontmatterFeatures>>>,
+};
+
+export type MarkdownRemarkFrontmatterFeatures = {
+  image?: Maybe<File>,
+  text?: Maybe<Scalars['String']>,
+};
+
+export type MarkdownRemarkFrontmatterFeaturesFilterInput = {
+  image?: Maybe<FileFilterInput>,
+  text?: Maybe<StringQueryOperatorInput>,
+};
+
+export type MarkdownRemarkFrontmatterFeaturesFilterListInput = {
+  elemMatch?: Maybe<MarkdownRemarkFrontmatterFeaturesFilterInput>,
 };
 
 export type MarkdownRemarkFrontmatterFilterInput = {
@@ -1692,6 +1747,7 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   heading?: Maybe<StringQueryOperatorInput>,
   subheading?: Maybe<StringQueryOperatorInput>,
   backgroundImage?: Maybe<FileFilterInput>,
+  features?: Maybe<MarkdownRemarkFrontmatterFeaturesFilterListInput>,
 };
 
 export type MarkdownRemarkGroupConnection = {
@@ -1942,6 +1998,8 @@ export type QuerySiteArgs = {
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
+  port?: Maybe<IntQueryOperatorInput>,
+  host?: Maybe<StringQueryOperatorInput>,
   polyfill?: Maybe<BooleanQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   buildTime?: Maybe<DateQueryOperatorInput>
@@ -2010,6 +2068,8 @@ export type Site = Node & {
   children: Array<Node>,
   internal: Internal,
   siteMetadata?: Maybe<SiteSiteMetadata>,
+  port?: Maybe<Scalars['Int']>,
+  host?: Maybe<Scalars['String']>,
   polyfill?: Maybe<Scalars['Boolean']>,
   pathPrefix?: Maybe<Scalars['String']>,
   buildTime?: Maybe<Scalars['Date']>,
@@ -2140,6 +2200,8 @@ export type SiteFieldsEnum =
   'siteMetadata___title' |
   'siteMetadata___description' |
   'siteMetadata___author' |
+  'port' |
+  'host' |
   'polyfill' |
   'pathPrefix' |
   'buildTime';
@@ -2150,6 +2212,8 @@ export type SiteFilterInput = {
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
+  port?: Maybe<IntQueryOperatorInput>,
+  host?: Maybe<StringQueryOperatorInput>,
   polyfill?: Maybe<BooleanQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   buildTime?: Maybe<DateQueryOperatorInput>,
@@ -2734,6 +2798,22 @@ export type IndexQuery = { markdownRemark: Maybe<(
       & { backgroundImage: Maybe<{ childImageSharp: Maybe<{ fluid: Maybe<GatsbyImageSharpFluidFragment> }> }> }
     )> }
   )> };
+
+export type FeatureGridQueryVariables = {};
+
+
+export type FeatureGridQuery = { markdownRemark: Maybe<(
+    Pick<MarkdownRemark, 'html'>
+    & { frontmatter: Maybe<{ features: Maybe<Array<Maybe<(
+        Pick<MarkdownRemarkFrontmatterFeatures, 'text'>
+        & { image: Maybe<{ childImageSharp: Maybe<{ fluid: Maybe<GatsbyImageSharpFluidFragment> }> }> }
+      )>>> }> }
+  )> };
+
+export type WhatIsItQueryVariables = {};
+
+
+export type WhatIsItQuery = { markdownRemark: Maybe<Pick<MarkdownRemark, 'html'>> };
 
 export type GatsbyImageSharpFixedFragment = Pick<ImageSharpFixed, 'base64' | 'width' | 'height' | 'src' | 'srcSet'>;
 
