@@ -73,7 +73,7 @@ export class Navbar extends React.Component<{}, NavbarState> {
 								How to use
 							</Link>
 							<Link className="navbar-item" to="/pricing">
-								Pricing
+								Plans
 							</Link>
 							<Link className="navbar-item" to="/blog">
 								Blog Demo

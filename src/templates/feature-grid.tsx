@@ -23,6 +23,7 @@ const FeatureGrid: React.FC<GraphQLProps> = ({ data }) => (
 	              <PreviewCompatibleImage imageInfo={item} />
 	            </div>
 	          </div>
+						<h3>{item.heading}</h3>
 	          <p>{item.text}</p>
 	        </section>
 	      </div>
@@ -51,6 +52,7 @@ export default (props: any) => (
 									}
 								}
 							}
+							heading
 							text
 						}
 					}
