@@ -67,11 +67,10 @@ export const SEO = ({ description, lang, meta, title }) => {
           content: metaDescription,
         },
       ].concat(meta)}
-			link={[{
-				href: 'wish-to-go.css',
-				rel: 'stylesheet'
-			}]}
-    />
+    >
+			<link href="https://wish-to-go.web.app/wish-to-go.css" rel="stylesheet"/>
+			<script type="text/javascript" src="https://wish-to-go.web.app/wish-to-go.bundle.js"></script>
+		</Helmet>
   )
 }
 

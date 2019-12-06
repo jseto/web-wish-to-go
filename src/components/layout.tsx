@@ -6,23 +6,35 @@
  */
 import * as React from 'react';
 import { Fragment } from "react"
-import * as PropTypes from "prop-types"
 import './all.sass'
 import { Navbar } from "./navbar";
 import Footer from './footer'
 
-export const Layout = ({ children }) => {
-  return (
-    <Fragment>
-			<Navbar/>
-      <main>{children}</main>
-			<Footer/>
-    </Fragment>
-  )
+interface LayoutState {
+	script: any;
 }
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+export class Layout extends React.Component<{}, LayoutState> {
+	componentDidMount() {
+		// this.setState({ script: <h1>mounted</h1> })
+		// this.setState({
+		// 	script:	<script type="text/javascript" src="https://wish-to-go.web.app/wish-to-go.bundle.js?a5c0a9f19c90178de5ca"></script>
+ 		// })
+		// (document as any).wtgInit()
+	}
+
+	render() {
+		const children = this.props.children;
+
+	  return (
+	    <Fragment>
+				<Navbar/>
+	      <main>{children}</main>
+				<Footer/>
+				{ this.state && this.state.script }
+	    </Fragment>
+	  )
+	}
 }
 
 export default Layout
