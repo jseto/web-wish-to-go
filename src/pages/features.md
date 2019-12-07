@@ -3,19 +3,30 @@ pageTemplate: index
 blockName: featureGrid
 features:
   - image: ../images/feature-wish-list.png
-    heading: A Wish List for your blog destinations
+    heading: Wish List for your blog destinations
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Every online store have a wish list. Why a travel blog shouldn't have one? Let your readers to choose destinations to plan their future trip. Wish lists are an excellent tool to increase income:
+    list:
+      - Attract new traffic as you offer an added value to your readers.
+      - Increase visitor engagement as they keep returning to check the wish list.
+      - Identify reader's favourite destinations and suggest other related blog entries or products.
+    readMore: /wishlist-as-a-marketing-tool
   - image: ../images/feature-tools.png
-    heading: Increase traffic with a useful tool
+    heading: A powerful Trip Planning tool
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      To complement the Wish List, there is a Trip Planner where your readers can plan their next trip based on the destinations stored in the wish list.
+    list:
+      - Select destination from diferent countries
+      - Add things to do at destination
+      - Sort destinations
+      - Automatically calculates hotel and travel booking dates
+    readMore: /trip-planner
   - image: ../images/feature-adverts.png
-    heading: Don't bloat your site with non-related adverts
+    heading: Focussed Advert Scheme
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  - image: ../images/tutorials.png
-    heading: Convert when your visitor is ready to buy
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Don't bloat your site with non-related adverts, readers hate it. Use a clever advertisement approach to monetize your travel site. Show ads only when the traveller is ready to buy. The Trip Planner is the where affiliate marketing rocks:
+    list:
+      - Traveller can book lodging, trips and tours from the Trip Planner
+      - No cookie expiration worries. Your reader will purchase immediately from the Trip Planner.
+    readMore: /focussed-advert-strategy
 ---

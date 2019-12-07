@@ -702,6 +702,8 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___features' |
   'childMarkdownRemark___frontmatter___features___heading' |
   'childMarkdownRemark___frontmatter___features___text' |
+  'childMarkdownRemark___frontmatter___features___list' |
+  'childMarkdownRemark___frontmatter___features___readMore' |
   'childMarkdownRemark___frontmatter___heading' |
   'childMarkdownRemark___frontmatter___subheading' |
   'childMarkdownRemark___frontmatter___backgroundImage___birthtime' |
@@ -1537,6 +1539,8 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___features___image___children' |
   'frontmatter___features___heading' |
   'frontmatter___features___text' |
+  'frontmatter___features___list' |
+  'frontmatter___features___readMore' |
   'frontmatter___heading' |
   'frontmatter___subheading' |
   'frontmatter___backgroundImage___birthtime' |
@@ -1732,12 +1736,16 @@ export type MarkdownRemarkFrontmatterFeatures = {
   image?: Maybe<File>,
   heading?: Maybe<Scalars['String']>,
   text?: Maybe<Scalars['String']>,
+  list?: Maybe<Array<Maybe<Scalars['String']>>>,
+  readMore?: Maybe<Scalars['String']>,
 };
 
 export type MarkdownRemarkFrontmatterFeaturesFilterInput = {
   image?: Maybe<FileFilterInput>,
   heading?: Maybe<StringQueryOperatorInput>,
   text?: Maybe<StringQueryOperatorInput>,
+  list?: Maybe<StringQueryOperatorInput>,
+  readMore?: Maybe<StringQueryOperatorInput>,
 };
 
 export type MarkdownRemarkFrontmatterFeaturesFilterListInput = {
@@ -2809,7 +2817,7 @@ export type FeatureGridQueryVariables = {};
 export type FeatureGridQuery = { markdownRemark: Maybe<(
     Pick<MarkdownRemark, 'html'>
     & { frontmatter: Maybe<{ features: Maybe<Array<Maybe<(
-        Pick<MarkdownRemarkFrontmatterFeatures, 'heading' | 'text'>
+        Pick<MarkdownRemarkFrontmatterFeatures, 'heading' | 'text' | 'list' | 'readMore'>
         & { image: Maybe<{ childImageSharp: Maybe<{ fluid: Maybe<GatsbyImageSharpFluidFragment> }> }> }
       )>>> }> }
   )> };

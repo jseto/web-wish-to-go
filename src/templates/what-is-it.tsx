@@ -13,9 +13,15 @@ const WhatIsIt: React.FC<GraphQLProps> = ({ data }) => {
 
 	return (
 		<div className="content">
-			<div className="tile">
-				<img src={logo} alt="Wish to go" style={{ width: '200px' }} />
-				<HTMLContent className="content" content={html} />
+			<div className="columns is-vcentered">
+				<div className="column is-4">
+					<img src={logo} alt="Wish to go" style={{
+						marginRight: '20px'
+					 }} />
+				</div>
+				<div className="column">
+					<HTMLContent className="content" content={html} />
+				</div>
 			</div>
 		</div>
 	);
