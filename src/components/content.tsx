@@ -1,6 +1,11 @@
 import * as React from 'react'
 
-export const HTMLContent = ({ content, className }) => (
+interface HTMLContentProps {
+	className: string;
+	content: string;
+}
+
+export const HTMLContent: React.FC<HTMLContentProps> = ({ content, className }) => (
   <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
 )
 

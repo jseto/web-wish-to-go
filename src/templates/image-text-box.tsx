@@ -8,7 +8,7 @@ interface GraphQLProps {
 	data: WhatIsItQuery;
 }
 
-const WhatIsIt: React.FC<GraphQLProps> = ({ data }) => {
+const ImageTextBox: React.FC<GraphQLProps> = ({ data }) => {
 	const { html } = data.markdownRemark;
 
 	return (
@@ -41,6 +41,6 @@ export default (props: any) => (
 				}
 			}
 		`}
-		render={data => <WhatIsIt data={data} {...props} />}
+		render={data => <ImageTextBox data={data} {...props} />}
 	/>
 );

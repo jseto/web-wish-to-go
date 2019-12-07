@@ -2,9 +2,9 @@ import * as React from "react"
 import { graphql, Link } from "gatsby"
 import {Layout} from "../components/layout"
 import { SEO } from "../components/seo"
-import WhatIsIt from "../templates/what-is-it"
 import FeatureGrid from "../templates/feature-grid"
 import { IndexQuery } from "../../graphql-types"
+import MarkdownBlock, { Aling } from "../components/markdown-block"
 
 interface GraphQLProps {
 	data: IndexQuery;
@@ -12,8 +12,8 @@ interface GraphQLProps {
 
 const Index: React.FC<GraphQLProps> = ({data}) => {
 	const { backgroundImage, heading, subheading } = data.markdownRemark.frontmatter;
+	const blocks = data.allMarkdownRemark.nodes;
 
-	const description = 'description';
 	const BlogRoll = ()=><div>BlogRoll</div>
 
 	return (
@@ -74,31 +74,22 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 	          <div className="columns">
 	            <div className="column is-10 is-offset-1">
 	              <div className="content">
-									<WhatIsIt/>
 									<FeatureGrid />
-	                <div className="columns">
-	                  <div className="column is-12">
-	                    <h3 className="has-text-weight-semibold is-size-2">
-	                      {heading}
-	                    </h3>
-	                    <p>{description}</p>
-	                  </div>
-	                </div>
+									{
+										blocks.map( block =>
+											<MarkdownBlock
+												key={ block.id }
+												content={ block.html }
+												leftImage={ block.frontmatter.leftImage }
+												rightImage={ block.frontmatter.rightImage }
+												align={ block.frontmatter.align as Aling }
+											/>
+										)
+									}
 	                <div className="columns">
 	                  <div className="column is-12 has-text-centered">
 	                    <Link className="btn" to="/products">
 	                      See all products
-	                    </Link>
-	                  </div>
-	                </div>
-	                <div className="column is-12">
-	                  <h3 className="has-text-weight-semibold is-size-2">
-	                    Latest stories
-	                  </h3>
-	                  <BlogRoll />
-	                  <div className="column is-12 has-text-centered">
-	                    <Link className="btn" to="/blog">
-	                      Read more
 	                    </Link>
 	                  </div>
 	                </div>
@@ -131,6 +122,37 @@ query Index {
           }
         }
       }
+    }
+  }
+	allMarkdownRemark(filter: {frontmatter: {pageTemplate: {eq: "index"}, blockName: {eq: "block"}}}, sort: {order: ASC, fields: frontmatter___order}) {
+    nodes {
+      html
+      id
+			frontmatter {
+				align
+				rightImage {
+					absolutePath
+					internal {
+						mediaType
+					}
+					childImageSharp {
+						fluid(maxWidth: 800) {
+							...GatsbyImageSharpFluid
+						}
+					}
+				}
+				leftImage {
+					absolutePath
+					internal {
+						mediaType
+					}
+					childImageSharp {
+						fluid(maxWidth: 800) {
+							...GatsbyImageSharpFluid
+						}
+					}
+				}
+			}
     }
   }
 }
