@@ -4,13 +4,17 @@ section: plans
 order: 1
 ---
 
-# Backpacker
+## Backpacker
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<!--- ![Backpacker](../../images/hiking.svg) -->
+
+> # Free
+> ### for ever
+> ### _no credit card required_
+>
+> **Start increasing traffic at no cost**
 
 - Wish List engine
 - Trip Planner tool
 - Unlimited wishes
 - Fully documented
-
-> Free

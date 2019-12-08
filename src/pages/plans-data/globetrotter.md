@@ -4,9 +4,14 @@ section: plans
 order: 3
 ---
 
-# Globetrotter
+## Globetrotter
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<!--- ![Globetrotter](../../images/globe.svg) -->
+
+> # $198.99
+> ### per month
+> ### _billed annually_
+> **For the outstanding travel blogger**
 
 - Wish List engine
 - Trip Planner tool
@@ -15,5 +20,3 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 - Fully documented
 - Personalized help
 - Own affiliate programs
-
-> $198.99

@@ -4,15 +4,18 @@ section: plans
 order: 2
 ---
 
-# Explorer
+## Explorer
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<!--- ![Explorer](../../images/compass.svg) -->
+
+> # $19.98
+> ### per month
+> ### _billed annually_
+> **Tailored to the average traffic websites**
 
 - Wish List engine
 - Trip Planner tool
 - Own affiliate codes
-- 3000 wishes/mth.
+- 3000 wishes/month
 - Fully documented
 - Personalized help
-
-> $19.98

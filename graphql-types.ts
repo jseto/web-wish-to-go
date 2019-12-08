@@ -812,12 +812,6 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___align' |
   'childMarkdownRemark___frontmatter___imageColumnWidth' |
   'childMarkdownRemark___frontmatter___order' |
-  'childMarkdownRemark___frontmatter___features' |
-  'childMarkdownRemark___frontmatter___features___heading' |
-  'childMarkdownRemark___frontmatter___features___text' |
-  'childMarkdownRemark___frontmatter___features___highlights' |
-  'childMarkdownRemark___frontmatter___features___readMore' |
-  'childMarkdownRemark___frontmatter___features___price' |
   'childMarkdownRemark___frontmatter___section' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
@@ -1765,12 +1759,6 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___align' |
   'frontmatter___imageColumnWidth' |
   'frontmatter___order' |
-  'frontmatter___features' |
-  'frontmatter___features___heading' |
-  'frontmatter___features___text' |
-  'frontmatter___features___highlights' |
-  'frontmatter___features___readMore' |
-  'frontmatter___features___price' |
   'frontmatter___section' |
   'excerpt' |
   'rawMarkdownBody' |
@@ -1902,28 +1890,7 @@ export type MarkdownRemarkFrontmatter = {
   align?: Maybe<Scalars['String']>,
   imageColumnWidth?: Maybe<Scalars['Int']>,
   order?: Maybe<Scalars['Int']>,
-  features?: Maybe<Array<Maybe<MarkdownRemarkFrontmatterFeatures>>>,
   section?: Maybe<Scalars['String']>,
-};
-
-export type MarkdownRemarkFrontmatterFeatures = {
-  heading?: Maybe<Scalars['String']>,
-  text?: Maybe<Scalars['String']>,
-  highlights?: Maybe<Array<Maybe<Scalars['String']>>>,
-  readMore?: Maybe<Scalars['String']>,
-  price?: Maybe<Scalars['String']>,
-};
-
-export type MarkdownRemarkFrontmatterFeaturesFilterInput = {
-  heading?: Maybe<StringQueryOperatorInput>,
-  text?: Maybe<StringQueryOperatorInput>,
-  highlights?: Maybe<StringQueryOperatorInput>,
-  readMore?: Maybe<StringQueryOperatorInput>,
-  price?: Maybe<StringQueryOperatorInput>,
-};
-
-export type MarkdownRemarkFrontmatterFeaturesFilterListInput = {
-  elemMatch?: Maybe<MarkdownRemarkFrontmatterFeaturesFilterInput>,
 };
 
 export type MarkdownRemarkFrontmatterFilterInput = {
@@ -1938,7 +1905,6 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   align?: Maybe<StringQueryOperatorInput>,
   imageColumnWidth?: Maybe<IntQueryOperatorInput>,
   order?: Maybe<IntQueryOperatorInput>,
-  features?: Maybe<MarkdownRemarkFrontmatterFeaturesFilterListInput>,
   section?: Maybe<StringQueryOperatorInput>,
 };
 
