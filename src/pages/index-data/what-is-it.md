@@ -1,7 +1,7 @@
 ---
 pageTemplate: index
 blockName: block
-leftImage: ../images/wish-to-go-icon.png
+leftImage: ../../images/wish-to-go-icon.png
 align: vertical
 imageColumnWidth: 2
 order: 1

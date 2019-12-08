@@ -10,7 +10,23 @@ module.exports = {
 		'gatsby-plugin-sass',
 		`gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-		'gatsby-transformer-remark',
+		{
+	    resolve: `gatsby-transformer-remark`,
+	    options: {
+	      plugins: [
+	        {
+	          resolve: `gatsby-remark-images`,
+	          options: {
+	            // It's important to specify the maxWidth (in pixels) of
+	            // the content container as this plugin uses this as the
+	            // base for generating different widths of each image.
+	            maxWidth: 2048,
+	          },
+	        },
+					'gatsby-remark-copy-linked-files',
+	      ],
+	    },
+	  },
 		{
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -40,7 +56,7 @@ module.exports = {
 		{
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
-        develop: true, // Activates purging in npm run develop
+        develop: false,
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins

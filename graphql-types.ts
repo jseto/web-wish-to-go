@@ -699,12 +699,6 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___title' |
   'childMarkdownRemark___frontmatter___pageTemplate' |
   'childMarkdownRemark___frontmatter___blockName' |
-  'childMarkdownRemark___frontmatter___order' |
-  'childMarkdownRemark___frontmatter___features' |
-  'childMarkdownRemark___frontmatter___features___heading' |
-  'childMarkdownRemark___frontmatter___features___text' |
-  'childMarkdownRemark___frontmatter___features___list' |
-  'childMarkdownRemark___frontmatter___features___readMore' |
   'childMarkdownRemark___frontmatter___heading' |
   'childMarkdownRemark___frontmatter___subheading' |
   'childMarkdownRemark___frontmatter___backgroundImage___birthtime' |
@@ -817,6 +811,14 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___leftImage___children' |
   'childMarkdownRemark___frontmatter___align' |
   'childMarkdownRemark___frontmatter___imageColumnWidth' |
+  'childMarkdownRemark___frontmatter___order' |
+  'childMarkdownRemark___frontmatter___features' |
+  'childMarkdownRemark___frontmatter___features___heading' |
+  'childMarkdownRemark___frontmatter___features___text' |
+  'childMarkdownRemark___frontmatter___features___highlights' |
+  'childMarkdownRemark___frontmatter___features___readMore' |
+  'childMarkdownRemark___frontmatter___features___price' |
+  'childMarkdownRemark___frontmatter___section' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
   'childMarkdownRemark___fileAbsolutePath' |
@@ -1575,48 +1577,6 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___title' |
   'frontmatter___pageTemplate' |
   'frontmatter___blockName' |
-  'frontmatter___order' |
-  'frontmatter___features' |
-  'frontmatter___features___image___birthtime' |
-  'frontmatter___features___image___birthtimeMs' |
-  'frontmatter___features___image___sourceInstanceName' |
-  'frontmatter___features___image___absolutePath' |
-  'frontmatter___features___image___relativePath' |
-  'frontmatter___features___image___extension' |
-  'frontmatter___features___image___size' |
-  'frontmatter___features___image___prettySize' |
-  'frontmatter___features___image___modifiedTime' |
-  'frontmatter___features___image___accessTime' |
-  'frontmatter___features___image___changeTime' |
-  'frontmatter___features___image___birthTime' |
-  'frontmatter___features___image___root' |
-  'frontmatter___features___image___dir' |
-  'frontmatter___features___image___base' |
-  'frontmatter___features___image___ext' |
-  'frontmatter___features___image___name' |
-  'frontmatter___features___image___relativeDirectory' |
-  'frontmatter___features___image___dev' |
-  'frontmatter___features___image___mode' |
-  'frontmatter___features___image___nlink' |
-  'frontmatter___features___image___uid' |
-  'frontmatter___features___image___gid' |
-  'frontmatter___features___image___rdev' |
-  'frontmatter___features___image___blksize' |
-  'frontmatter___features___image___ino' |
-  'frontmatter___features___image___blocks' |
-  'frontmatter___features___image___atimeMs' |
-  'frontmatter___features___image___mtimeMs' |
-  'frontmatter___features___image___ctimeMs' |
-  'frontmatter___features___image___atime' |
-  'frontmatter___features___image___mtime' |
-  'frontmatter___features___image___ctime' |
-  'frontmatter___features___image___publicURL' |
-  'frontmatter___features___image___id' |
-  'frontmatter___features___image___children' |
-  'frontmatter___features___heading' |
-  'frontmatter___features___text' |
-  'frontmatter___features___list' |
-  'frontmatter___features___readMore' |
   'frontmatter___heading' |
   'frontmatter___subheading' |
   'frontmatter___backgroundImage___birthtime' |
@@ -1804,6 +1764,14 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___leftImage___childMarkdownRemark___children' |
   'frontmatter___align' |
   'frontmatter___imageColumnWidth' |
+  'frontmatter___order' |
+  'frontmatter___features' |
+  'frontmatter___features___heading' |
+  'frontmatter___features___text' |
+  'frontmatter___features___highlights' |
+  'frontmatter___features___readMore' |
+  'frontmatter___features___price' |
+  'frontmatter___section' |
   'excerpt' |
   'rawMarkdownBody' |
   'fileAbsolutePath' |
@@ -1926,8 +1894,6 @@ export type MarkdownRemarkFrontmatter = {
   title?: Maybe<Scalars['String']>,
   pageTemplate?: Maybe<Scalars['String']>,
   blockName?: Maybe<Scalars['String']>,
-  order?: Maybe<Scalars['Int']>,
-  features?: Maybe<Array<Maybe<MarkdownRemarkFrontmatterFeatures>>>,
   heading?: Maybe<Scalars['String']>,
   subheading?: Maybe<Scalars['String']>,
   backgroundImage?: Maybe<File>,
@@ -1935,22 +1901,25 @@ export type MarkdownRemarkFrontmatter = {
   leftImage?: Maybe<File>,
   align?: Maybe<Scalars['String']>,
   imageColumnWidth?: Maybe<Scalars['Int']>,
+  order?: Maybe<Scalars['Int']>,
+  features?: Maybe<Array<Maybe<MarkdownRemarkFrontmatterFeatures>>>,
+  section?: Maybe<Scalars['String']>,
 };
 
 export type MarkdownRemarkFrontmatterFeatures = {
-  image?: Maybe<File>,
   heading?: Maybe<Scalars['String']>,
   text?: Maybe<Scalars['String']>,
-  list?: Maybe<Array<Maybe<Scalars['String']>>>,
+  highlights?: Maybe<Array<Maybe<Scalars['String']>>>,
   readMore?: Maybe<Scalars['String']>,
+  price?: Maybe<Scalars['String']>,
 };
 
 export type MarkdownRemarkFrontmatterFeaturesFilterInput = {
-  image?: Maybe<FileFilterInput>,
   heading?: Maybe<StringQueryOperatorInput>,
   text?: Maybe<StringQueryOperatorInput>,
-  list?: Maybe<StringQueryOperatorInput>,
+  highlights?: Maybe<StringQueryOperatorInput>,
   readMore?: Maybe<StringQueryOperatorInput>,
+  price?: Maybe<StringQueryOperatorInput>,
 };
 
 export type MarkdownRemarkFrontmatterFeaturesFilterListInput = {
@@ -1961,8 +1930,6 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   title?: Maybe<StringQueryOperatorInput>,
   pageTemplate?: Maybe<StringQueryOperatorInput>,
   blockName?: Maybe<StringQueryOperatorInput>,
-  order?: Maybe<IntQueryOperatorInput>,
-  features?: Maybe<MarkdownRemarkFrontmatterFeaturesFilterListInput>,
   heading?: Maybe<StringQueryOperatorInput>,
   subheading?: Maybe<StringQueryOperatorInput>,
   backgroundImage?: Maybe<FileFilterInput>,
@@ -1970,6 +1937,9 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   leftImage?: Maybe<FileFilterInput>,
   align?: Maybe<StringQueryOperatorInput>,
   imageColumnWidth?: Maybe<IntQueryOperatorInput>,
+  order?: Maybe<IntQueryOperatorInput>,
+  features?: Maybe<MarkdownRemarkFrontmatterFeaturesFilterListInput>,
+  section?: Maybe<StringQueryOperatorInput>,
 };
 
 export type MarkdownRemarkGroupConnection = {
@@ -2625,6 +2595,14 @@ export type SitePageFieldsEnum =
   'pluginCreator___resolve' |
   'pluginCreator___name' |
   'pluginCreator___version' |
+  'pluginCreator___pluginOptions___plugins' |
+  'pluginCreator___pluginOptions___plugins___resolve' |
+  'pluginCreator___pluginOptions___plugins___id' |
+  'pluginCreator___pluginOptions___plugins___name' |
+  'pluginCreator___pluginOptions___plugins___version' |
+  'pluginCreator___pluginOptions___plugins___browserAPIs' |
+  'pluginCreator___pluginOptions___plugins___ssrAPIs' |
+  'pluginCreator___pluginOptions___maxWidth' |
   'pluginCreator___pluginOptions___name' |
   'pluginCreator___pluginOptions___path' |
   'pluginCreator___pluginOptions___short_name' |
@@ -2820,6 +2798,15 @@ export type SitePluginFieldsEnum =
   'resolve' |
   'name' |
   'version' |
+  'pluginOptions___plugins' |
+  'pluginOptions___plugins___resolve' |
+  'pluginOptions___plugins___id' |
+  'pluginOptions___plugins___name' |
+  'pluginOptions___plugins___version' |
+  'pluginOptions___plugins___pluginOptions___maxWidth' |
+  'pluginOptions___plugins___browserAPIs' |
+  'pluginOptions___plugins___ssrAPIs' |
+  'pluginOptions___maxWidth' |
   'pluginOptions___name' |
   'pluginOptions___path' |
   'pluginOptions___short_name' |
@@ -2943,6 +2930,8 @@ export type SitePluginPackageJsonPeerDependenciesFilterListInput = {
 };
 
 export type SitePluginPluginOptions = {
+  plugins?: Maybe<Array<Maybe<SitePluginPluginOptionsPlugins>>>,
+  maxWidth?: Maybe<Scalars['Int']>,
   name?: Maybe<Scalars['String']>,
   path?: Maybe<Scalars['String']>,
   short_name?: Maybe<Scalars['String']>,
@@ -2957,6 +2946,8 @@ export type SitePluginPluginOptions = {
 };
 
 export type SitePluginPluginOptionsFilterInput = {
+  plugins?: Maybe<SitePluginPluginOptionsPluginsFilterListInput>,
+  maxWidth?: Maybe<IntQueryOperatorInput>,
   name?: Maybe<StringQueryOperatorInput>,
   path?: Maybe<StringQueryOperatorInput>,
   short_name?: Maybe<StringQueryOperatorInput>,
@@ -2968,6 +2959,38 @@ export type SitePluginPluginOptionsFilterInput = {
   develop?: Maybe<BooleanQueryOperatorInput>,
   purgeOnly?: Maybe<StringQueryOperatorInput>,
   pathCheck?: Maybe<BooleanQueryOperatorInput>,
+};
+
+export type SitePluginPluginOptionsPlugins = {
+  resolve?: Maybe<Scalars['String']>,
+  id?: Maybe<Scalars['String']>,
+  name?: Maybe<Scalars['String']>,
+  version?: Maybe<Scalars['String']>,
+  pluginOptions?: Maybe<SitePluginPluginOptionsPluginsPluginOptions>,
+  browserAPIs?: Maybe<Array<Maybe<Scalars['String']>>>,
+  ssrAPIs?: Maybe<Array<Maybe<Scalars['String']>>>,
+};
+
+export type SitePluginPluginOptionsPluginsFilterInput = {
+  resolve?: Maybe<StringQueryOperatorInput>,
+  id?: Maybe<StringQueryOperatorInput>,
+  name?: Maybe<StringQueryOperatorInput>,
+  version?: Maybe<StringQueryOperatorInput>,
+  pluginOptions?: Maybe<SitePluginPluginOptionsPluginsPluginOptionsFilterInput>,
+  browserAPIs?: Maybe<StringQueryOperatorInput>,
+  ssrAPIs?: Maybe<StringQueryOperatorInput>,
+};
+
+export type SitePluginPluginOptionsPluginsFilterListInput = {
+  elemMatch?: Maybe<SitePluginPluginOptionsPluginsFilterInput>,
+};
+
+export type SitePluginPluginOptionsPluginsPluginOptions = {
+  maxWidth?: Maybe<Scalars['Int']>,
+};
+
+export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
+  maxWidth?: Maybe<IntQueryOperatorInput>,
 };
 
 export type SitePluginSortInput = {
@@ -3033,21 +3056,15 @@ export type IndexQuery = { markdownRemark: Maybe<(
       )> }
     )> } };
 
-export type FeatureGridQueryVariables = {};
+export type PlansGridQueryVariables = {};
 
 
-export type FeatureGridQuery = { markdownRemark: Maybe<(
-    Pick<MarkdownRemark, 'html'>
-    & { frontmatter: Maybe<{ features: Maybe<Array<Maybe<(
-        Pick<MarkdownRemarkFrontmatterFeatures, 'heading' | 'text' | 'list' | 'readMore'>
-        & { image: Maybe<{ childImageSharp: Maybe<{ fluid: Maybe<GatsbyImageSharpFluidFragment> }> }> }
-      )>>> }> }
-  )> };
+export type PlansGridQuery = { allMarkdownRemark: { nodes: Array<Pick<MarkdownRemark, 'html' | 'id'>> } };
 
-export type WhatIsItQueryVariables = {};
+export type ProductHighlightsQueryVariables = {};
 
 
-export type WhatIsItQuery = { markdownRemark: Maybe<Pick<MarkdownRemark, 'html'>> };
+export type ProductHighlightsQuery = { allMarkdownRemark: { nodes: Array<Pick<MarkdownRemark, 'html' | 'id'>> } };
 
 export type GatsbyImageSharpFixedFragment = Pick<ImageSharpFixed, 'base64' | 'width' | 'height' | 'src' | 'srcSet'>;
 
