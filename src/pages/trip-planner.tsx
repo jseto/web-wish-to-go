@@ -10,10 +10,6 @@ interface GraphQLProps {
 }
 
 export class TripPlanner extends React.Component<GraphQLProps> {
-	componentDidMount() {
-		console.log('mounted')
-	}
-
 	render() {
 		const { data } = this.props;
 

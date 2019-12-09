@@ -15,6 +15,10 @@ interface LayoutState {
 }
 
 export class Layout extends React.Component<{}, LayoutState> {
+	componentDidMount() {
+		window[ 'wtgInit' ]()
+	}
+
 	render() {
 		const children = this.props.children;
 
