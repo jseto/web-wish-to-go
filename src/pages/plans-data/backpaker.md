@@ -4,17 +4,21 @@ section: plans
 order: 1
 ---
 
-## Backpacker
 
 <!--- ![Backpacker](../../images/hiking.svg) -->
 
-> # Free
-> ### for ever
-> ### _no credit card required_
->
-> **Start increasing traffic at no cost**
+## Backpacker
+**Boost initial blog traffic at no cost**
+# Free
+### forever
+### no credit card required
+[Select](/signup/free)
 
 - Wish List engine
 - Trip Planner tool
 - Unlimited wishes
 - Fully documented
+- -
+- -
+- -
+- -

@@ -4,14 +4,15 @@ section: plans
 order: 2
 ---
 
-## Explorer
 
 <!--- ![Explorer](../../images/compass.svg) -->
 
-> # $19.98
-> ### per month
-> ### _billed annually_
-> **Tailored to the average traffic websites**
+## Explorer
+**Engage audience on the average traffic websites**
+# $19.98
+### per month
+### _billed annually_
+[Select](/signup/explorer)
 
 - Wish List engine
 - Trip Planner tool
@@ -19,3 +20,5 @@ order: 2
 - 3000 wishes/month
 - Fully documented
 - Personalized help
+- -
+- -

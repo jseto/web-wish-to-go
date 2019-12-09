@@ -4,14 +4,15 @@ section: plans
 order: 3
 ---
 
-## Globetrotter
 
 <!--- ![Globetrotter](../../images/globe.svg) -->
 
-> # $198.99
-> ### per month
-> ### _billed annually_
-> **For the outstanding travel blogger**
+## Globetrotter
+**Tailored for the outstanding blogger**
+# $198.99
+### per month
+### billed annually
+[Select](/signup/globetrotter)
 
 - Wish List engine
 - Trip Planner tool
@@ -20,3 +21,4 @@ order: 3
 - Fully documented
 - Personalized help
 - Own affiliate programs
+- Travel agency plug-in

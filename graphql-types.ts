@@ -811,8 +811,8 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___leftImage___children' |
   'childMarkdownRemark___frontmatter___align' |
   'childMarkdownRemark___frontmatter___imageColumnWidth' |
-  'childMarkdownRemark___frontmatter___order' |
   'childMarkdownRemark___frontmatter___section' |
+  'childMarkdownRemark___frontmatter___order' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
   'childMarkdownRemark___fileAbsolutePath' |
@@ -1758,8 +1758,8 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___leftImage___childMarkdownRemark___children' |
   'frontmatter___align' |
   'frontmatter___imageColumnWidth' |
-  'frontmatter___order' |
   'frontmatter___section' |
+  'frontmatter___order' |
   'excerpt' |
   'rawMarkdownBody' |
   'fileAbsolutePath' |
@@ -1889,8 +1889,8 @@ export type MarkdownRemarkFrontmatter = {
   leftImage?: Maybe<File>,
   align?: Maybe<Scalars['String']>,
   imageColumnWidth?: Maybe<Scalars['Int']>,
-  order?: Maybe<Scalars['Int']>,
   section?: Maybe<Scalars['String']>,
+  order?: Maybe<Scalars['Int']>,
 };
 
 export type MarkdownRemarkFrontmatterFilterInput = {
@@ -1904,8 +1904,8 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   leftImage?: Maybe<FileFilterInput>,
   align?: Maybe<StringQueryOperatorInput>,
   imageColumnWidth?: Maybe<IntQueryOperatorInput>,
-  order?: Maybe<IntQueryOperatorInput>,
   section?: Maybe<StringQueryOperatorInput>,
+  order?: Maybe<IntQueryOperatorInput>,
 };
 
 export type MarkdownRemarkGroupConnection = {
@@ -3021,6 +3021,11 @@ export type IndexQuery = { markdownRemark: Maybe<(
         )> }
       )> }
     )> } };
+
+export type PlansQueryVariables = {};
+
+
+export type PlansQuery = { markdownRemark: Maybe<Pick<MarkdownRemark, 'html' | 'id'>> };
 
 export type PlansGridQueryVariables = {};
 

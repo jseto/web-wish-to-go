@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import {Layout} from "../components/layout"
+import {Layout, SectionBody} from "../components/layout"
 import { SEO } from "../components/seo"
 import { IndexQuery } from "../../graphql-types"
 import MarkdownBlock, { Aling } from "../components/markdown-block"
@@ -23,37 +23,30 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 				subheader={ subheading }
 				backgroundImage={ backgroundImage }
 			/>
-      <section className="section">
+			<SectionBody>
+				<ProductHighlights />
+
+				{
+					blocks.map( block =>
+						<MarkdownBlock
+							key={ block.id }
+							content={ block.html }
+							leftImage={ block.frontmatter.leftImage }
+							rightImage={ block.frontmatter.rightImage }
+							align={ block.frontmatter.align as Aling }
+						/>
+					)
+				}
+
         <div className="columns">
-          <div className="column is-8 is-offset-2">
-            <div className="content">
-
-							<ProductHighlights />
-
-							{
-								blocks.map( block =>
-									<MarkdownBlock
-										key={ block.id }
-										content={ block.html }
-										leftImage={ block.frontmatter.leftImage }
-										rightImage={ block.frontmatter.rightImage }
-										align={ block.frontmatter.align as Aling }
-									/>
-								)
-							}
-
-              <div className="columns">
-                <div className="column is-12 has-text-centered">
-                  <Link className="btn" to="/products">
-                    See all products
-                  </Link>
-                </div>
-              </div>
-
-            </div>
+          <div className="column is-12 has-text-centered">
+            <Link className="btn" to="/products">
+              See all products
+            </Link>
           </div>
         </div>
-      </section>
+
+      </SectionBody>
 	  </Layout>
 	)
 }

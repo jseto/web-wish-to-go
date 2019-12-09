@@ -15,6 +15,14 @@ export const PlansGrid = ( props: any ) => (
 			  }
 			}
 		`}
-		render={ ( data: PlansGridQuery ) => <FeatureGrid features={data.allMarkdownRemark.nodes} {...props} />}
+		render={
+			( data: PlansGridQuery ) => (
+				<FeatureGrid
+					features={data.allMarkdownRemark.nodes}
+					className="plans-grid"
+					{...props}
+				/>
+			)
+		}
 	/>
 );

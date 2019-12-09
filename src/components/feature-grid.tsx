@@ -8,19 +8,16 @@ export interface GridItem {
 
 export interface FeatureGridProps {
   features: GridItem[];
+	className: string;
 }
 
-export const FeatureGrid: React.FC<FeatureGridProps> = ({ features }) => {
+export const FeatureGrid: React.FC<FeatureGridProps> = ({ features, className }) => {
 	return (
 	  <div className="columns is-multiline">
 	    {
 				features.map( item => (
 		      <div key={ item.id } className="column is-one-third">
-		        <section className="section">
-
-							<HTMLContent className="content" content={item.html} />
-
-		        </section>
+						<HTMLContent className={ className } content={item.html} />
 		      </div>
 		    ))
 			}
