@@ -10,6 +10,7 @@ interface MarkdownBlockProps {
 	rightImage?: any;
 	align?: Aling;
 	imageColumnWidth?: number;
+	contentColumnWidht?: number;
 }
 
 const MarkdownBlock: React.FC<MarkdownBlockProps> = ({
@@ -17,21 +18,30 @@ const MarkdownBlock: React.FC<MarkdownBlockProps> = ({
 	leftImage,
 	rightImage,
 	align,
-	imageColumnWidth
+	imageColumnWidth,
+	contentColumnWidht
 }) => {
 	imageColumnWidth = imageColumnWidth || 4;
-	const textColumnWith =
-		12 - (leftImage? imageColumnWidth : 0) - (rightImage? imageColumnWidth : 0);
+
+	if ( contentColumnWidht ) {
+		var textColumnWith = contentColumnWidht;
+		var offset = 'is-offset-' + ( 12 - contentColumnWidht ) / 2;
+	}
+	else {
+		textColumnWith = 12
+			- (leftImage? imageColumnWidth : 0)
+			- (rightImage? imageColumnWidth : 0);
+	}
 
 	return (
 		<div className={`columns${align === 'vertical' ? ' is-vcentered' : ''}`}>
 			{leftImage && (
-				<div className={`column is-${ imageColumnWidth}`}>
-					<PreviewCompatibleImage imageInfo={leftImage} />
+				<div className={`column is-${ imageColumnWidth }`}>
+					<PreviewCompatibleImage imageInfo={ leftImage } />
 				</div>
 			)}
 
-			<div className={`column is-${textColumnWith}`}>
+			<div className={`column is-${textColumnWith} ${ offset }`}>
 				<HTMLContent className="content" content={content} />
 			</div>
 

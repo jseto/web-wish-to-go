@@ -78,7 +78,7 @@ export class Navbar extends React.Component<{}, NavbarState> {
 							<Link className="navbar-item" to="/blog">
 								Blog Demo
 							</Link>
-							<Link className="navbar-item" to="/planner">
+							<Link className="navbar-item" to="/trip-planner">
 								Travel Planner
 							</Link>
 						</div>

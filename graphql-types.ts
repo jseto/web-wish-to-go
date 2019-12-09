@@ -813,6 +813,7 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___imageColumnWidth' |
   'childMarkdownRemark___frontmatter___section' |
   'childMarkdownRemark___frontmatter___order' |
+  'childMarkdownRemark___frontmatter___tripPlanner' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
   'childMarkdownRemark___fileAbsolutePath' |
@@ -1760,6 +1761,7 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___imageColumnWidth' |
   'frontmatter___section' |
   'frontmatter___order' |
+  'frontmatter___tripPlanner' |
   'excerpt' |
   'rawMarkdownBody' |
   'fileAbsolutePath' |
@@ -1891,6 +1893,7 @@ export type MarkdownRemarkFrontmatter = {
   imageColumnWidth?: Maybe<Scalars['Int']>,
   section?: Maybe<Scalars['String']>,
   order?: Maybe<Scalars['Int']>,
+  tripPlanner?: Maybe<Scalars['String']>,
 };
 
 export type MarkdownRemarkFrontmatterFilterInput = {
@@ -1906,6 +1909,7 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   imageColumnWidth?: Maybe<IntQueryOperatorInput>,
   section?: Maybe<StringQueryOperatorInput>,
   order?: Maybe<IntQueryOperatorInput>,
+  tripPlanner?: Maybe<StringQueryOperatorInput>,
 };
 
 export type MarkdownRemarkGroupConnection = {
@@ -3026,6 +3030,14 @@ export type PlansQueryVariables = {};
 
 
 export type PlansQuery = { markdownRemark: Maybe<Pick<MarkdownRemark, 'html' | 'id'>> };
+
+export type TripPlannerQueryVariables = {};
+
+
+export type TripPlannerQuery = { markdownRemark: Maybe<(
+    Pick<MarkdownRemark, 'html' | 'id'>
+    & { frontmatter: Maybe<Pick<MarkdownRemarkFrontmatter, 'tripPlanner'>> }
+  )> };
 
 export type PlansGridQueryVariables = {};
 
