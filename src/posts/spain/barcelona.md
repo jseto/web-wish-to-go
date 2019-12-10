@@ -40,7 +40,7 @@ and the houses **La Pedrera/Casa Milà** and **La Casa Batlló**<WishWidget	coun
 [Eixample](Barcelona/Eixample "wikilink"). Other Gaudi works open to the
 public are **Palau Güell** and **Torre Bellesguard**, while **Casa
 Vicenç**" is expected to open in autumn 2017. [**The Ruta del
-Modernisme**](http://www.rutadelmodernisme.com/) run by **Modernisme
+Modernisme**](https://www.rutadelmodernisme.com/) run by **Modernisme
 Centre** (Pl. de Catalunya, 17, subterráneo; phone +34 933 177 652):
 guidebook and discount voucher book for €12. Takes you round all the
 best Modernisme (art nouveau) buildings in Barcelona. The main part of

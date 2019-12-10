@@ -33,7 +33,7 @@ The city is quite small and cozy, featuring many fish restaurants, several beach
     beach. You'll probably want to spring for a wetsuit as well. The
     surf shop also offers surf lessons (around €65 per person for five
     one-hour lessons in a small group)
-    [Pukas Surf Eskola](http://www.pukassurfeskola.com/)<WishWidget	country="ES" city="San Sebastian"	activity="Puka Surf Eskola"></WishWidget>.
+    [Pukas Surf Eskola](https://www.pukassurfeskola.com/)<WishWidget	country="ES" city="San Sebastian"	activity="Puka Surf Eskola"></WishWidget>.
 
   - **Tourist Land Train**<WishWidget	country="ES" city="San Sebastian"	activity="Tourist Land Train"></WishWidget> - a tourist land train leaves from the *Calle
     Zubieta* in front of *La Concha Beach*.
