@@ -2,6 +2,7 @@ import * as React from 'react'
 import { StaticQuery, graphql } from 'gatsby';
 import { ProductHighlightsQuery } from '../../graphql-types';
 import { FeatureGrid } from '../components/feature-grid';
+import { HTMLContent } from '../components/content';
 
 export const ProductHighlights = ( props: any ) => (
 	<StaticQuery
@@ -15,6 +16,19 @@ export const ProductHighlights = ( props: any ) => (
 			  }
 			}
 		`}
-		render={ ( data: ProductHighlightsQuery ) => <FeatureGrid features={data.allMarkdownRemark.nodes} {...props} />}
+		render={
+			( data: ProductHighlightsQuery ) => (
+				<FeatureGrid
+					features={ data.allMarkdownRemark.nodes }
+					{...props}
+				>
+					{ item => (
+						<HTMLContent
+							content={ item.html }
+						/>
+					) }
+				</FeatureGrid>
+			)
+		}
 	/>
 );

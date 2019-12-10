@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { HTMLContent } from './content'
+import { ReactNode } from 'react'
 
 export interface GridItem {
 	id: string;
@@ -9,15 +9,16 @@ export interface GridItem {
 export interface FeatureGridProps {
   features: GridItem[];
 	className: string;
+	children: ( item: GridItem ) => ReactNode;
 }
 
-export const FeatureGrid: React.FC<FeatureGridProps> = ({ features, className }) => {
+export const FeatureGrid: React.FC<FeatureGridProps> = ({ features, children }) => {
 	return (
 	  <div className="columns is-multiline">
 	    {
 				features.map( item => (
 		      <div key={ item.id } className="column is-one-third">
-						<HTMLContent className={ className } content={item.html} />
+						{ children( item ) }
 		      </div>
 		    ))
 			}

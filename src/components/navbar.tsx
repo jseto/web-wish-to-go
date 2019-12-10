@@ -79,7 +79,7 @@ export class Navbar extends React.Component<{}, NavbarState> {
 								Blog Demo
 							</Link>
 							<Link className="navbar-item" to="/trip-planner">
-								Travel Planner
+								Trip Planner
 							</Link>
 						</div>
 						<div className="navbar-end has-text-centered">

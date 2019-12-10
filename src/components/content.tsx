@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 interface HTMLContentProps {
-	className: string;
+	className?: string;
 	content: string;
 }
 
