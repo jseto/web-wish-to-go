@@ -8,7 +8,8 @@ tags:
   - Catalonia
 ---
 
-# Barcelona <WishWidget	country="ES"	city="Barcelona"	picture="https://wikitravel.org/upload/shared//thumb/a/a7/Gracia_Barcelona.jpg/300px-Gracia_Barcelona.jpg"></WishWidget>
+# Barcelona
+<WishWidget	country="ES"	city="Barcelona"	picture="https://wikitravel.org/upload/shared//thumb/a/a7/Gracia_Barcelona.jpg/300px-Gracia_Barcelona.jpg" label="true"></WishWidget>
 
 ![Barcelona](https://wikitravel.org/upload/shared//thumb/a/a7/Gracia_Barcelona.jpg/300px-Gracia_Barcelona.jpg)
 
@@ -24,7 +25,8 @@ Walk around the winding streets and hidden squares, fountains and palaces in the
 
 If you are thinking of visiting several museums, an "articket" will save you some money. It is a combined ticket costing €30 and covering admission to six museums.
 
-### La Sagrada Familia <WishWidget	country="ES"	city="Barcelona"	activity="La Sagrada Familia" picture="https://wikitravel.org/upload/shared//thumb/5/56/Sagrada_Familia.jpg/200px-Sagrada_Familia.jpg"></WishWidget>
+### La Sagrada Familia
+<WishWidget	country="ES"	city="Barcelona"	activity="La Sagrada Familia" picture="https://wikitravel.org/upload/shared//thumb/5/56/Sagrada_Familia.jpg/200px-Sagrada_Familia.jpg" label="true"></WishWidget>
 
  ![La Sagrada Familia](https://wikitravel.org/upload/shared//thumb/5/56/Sagrada_Familia.jpg/200px-Sagrada_Familia.jpg)
 
@@ -34,25 +36,20 @@ If you are thinking of visiting several museums, an "articket" will save you som
 
  ![Entrance to Park Güell](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Park_G%C3%BCell_02.jpg/300px-Park_G%C3%BCell_02.jpg)
 
- Gaudi's masterpieces are the **Parc Güell** <WishWidget	country="ES"	city="Barcelona" activity="Parc Güell" picture="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Park_G%C3%BCell_02.jpg/300px-Park_G%C3%BCell_02.jpg"></WishWidget> in [Gràcia](Barcelona/Gràcia "wikilink"), the still unfinished (as of
-2017) **Sagrada Família** in [Eixample](Barcelona/Eixample "wikilink")
-and the houses **La Pedrera/Casa Milà** and **La Casa Batlló**<WishWidget	country="ES" city="Barcelona" activity="Casa Batllo"></WishWidget> both in
-[Eixample](Barcelona/Eixample "wikilink"). Other Gaudi works open to the
-public are **Palau Güell** and **Torre Bellesguard**, while **Casa
-Vicenç**" is expected to open in autumn 2017. [**The Ruta del
-Modernisme**](https://www.rutadelmodernisme.com/) run by **Modernisme
-Centre** (Pl. de Catalunya, 17, subterráneo; phone +34 933 177 652):
-guidebook and discount voucher book for €12. Takes you round all the
-best Modernisme (art nouveau) buildings in Barcelona. The main part of
-the route can be walked in a couple of hours, providing you don't stray
-too far from the main routes. The Tourist Offices offer a pack that
-includes discounted tickets to many attractions such as La Pedrera and
-La Casa Batlló. All can be seen from the outside for free. Outside of
-Barcelona you can also visit the Cripta Güell (accessible by FFCC train)
-and the Artigas Gardens (accessible by Alsa buses).
+Gaudi's masterpieces are:
+- The **Parc Güell** <WishWidget country="ES"	city="Barcelona" activity="Parc Güell" picture="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Park_G%C3%BCell_02.jpg/300px-Park_G%C3%BCell_02.jpg"></WishWidget> in Gràcia,
 
-### Museu Dalí <WishWidget	country="ES"	city="Barcelona"	activity="Museu Dalí"></WishWidget>
+- The still unfinished (as of 2017) [**Sagrada Família**](#la-sagrada-familia) in Eixample
 
-	![Museu Dalí](https://www.salvador-dali.org/media/upload/cache/_dsc6457_pag_48_2_240.JPG)
+- The houses **La Pedrera/Casa Milà**<WishWidget	country="ES" city="Barcelona" activity="La Pedrera"></WishWidget> and **La Casa Batlló**<WishWidget	country="ES" city="Barcelona" activity="Casa Batllo"></WishWidget> both in Eixample.
 
-  The Dalí Theatre-Museum is the largest surrealistic object in the world. It is located in  the  the former Municipal Theatre, a 19th century construction destroyed at the end of the Spanish Civil War. On its ruins, Dalí decided to create his museum.
+Other Gaudi works open to the public are **Palau Güell** and **Torre Bellesguard**, while **Casa Vicenç**" is expected to open in autumn 2017.
+
+**The Ruta del Modernisme** run by **Modernisme Centre** (Pl. de Catalunya, 17, subterráneo; phone +34 933 177 652) offers a guidebook and discount voucher book for €12. Takes you round all the best Modernisme (art nouveau) buildings in Barcelona. The main part of the route can be walked in a couple of hours, providing you don't stray too far from the main routes. The Tourist Offices offer a pack that includes discounted tickets to many attractions such as La Pedrera and La Casa Batlló. All can be seen from the outside for free. Outside of Barcelona you can also visit the Cripta Güell (accessible by FFCC train) and the Artigas Gardens (accessible by Alsa buses).
+
+### Museu Dalí
+<WishWidget	country="ES" city="Barcelona"	activity="Museu Dalí" label="true"></WishWidget>
+
+![Museu Dalí](https://www.salvador-dali.org/media/upload/cache/_dsc6457_pag_48_2_240.JPG)
+
+The Dalí Theatre-Museum is the largest surrealistic object in the world. It is located in the  the former Municipal Theatre, a 19th century construction destroyed at the end of the Spanish Civil War. On its ruins, Dalí decided to create his museum.
