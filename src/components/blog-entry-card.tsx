@@ -15,12 +15,12 @@ export interface BlogEntryData extends GridItem {
 }
 
 interface BlogEntryCardProps {
-	articleData: BlogEntryData;
+	postData: BlogEntryData;
 }
 
 export class BlogEntryCard extends React.Component< BlogEntryCardProps > {
 	render () {
-		const { excerpt, fields } = this.props.articleData;
+		const { excerpt, fields } = this.props.postData;
 
 		const noWtgExcerpt = excerpt.replace( '<WishWidget', '<!---' )
 			.replace( '</WishWidget>', '--->');

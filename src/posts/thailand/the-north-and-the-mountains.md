@@ -1,6 +1,8 @@
 
 # The North and the mountains
 
+![Doi Intanon](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Naphamethinidon%2C_Naphaphonphumisiri_near_summit_of_Doi_Inthanon.jpg/1024px-Naphamethinidon%2C_Naphaphonphumisiri_near_summit_of_Doi_Inthanon.jpg)
+
 Surrounded by the tallest mountains in Thailand, Northern Thailand is cooler than the rest of the usually sweltering country and thus particularly popular in December and January. In the mountains at night temperatures occasionally dip below freezing, although in the plains the daily average is rarely less than 25 Centigrade.
 
 Culturally, Northern Thailand shows heavy influences from the neighboring cultures of Myanmar and Yunnan (China). The kingdoms of Lanna (centered at Chiang Mai) and Sukhothai were the first historical Thai nations.

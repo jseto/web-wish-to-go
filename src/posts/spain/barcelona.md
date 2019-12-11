@@ -24,13 +24,13 @@ Walk around the winding streets and hidden squares, fountains and palaces in the
 
 If you are thinking of visiting several museums, an "articket" will save you some money. It is a combined ticket costing €30 and covering admission to six museums.
 
-- La Sagrada Familia <WishWidget	country="ES"	city="Barcelona"	activity="La Sagrada Familia" picture="https://wikitravel.org/upload/shared//thumb/5/56/Sagrada_Familia.jpg/200px-Sagrada_Familia.jpg"></WishWidget>
+### La Sagrada Familia <WishWidget	country="ES"	city="Barcelona"	activity="La Sagrada Familia" picture="https://wikitravel.org/upload/shared//thumb/5/56/Sagrada_Familia.jpg/200px-Sagrada_Familia.jpg"></WishWidget>
 
  ![La Sagrada Familia](https://wikitravel.org/upload/shared//thumb/5/56/Sagrada_Familia.jpg/200px-Sagrada_Familia.jpg)
 
  One of the most famous and breathtaking locations to visit in Barcelona the most famous building in the entire city and its landmark, La Sagrada Familia. Although incomplete, the church is a UNESCO World Heritage Site, and in November 2010 was consecrated and proclaimed a minor basilica by Pope Benedict XVI. From the outside, visitors are astonished by the sheer height and intricacy of the design of the church and although it is not completed yet, the progress that has been made is incredibly impressive. The project began nearly a century ago and was designed by one of Spain’s most well known and respected architects in Spanish history, Antoni Gaudi. Gaudi was born a Catalan (ethnic group in Spain) and produced some of the most moving buildings and works of art that are still standing and praised by the Spanish people. Undoubtedly, his most famous work is La Sagrada Familia.
 
-- Other Gaudi architecture and Modernist Barcelona
+### Other Gaudi architecture and Modernist Barcelona
 
  ![Entrance to Park Güell](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Park_G%C3%BCell_02.jpg/300px-Park_G%C3%BCell_02.jpg)
 
@@ -51,7 +51,7 @@ La Casa Batlló. All can be seen from the outside for free. Outside of
 Barcelona you can also visit the Cripta Güell (accessible by FFCC train)
 and the Artigas Gardens (accessible by Alsa buses).
 
-* Museu Dalí <WishWidget	country="ES"	city="Barcelona"	activity="Museu Dalí"></WishWidget>
+### Museu Dalí <WishWidget	country="ES"	city="Barcelona"	activity="Museu Dalí"></WishWidget>
 
 	![Museu Dalí](https://www.salvador-dali.org/media/upload/cache/_dsc6457_pag_48_2_240.JPG)
 

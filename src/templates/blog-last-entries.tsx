@@ -15,7 +15,7 @@ export const BlogLastEntries = ( props: any ) => (
 						}
 					},
 					sort: {
-						fields: frontmatter___date, order: ASC
+						fields: frontmatter___date, order: DESC
 					}) {
 			    nodes {
 			      excerpt( format: HTML )
@@ -35,14 +35,29 @@ export const BlogLastEntries = ( props: any ) => (
 		`}
 		render={
 			( data: BlogLastEntriesQuery ) => (
-				<FeatureGrid
-					features={data.allMarkdownRemark.nodes}
-					{...props}
-				>
+				<>
+					<BlogEntryCard
+						key={ data.allMarkdownRemark.nodes[0].id }
+						postData={ data.allMarkdownRemark.nodes[0] as BlogEntryData }
+					/>
 
-					{ item => <BlogEntryCard articleData={ item as BlogEntryData }/> }
+					<FeatureGrid
+						features={data.allMarkdownRemark.nodes.slice( 1 )}
+						compact={ true }
+						{...props}
+					>
 
-				</FeatureGrid>
+						{
+							item => (
+								<BlogEntryCard
+									key={ item.id}
+									postData={ item as BlogEntryData }
+								/>
+							)
+						}
+
+					</FeatureGrid>
+				</>
 			)
 		}
 	/>
