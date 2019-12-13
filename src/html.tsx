@@ -1,7 +1,11 @@
-import React from "react"
-import PropTypes from "prop-types"
+import * as React from "react"
 
-export default function HTML(props) {
+export const wishToGoHost = process.env.NODE_ENV === 'development'
+	? 'http://localhost:8080/'
+	: 'https://wish-to-go.web.app/'
+
+export const HTML: React.FC = (props: any ) => {
+
   return (
     <html {...props.htmlAttributes}>
       <head>
@@ -24,17 +28,11 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-				<script type="text/javascript" src="https://wish-to-go.web.app/wish-to-go.bundle.js"></script>
+				<script type="text/javascript" src={ `${ wishToGoHost }wish-to-go.bundle.js` }></script>
+				}
       </body>
     </html>
   )
 }
 
-HTML.propTypes = {
-  htmlAttributes: PropTypes.object,
-  headComponents: PropTypes.array,
-  bodyAttributes: PropTypes.object,
-  preBodyComponents: PropTypes.array,
-  body: PropTypes.string,
-  postBodyComponents: PropTypes.array,
-}
+export default HTML;

@@ -8,6 +8,7 @@
 import * as React from "react"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import { wishToGoHost } from "../html"
 
 export const SEO = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
@@ -68,7 +69,7 @@ export const SEO = ({ description, lang, meta, title }) => {
         },
       ].concat(meta)}
     >
-			<link href="https://wish-to-go.web.app/wish-to-go.css" rel="stylesheet"/>
+			<link href={ `${ wishToGoHost }wish-to-go.css` } rel="stylesheet"/>
 		</Helmet>
   )
 }
