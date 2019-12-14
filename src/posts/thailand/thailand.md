@@ -7,7 +7,8 @@ tags:
   - Southeast Asia
 ---
 
-# Thailand <WishWidget country="TH" picture="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/The_sculptures_of_two_mythical_giant_demons%2C_Thotsakan_and_Sahatsadecha%2C_guarding_the_eastern_gate_of_the_main_chapel_of_Wat_Arun%2C_Bangkok.jpg/250px-The_sculptures_of_two_mythical_giant_demons%2C_Thotsakan_and_Sahatsadecha%2C_guarding_the_eastern_gate_of_the_main_chapel_of_Wat_Arun%2C_Bangkok.jpg"></WishWidget>
+# Thailand
+<WishWidget country="TH" picture="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/The_sculptures_of_two_mythical_giant_demons%2C_Thotsakan_and_Sahatsadecha%2C_guarding_the_eastern_gate_of_the_main_chapel_of_Wat_Arun%2C_Bangkok.jpg/250px-The_sculptures_of_two_mythical_giant_demons%2C_Thotsakan_and_Sahatsadecha%2C_guarding_the_eastern_gate_of_the_main_chapel_of_Wat_Arun%2C_Bangkok.jpg" label="true"></WishWidget>
 
 ![Thailand](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/The_sculptures_of_two_mythical_giant_demons%2C_Thotsakan_and_Sahatsadecha%2C_guarding_the_eastern_gate_of_the_main_chapel_of_Wat_Arun%2C_Bangkok.jpg/250px-The_sculptures_of_two_mythical_giant_demons%2C_Thotsakan_and_Sahatsadecha%2C_guarding_the_eastern_gate_of_the_main_chapel_of_Wat_Arun%2C_Bangkok.jpg)
 
@@ -15,7 +16,24 @@ Thailand is the country in Southeast Asia most visited by tourists, and for good
 
 ## Where to go
 
- - [Bangkok](/thailand/bangkok)
- - [The North and the mountains](/thailand/the-north-and-the-mountains)
- - The South and the islands
- - The East and the quiet beaches
+- [Bangkok](/thailand/bangkok)
+
+	- [Grand Palace and Emerald Bhuda](/thailand/bangkok/#grand-palace-and-emerald-bhuda) <WishWidget	country="TH" city="Bangkok" activity="Grand Palace"	picture="https://wikitravel.org/upload/shared//thumb/8/8d/F1000005.JPG/350px-F1000005.JPG"></WishWidget>
+
+	- [Wat Pho](/thailand/bangkok/#wat-pho) <WishWidget	country="TH" city="Bangkok" activity="Wat Pho"></WishWidget>
+
+	- [Wat Arun](/thailand/bangkok/#wat-arun) <WishWidget	country="TH" city="Bangkok" activity="Wat Arun"></WishWidget>
+
+- [The North and the mountains](/thailand/the-north-and-the-mountains)
+
+	- [Chiang Mai](/thailand/the-north-and-the-mountains/#chiang-mai) <WishWidget	country="TH"	city="Chiang Mai"	picture="https://wikitravel.org/upload/shared//4/46/Chiang_Mai_Banner.jpg"></WishWidget>
+
+	- [Doi Intanon](/thailand/the-north-and-the-mountains/#other-places-to-visit) <WishWidget	country="TH" city="Chiang Mai" activity="Doi Intanon"></WishWidget>
+
+	- [Doi Suthep](/thailand/the-north-and-the-mountains/#other-places-to-visit) <WishWidget country="TH"	city="Chiang Mai"	activity="Doi Suthep"></WishWidget>
+
+	- [Pai](/thailand/the-north-and-the-mountains/#other-places-to-visit) <WishWidget	country="TH"	city="Pai"	picture="https://wikitravel.org/upload/shared//thumb/e/ec/Huai_Nam_Dang_National_Park.jpg/300px-Huai_Nam_Dang_National_Park.jpg"></WishWidget>
+
+- The South and the islands
+
+- The East and the quiet beaches

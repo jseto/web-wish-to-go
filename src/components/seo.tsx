@@ -10,7 +10,14 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 import { wishToGoHost } from "../html"
 
-export const SEO = ({ description, lang, meta, title }) => {
+interface SEOProps {
+	title: string;
+	description?: string;
+	lang?: string;
+	meta?: any[];
+}
+
+export const SEO: React.FC<SEOProps> = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
     graphql`
       query {

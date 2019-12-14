@@ -5,7 +5,6 @@ export const wishToGoHost = process.env.NODE_ENV === 'development'
 	: 'https://wish-to-go.web.app/'
 
 export const HTML: React.FC = (props: any ) => {
-
   return (
     <html {...props.htmlAttributes}>
       <head>
@@ -29,7 +28,6 @@ export const HTML: React.FC = (props: any ) => {
         />
         {props.postBodyComponents}
 				<script type="text/javascript" src={ `${ wishToGoHost }wish-to-go.bundle.js` }></script>
-				}
       </body>
     </html>
   )
