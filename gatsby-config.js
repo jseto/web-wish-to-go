@@ -1,3 +1,10 @@
+if ( process.env && process.env.GATSBY_LOCAL ) {
+	// require("dotenv").config({
+	//   path: `.env.${process.env.LOCAL}`,
+	// })
+	console.info( '\x1b[33m', '-----> Running with LOCAL wish-to-go bundle\n' );
+}
+
 module.exports = {
   siteMetadata: {
     title: `Wish to go`,
@@ -51,8 +58,15 @@ module.exports = {
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
-				name: `posts`,
-				path: `${__dirname}/src/posts`,
+				name: `travel-posts`,
+				path: `${__dirname}/src/posts/travel`,
+			}
+		},
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				name: `generic-posts`,
+				path: `${__dirname}/src/posts/generic`,
 			}
 		},
     {

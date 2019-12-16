@@ -1,8 +1,14 @@
 import * as React from "react"
 
-export const wishToGoHost = process.env.NODE_ENV === 'development'
+const runWithLocalHost = process.env.NODE_ENV==='development' && process.env.GATSBY_LOCAL
+
+export const wishToGoHost = runWithLocalHost
 	? 'http://localhost:8080/'
 	: 'https://wish-to-go.web.app/'
+
+if ( runWithLocalHost ) {
+	console.info( '%cRunning with LOCAL wish-to-go bundle', 'color: aqua' );
+}
 
 export const HTML: React.FC = (props: any ) => {
   return (
