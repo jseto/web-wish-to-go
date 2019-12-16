@@ -13,6 +13,9 @@ export const BlogLastEntries = ( props: any ) => (
 						fields: {
 							slug: { ne: null }
 						}
+						frontmatter: {
+							category: { ne: "generic" }
+						}
 					},
 					sort: {
 						fields: frontmatter___date, order: DESC

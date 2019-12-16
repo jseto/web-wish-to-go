@@ -14,27 +14,27 @@ export class TripPlanner extends React.Component<GraphQLProps> {
 		const { data } = this.props;
 
 		return (
-		<Layout>
-			<SEO title="Home" />
+			<Layout>
+				<SEO title="Home" />
 
-			<div className="hero is-primary" style={{ textAlign: 'center' }}>
-			<div className="hero-body">
-				<MarkdownBlock
-					content={ data.markdownRemark.html }
-				/>
-			</div>
-			</div>
+				<div className="hero is-primary" style={{ textAlign: 'center' }}>
+				<div className="hero-body">
+					<MarkdownBlock
+						content={ data.markdownRemark.html }
+					/>
+				</div>
+				</div>
 
-			<SectionBody>
+				<SectionBody>
 
-				<MarkdownBlock
-					content={ data.markdownRemark.frontmatter.tripPlanner }
-					contentColumnWidht={ 8 }
-				/>
+					<MarkdownBlock
+						content={ data.markdownRemark.frontmatter.tripPlanner }
+						contentColumnWidht={ 8 }
+					/>
 
-			</SectionBody>
-		</Layout>
-	)
+				</SectionBody>
+			</Layout>
+		)
 	}
 }
 

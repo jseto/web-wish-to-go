@@ -31,7 +31,7 @@ export default BlogEntryPage
 
 export const query = graphql`
 query BlogEntryPage( $slug: String! ) {
-  markdownRemark( fields: { slug: {eq: $slug } } ) {
+  markdownRemark( fields: { slug: { eq: $slug } } ) {
 		html
 		id
 		tableOfContents

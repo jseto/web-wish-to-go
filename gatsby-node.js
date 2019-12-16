@@ -1,15 +1,26 @@
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
-  const { createNodeField } = actions
-  if (node.internal.type === `MarkdownRemark` && !node.frontmatter.pageTemplate ) {
-    const slug = createFilePath({ node, getNode, basePath: `posts` })
-    createNodeField({
-      node,
-      name: `slug`,
-      value: slug,
-    })
-  }
+	if ( node.internal.type !== `MarkdownRemark` ) return;
+	const category = node.frontmatter.category;
+	if ( !( category && category.length )	) return;
+
+  const { createNodeField } = actions;
+
+	const isTravelBlogPage = category !== 'generic';
+	const isGenericBlog = category === 'generic';
+
+	const slug = createFilePath({
+		node,
+		getNode,
+		basePath: isTravelBlogPage? 'src/posts/travel' : 'src/posts/generic'
+	})
+
+	createNodeField({
+    node,
+    name: `slug`,
+    value: slug,
+  })
 }
 
 exports.createPages = async function({ actions, graphql }) {
@@ -25,7 +36,8 @@ exports.createPages = async function({ actions, graphql }) {
         }
       }
     }
-  `)
+  `);
+
   data.allMarkdownRemark.edges.forEach(edge => {
 		const fields = edge.node.fields
 		if ( fields && fields.slug ) {

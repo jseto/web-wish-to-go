@@ -13,4 +13,4 @@ Every online store have a wish list. Why a travel blog shouldn't have one? Let y
 - Increase visitor engagement as they keep returning to check the wish list.
 - Identify reader's favourite destinations and suggest other related blog entries or products.
 
-[Read More](/wishlist-as-a-marketing-tool)
+[Read More](/wishlist-as-a-visitor-engagement-tool)
