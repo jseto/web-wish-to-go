@@ -27,9 +27,7 @@
     "react-helmet": "^5.2.1",
     "typescript": "^3.7.3"
   },
-  "devDependencies": {
-    "prettier": "^1.19.1"
-  },
+  "devDependencies": {},
   "keywords": [
     "gatsby"
   ],
@@ -41,7 +39,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-		"dev-local": "npm run --prefix ../wish-to-go dev-local & GATSBY_LOCAL=true gatsby develop",
+    "dev-local": "npm run --prefix ../wish-to-go dev-local & GATSBY_LOCAL=true gatsby develop",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
