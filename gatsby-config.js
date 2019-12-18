@@ -1,8 +1,10 @@
-if ( process.env && process.env.GATSBY_LOCAL ) {
-	// require("dotenv").config({
-	//   path: `.env.${process.env.LOCAL}`,
-	// })
-	console.info( '\x1b[33m', '-----> Running with LOCAL wish-to-go bundle\n' );
+if ( process.env ) {
+	if( process.env.GATSBY_LOCAL ) {
+		console.info( '\x1b[33m', '-----> Running with LOCAL wish-to-go bundle\n' );
+	}
+	if( process.env.GATSBY_BETA ) {
+		console.info( '\x1b[33m', '-----> Running with beta wish-to-go bundle\n' );
+	}
 }
 
 module.exports = {

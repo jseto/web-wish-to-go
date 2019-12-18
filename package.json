@@ -33,13 +33,16 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+		"build": "gatsby build",
+		"build-beta": "GATSBY_BETA=true gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "dev-local": "npm run --prefix ../wish-to-go dev-local & GATSBY_LOCAL=true gatsby develop",
+		"dev-local": "npm run --prefix ../wish-to-go dev-local & GATSBY_LOCAL=true gatsby develop",
+		"dev": "gatsby develop",
+		"dev-beta": "GATSBY_BETA=true gatsby develop",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {

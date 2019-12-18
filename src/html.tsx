@@ -4,11 +4,14 @@ const runWithLocalHost = process.env.NODE_ENV==='development' && process.env.GAT
 
 export const wishToGoHost = runWithLocalHost
 	? 'http://localhost:8080/'
-	: 'https://wish-to-go.web.app/'
+	: process.env.GATSBY_BETA
+		? 'https://wish-to-go-beta.web.app/'
+		: 'https://wish-to-go.web.app/'
 
 if ( runWithLocalHost ) {
 	console.info( '%cRunning with LOCAL wish-to-go bundle', 'color: aqua' );
 }
+console.info( '%s%cWish-to-go bundle at:', wishToGoHost, 'color: aqua' );
 
 export const HTML: React.FC = (props: any ) => {
   return (
