@@ -11,7 +11,7 @@ export const wishToGoHost = runWithLocalHost
 if ( runWithLocalHost ) {
 	console.info( '%cRunning with LOCAL wish-to-go bundle', 'color: aqua' );
 }
-console.info( '%s%cWish-to-go bundle at:', wishToGoHost, 'color: aqua' );
+console.info( '%cWish-to-go bundle at: %s', wishToGoHost, 'color: aqua' );
 
 export const HTML: React.FC = (props: any ) => {
   return (
