@@ -691,7 +691,6 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___title' |
   'childMarkdownRemark___frontmatter___pageTemplate' |
   'childMarkdownRemark___frontmatter___blockName' |
-  'childMarkdownRemark___frontmatter___order' |
   'childMarkdownRemark___frontmatter___heading' |
   'childMarkdownRemark___frontmatter___subheading' |
   'childMarkdownRemark___frontmatter___backgroundImage___sourceInstanceName' |
@@ -804,6 +803,7 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___leftImage___children' |
   'childMarkdownRemark___frontmatter___align' |
   'childMarkdownRemark___frontmatter___imageColumnWidth' |
+  'childMarkdownRemark___frontmatter___order' |
   'childMarkdownRemark___frontmatter___section' |
   'childMarkdownRemark___frontmatter___tripPlanner' |
   'childMarkdownRemark___frontmatter___date' |
@@ -1573,7 +1573,6 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___title' |
   'frontmatter___pageTemplate' |
   'frontmatter___blockName' |
-  'frontmatter___order' |
   'frontmatter___heading' |
   'frontmatter___subheading' |
   'frontmatter___backgroundImage___sourceInstanceName' |
@@ -1761,6 +1760,7 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___leftImage___childMarkdownRemark___children' |
   'frontmatter___align' |
   'frontmatter___imageColumnWidth' |
+  'frontmatter___order' |
   'frontmatter___section' |
   'frontmatter___tripPlanner' |
   'frontmatter___date' |
@@ -1894,7 +1894,6 @@ export type MarkdownRemarkFrontmatter = {
   title?: Maybe<Scalars['String']>,
   pageTemplate?: Maybe<Scalars['String']>,
   blockName?: Maybe<Scalars['String']>,
-  order?: Maybe<Scalars['Int']>,
   heading?: Maybe<Scalars['String']>,
   subheading?: Maybe<Scalars['String']>,
   backgroundImage?: Maybe<File>,
@@ -1902,6 +1901,7 @@ export type MarkdownRemarkFrontmatter = {
   leftImage?: Maybe<File>,
   align?: Maybe<Scalars['String']>,
   imageColumnWidth?: Maybe<Scalars['Int']>,
+  order?: Maybe<Scalars['Int']>,
   section?: Maybe<Scalars['String']>,
   tripPlanner?: Maybe<Scalars['String']>,
   date?: Maybe<Scalars['Date']>,
@@ -1921,7 +1921,6 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   title?: Maybe<StringQueryOperatorInput>,
   pageTemplate?: Maybe<StringQueryOperatorInput>,
   blockName?: Maybe<StringQueryOperatorInput>,
-  order?: Maybe<IntQueryOperatorInput>,
   heading?: Maybe<StringQueryOperatorInput>,
   subheading?: Maybe<StringQueryOperatorInput>,
   backgroundImage?: Maybe<FileFilterInput>,
@@ -1929,6 +1928,7 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   leftImage?: Maybe<FileFilterInput>,
   align?: Maybe<StringQueryOperatorInput>,
   imageColumnWidth?: Maybe<IntQueryOperatorInput>,
+  order?: Maybe<IntQueryOperatorInput>,
   section?: Maybe<StringQueryOperatorInput>,
   tripPlanner?: Maybe<StringQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
