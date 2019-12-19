@@ -115,15 +115,15 @@ const Footer = class extends React.Component {
                   />
                 </a>
               </div>
-							<div className="column is-4">
-								<small>
-									Made with ❤️ in
-									<Link to="/spain/barcelona"> Barcelona </Link>
-									and
-									<Link to="/thailand/bangkok"> Bangkok </Link>
-								</small>
-							</div>
             </div>
+						<div className="column">
+							<small>
+								Made with ❤️ in
+								<Link to="/spain/barcelona"> Barcelona </Link>
+								and
+								<Link to="/thailand/bangkok"> Bangkok </Link>
+							</small>
+						</div>
           </div>
       </footer>
     )
