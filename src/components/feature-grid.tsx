@@ -16,29 +16,27 @@ export interface FeatureGridProps {
 export class FeatureGrid extends React.Component<FeatureGridProps> {
 
 	render() {
-		const { compact } = this.props
+		const { compact, className } = this.props
 
-		if ( compact ) {
-			return this.renderCompactGrid()
-		}
-		else {
-			return this.renderSpareGrid()
-		}
+		return(
+			<div className={ `columns is-multiline ${ className }` }>
+
+				{ compact
+					? this.renderCompactGrid()
+					: this.renderSpareGrid()
+				}
+
+			</div>
+		)
 	}
 
 	private renderSpareGrid() {
 		const { features, children } = this.props
-		return (
-		  <div className="columns is-multiline">
-		    {
-					features.map( item => (
-			      <div key={ item.id } className="column is-one-third">
-							{ children( item ) }
-			      </div>
-			    ))
-				}
-		  </div>
-		)
+		return features.map( item => (
+      <div key={ item.id } className="column is-one-third">
+				{ children( item ) }
+      </div>
+    ))
 	}
 
 	private renderCompactGrid() {
@@ -46,7 +44,7 @@ export class FeatureGrid extends React.Component<FeatureGridProps> {
 		const childrenElement = features.map( item => children( item ) )
 
 		return (
-		  <div className="columns is-multiline">
+		  <>
 				<div className="column is-one-third">
 					{ childrenElement.filter( ( _item, i ) => i % 3 === 0 ) }
 				</div>
@@ -56,7 +54,7 @@ export class FeatureGrid extends React.Component<FeatureGridProps> {
 				<div className="column is-one-third">
 					{ childrenElement.filter( ( _item, i ) => i % 3 === 2 ) }
 				</div>
-		  </div>
+		  </>
 		)
 	}
 }

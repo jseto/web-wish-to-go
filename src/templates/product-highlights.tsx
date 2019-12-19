@@ -19,6 +19,7 @@ export const ProductHighlights = ( props: any ) => (
 		render={
 			( data: ProductHighlightsQuery ) => (
 				<FeatureGrid
+					className="product-highlights"
 					features={ data.allMarkdownRemark.nodes }
 					{...props}
 				>
