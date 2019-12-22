@@ -69,7 +69,7 @@ export class Navbar extends React.Component<{}, NavbarState> {
 						className={`navbar-menu ${this.state.navBarActiveClass}`}
 					>
 						<div className="navbar-start has-text-centered">
-							<Link className="navbar-item" to="/use">
+							<Link className="navbar-item" to="/how-to-use">
 								How to use
 							</Link>
 							<Link className="navbar-item" to="/plans">

@@ -9,7 +9,7 @@ interface GraphQLProps {
 	data: HowToUseQuery;
 }
 
-export class TripPlanner extends React.Component<GraphQLProps> {
+export class HowToUse extends React.Component<GraphQLProps> {
 	render() {
 		const { data } = this.props;
 
@@ -19,16 +19,13 @@ export class TripPlanner extends React.Component<GraphQLProps> {
 
 				<div className="hero is-primary" style={{ textAlign: 'center' }}>
 				<div className="hero-body">
-					<MarkdownBlock
-						content={ data.markdownRemark.html }
-					/>
 				</div>
 				</div>
 
 				<SectionBody>
 
 					<MarkdownBlock
-						content={ data.markdownRemark.frontmatter.tripPlanner }
+						content={ data.markdownRemark.html }
 						contentColumnWidht={ 8 }
 					/>
 
@@ -38,11 +35,11 @@ export class TripPlanner extends React.Component<GraphQLProps> {
 	}
 }
 
-export default TripPlanner
+export default HowToUse
 
 export const query = graphql`
-query TripPlanner {
-  markdownRemark(frontmatter: {pageTemplate: {eq: "trip-planner"}, blockName: {eq: "header"}}) {
+query HowToUse {
+  markdownRemark(frontmatter: {pageTemplate: {eq: "how-to-use"}, blockName: {eq: "content"}}) {
 		html
 		id
 		frontmatter {
