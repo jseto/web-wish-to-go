@@ -40,6 +40,12 @@ module.exports = {
 	          },
 	        },
 					'gatsby-remark-copy-linked-files',
+					{
+						resolve:'gatsby-remark-prismjs',
+						options: {
+							classPrefix: 'language-'
+						}
+					}
 	      ],
 	    },
 	  },
