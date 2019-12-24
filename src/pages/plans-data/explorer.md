@@ -8,7 +8,7 @@ order: 2
 <!--- ![Explorer](../../images/compass.svg) -->
 
 ## Explorer
-**Engage audience on the average traffic websites**
+**Engage audience on mature websites**
 # $19.98
 ### per month
 ### _billed annually_
@@ -16,8 +16,8 @@ order: 2
 
 - Wish List engine
 - Trip Planner tool
-- Own affiliate codes
-- 3000 wishes/month
+- Own affiliate codes¹
+- 3000 wishes/month²
 - Fully documented
 - Personalized help
 - -

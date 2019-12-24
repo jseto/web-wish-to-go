@@ -2,15 +2,15 @@ import * as React from 'react';
 import { HTMLContent } from './content';
 import PreviewCompatibleImage from './preview-compatible-image';
 
-export type Aling = 'vertical' | 'top';
+export type Align = 'vertical' | 'top';
 
 interface MarkdownBlockProps {
 	content: string;
 	leftImage?: any;
 	rightImage?: any;
-	align?: Aling;
+	align?: Align;
 	imageColumnWidth?: number;
-	contentColumnWidht?: number;
+	contentColumnWidth?: number;
 }
 
 const MarkdownBlock: React.FC<MarkdownBlockProps> = ({
@@ -19,13 +19,13 @@ const MarkdownBlock: React.FC<MarkdownBlockProps> = ({
 	rightImage,
 	align,
 	imageColumnWidth,
-	contentColumnWidht
+	contentColumnWidth: contentColumnWidth
 }) => {
 	imageColumnWidth = imageColumnWidth || 4;
 
-	if ( contentColumnWidht ) {
-		var textColumnWith = contentColumnWidht;
-		var offset = 'is-offset-' + ( 12 - contentColumnWidht ) / 2;
+	if ( contentColumnWidth ) {
+		var textColumnWith = contentColumnWidth;
+		var offset = 'is-offset-' + ( 12 - contentColumnWidth ) / 2;
 	}
 	else {
 		textColumnWith = 12

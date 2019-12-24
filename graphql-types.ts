@@ -691,6 +691,8 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___title' |
   'childMarkdownRemark___frontmatter___pageTemplate' |
   'childMarkdownRemark___frontmatter___blockName' |
+  'childMarkdownRemark___frontmatter___order' |
+  'childMarkdownRemark___frontmatter___section' |
   'childMarkdownRemark___frontmatter___heading' |
   'childMarkdownRemark___frontmatter___subheading' |
   'childMarkdownRemark___frontmatter___backgroundImage___sourceInstanceName' |
@@ -803,8 +805,6 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___leftImage___children' |
   'childMarkdownRemark___frontmatter___align' |
   'childMarkdownRemark___frontmatter___imageColumnWidth' |
-  'childMarkdownRemark___frontmatter___order' |
-  'childMarkdownRemark___frontmatter___section' |
   'childMarkdownRemark___frontmatter___tripPlanner' |
   'childMarkdownRemark___frontmatter___date' |
   'childMarkdownRemark___frontmatter___category' |
@@ -1573,6 +1573,8 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___title' |
   'frontmatter___pageTemplate' |
   'frontmatter___blockName' |
+  'frontmatter___order' |
+  'frontmatter___section' |
   'frontmatter___heading' |
   'frontmatter___subheading' |
   'frontmatter___backgroundImage___sourceInstanceName' |
@@ -1760,8 +1762,6 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___leftImage___childMarkdownRemark___children' |
   'frontmatter___align' |
   'frontmatter___imageColumnWidth' |
-  'frontmatter___order' |
-  'frontmatter___section' |
   'frontmatter___tripPlanner' |
   'frontmatter___date' |
   'frontmatter___category' |
@@ -1894,6 +1894,8 @@ export type MarkdownRemarkFrontmatter = {
   title?: Maybe<Scalars['String']>,
   pageTemplate?: Maybe<Scalars['String']>,
   blockName?: Maybe<Scalars['String']>,
+  order?: Maybe<Scalars['Int']>,
+  section?: Maybe<Scalars['String']>,
   heading?: Maybe<Scalars['String']>,
   subheading?: Maybe<Scalars['String']>,
   backgroundImage?: Maybe<File>,
@@ -1901,8 +1903,6 @@ export type MarkdownRemarkFrontmatter = {
   leftImage?: Maybe<File>,
   align?: Maybe<Scalars['String']>,
   imageColumnWidth?: Maybe<Scalars['Int']>,
-  order?: Maybe<Scalars['Int']>,
-  section?: Maybe<Scalars['String']>,
   tripPlanner?: Maybe<Scalars['String']>,
   date?: Maybe<Scalars['Date']>,
   category?: Maybe<Scalars['String']>,
@@ -1921,6 +1921,8 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   title?: Maybe<StringQueryOperatorInput>,
   pageTemplate?: Maybe<StringQueryOperatorInput>,
   blockName?: Maybe<StringQueryOperatorInput>,
+  order?: Maybe<IntQueryOperatorInput>,
+  section?: Maybe<StringQueryOperatorInput>,
   heading?: Maybe<StringQueryOperatorInput>,
   subheading?: Maybe<StringQueryOperatorInput>,
   backgroundImage?: Maybe<FileFilterInput>,
@@ -1928,8 +1930,6 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   leftImage?: Maybe<FileFilterInput>,
   align?: Maybe<StringQueryOperatorInput>,
   imageColumnWidth?: Maybe<IntQueryOperatorInput>,
-  order?: Maybe<IntQueryOperatorInput>,
-  section?: Maybe<StringQueryOperatorInput>,
   tripPlanner?: Maybe<StringQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
   category?: Maybe<StringQueryOperatorInput>,
@@ -2623,6 +2623,7 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___disableBgImageOnAlpha' |
   'pluginCreator___pluginOptions___disableBgImage' |
   'pluginCreator___pluginOptions___ignoreFileExtensions' |
+  'pluginCreator___pluginOptions___classPrefix' |
   'pluginCreator___pluginOptions___name' |
   'pluginCreator___pluginOptions___path' |
   'pluginCreator___pluginOptions___short_name' |
@@ -2838,6 +2839,7 @@ export type SitePluginFieldsEnum =
   'pluginOptions___plugins___pluginOptions___disableBgImageOnAlpha' |
   'pluginOptions___plugins___pluginOptions___disableBgImage' |
   'pluginOptions___plugins___pluginOptions___ignoreFileExtensions' |
+  'pluginOptions___plugins___pluginOptions___classPrefix' |
   'pluginOptions___plugins___browserAPIs' |
   'pluginOptions___plugins___ssrAPIs' |
   'pluginOptions___plugins___pluginFilepath' |
@@ -2855,6 +2857,7 @@ export type SitePluginFieldsEnum =
   'pluginOptions___disableBgImageOnAlpha' |
   'pluginOptions___disableBgImage' |
   'pluginOptions___ignoreFileExtensions' |
+  'pluginOptions___classPrefix' |
   'pluginOptions___name' |
   'pluginOptions___path' |
   'pluginOptions___short_name' |
@@ -2992,6 +2995,7 @@ export type SitePluginPluginOptions = {
   disableBgImageOnAlpha?: Maybe<Scalars['Boolean']>,
   disableBgImage?: Maybe<Scalars['Boolean']>,
   ignoreFileExtensions?: Maybe<Array<Maybe<Scalars['String']>>>,
+  classPrefix?: Maybe<Scalars['String']>,
   name?: Maybe<Scalars['String']>,
   path?: Maybe<Scalars['String']>,
   short_name?: Maybe<Scalars['String']>,
@@ -3020,6 +3024,7 @@ export type SitePluginPluginOptionsFilterInput = {
   disableBgImageOnAlpha?: Maybe<BooleanQueryOperatorInput>,
   disableBgImage?: Maybe<BooleanQueryOperatorInput>,
   ignoreFileExtensions?: Maybe<StringQueryOperatorInput>,
+  classPrefix?: Maybe<StringQueryOperatorInput>,
   name?: Maybe<StringQueryOperatorInput>,
   path?: Maybe<StringQueryOperatorInput>,
   short_name?: Maybe<StringQueryOperatorInput>,
@@ -3074,6 +3079,7 @@ export type SitePluginPluginOptionsPluginsPluginOptions = {
   disableBgImageOnAlpha?: Maybe<Scalars['Boolean']>,
   disableBgImage?: Maybe<Scalars['Boolean']>,
   ignoreFileExtensions?: Maybe<Array<Maybe<Scalars['String']>>>,
+  classPrefix?: Maybe<Scalars['String']>,
 };
 
 export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
@@ -3092,6 +3098,7 @@ export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
   disableBgImageOnAlpha?: Maybe<BooleanQueryOperatorInput>,
   disableBgImage?: Maybe<BooleanQueryOperatorInput>,
   ignoreFileExtensions?: Maybe<StringQueryOperatorInput>,
+  classPrefix?: Maybe<StringQueryOperatorInput>,
 };
 
 export type SitePluginSortInput = {
@@ -3138,6 +3145,14 @@ export type BlogQueryVariables = {};
 
 
 export type BlogQuery = { markdownRemark: Maybe<Pick<MarkdownRemark, 'html' | 'id'>> };
+
+export type HowToUseQueryVariables = {};
+
+
+export type HowToUseQuery = { markdownRemark: Maybe<(
+    Pick<MarkdownRemark, 'html' | 'id'>
+    & { frontmatter: Maybe<Pick<MarkdownRemarkFrontmatter, 'tripPlanner'>> }
+  )> };
 
 export type IndexQueryVariables = {};
 
@@ -3192,6 +3207,11 @@ export type BlogLastEntriesQuery = { allMarkdownRemark: { nodes: Array<(
       Pick<MarkdownRemark, 'excerpt' | 'id'>
       & { fields: Maybe<Pick<MarkdownRemarkFields, 'slug'>>, frontmatter: Maybe<Pick<MarkdownRemarkFrontmatter, 'pageTemplate' | 'title' | 'date' | 'tags'>> }
     )> } };
+
+export type PlansFootnotesQueryVariables = {};
+
+
+export type PlansFootnotesQuery = { markdownRemark: Maybe<Pick<MarkdownRemark, 'html' | 'id'>> };
 
 export type PlansGridQueryVariables = {};
 

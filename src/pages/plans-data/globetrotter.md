@@ -20,5 +20,5 @@ order: 3
 - Unlimited wishes
 - Fully documented
 - Personalized help
-- Own affiliate programs
-- Travel agency plug-in
+- Own affiliate programs³
+- Travel agency plug-in⁴

@@ -5,6 +5,7 @@ import { PlansGrid } from "../templates/plans-grid"
 import MarkdownBlock from "../components/markdown-block"
 import { graphql } from "gatsby"
 import { PlansQuery } from "../../graphql-types"
+import { PlansFootnotes } from "../templates/plans-footnote"
 
 interface GraphQLProps {
 	data: PlansQuery;
@@ -18,7 +19,7 @@ export const Plans: React.FC<GraphQLProps> = ({ data }) => {
 			<div className="plans-header hero is-primary">
 			<div className="hero-body">
 				<MarkdownBlock
-				content={ data.markdownRemark.html }
+					content={ data.markdownRemark.html }
 				/>
 			</div>
 			</div>
@@ -27,6 +28,7 @@ export const Plans: React.FC<GraphQLProps> = ({ data }) => {
 
 				<PlansGrid />
 
+				<PlansFootnotes />
 			</SectionBody>
 		</Layout>
 	)
@@ -37,7 +39,7 @@ export default Plans
 export const query = graphql`
 query Plans {
   markdownRemark(frontmatter: {pageTemplate: {eq: "plans"}, blockName: {eq: "header"}}) {
-	html
-	id
+		html
+		id
   }
 }`

@@ -3,7 +3,7 @@ import { graphql, Link } from "gatsby"
 import {Layout, SectionBody} from "../components/layout"
 import { SEO } from "../components/seo"
 import { IndexQuery } from "../../graphql-types"
-import MarkdownBlock, { Aling } from "../components/markdown-block"
+import MarkdownBlock, { Align } from "../components/markdown-block"
 import { Banner } from "../components/banner"
 import { ProductHighlights } from "../templates/product-highlights"
 
@@ -33,7 +33,7 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 							content={ block.html }
 							leftImage={ block.frontmatter.leftImage }
 							rightImage={ block.frontmatter.rightImage }
-							align={ block.frontmatter.align as Aling }
+							align={ block.frontmatter.align as Align }
 						/>
 					)
 				}

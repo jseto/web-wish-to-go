@@ -26,7 +26,7 @@ export class HowToUse extends React.Component<GraphQLProps> {
 
 					<MarkdownBlock
 						content={ data.markdownRemark.html }
-						contentColumnWidht={ 8 }
+						contentColumnWidth={ 8 }
 					/>
 
 				</SectionBody>
