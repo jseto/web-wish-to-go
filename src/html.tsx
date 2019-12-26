@@ -6,7 +6,7 @@ export const wishToGoHost = runWithLocalHost
 	? 'http://localhost:8080/'
 	: process.env.GATSBY_BETA
 		? 'https://wish-to-go-beta.web.app/'
-		: 'https://wish-to-go.web.app/'
+		: 'https://wish-to-go.com/'
 
 if ( runWithLocalHost ) {
 	console.info( '%cRunning with LOCAL wish-to-go bundle', 'color: aqua' );
@@ -39,7 +39,7 @@ export const HTML: React.FC = (props: any ) => {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-				<script type="text/javascript" src={ `${ wishToGoHost }wish-to-go.bundle.js` }></script>
+				<script type="text/javascript" src={ `${ wishToGoHost }wish-to-go.main.js` }></script>
       </body>
     </html>
   )

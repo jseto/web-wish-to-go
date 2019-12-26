@@ -6,7 +6,9 @@ order: 1
 
 # How To Use
 
-Installing **Wish To Go** in your blog is really easy. We provide you with 2 widgets in the form of an _HTML_ tag; the [WishWidget](#the-wishwidget-tag) and the [TravelPlanWidget](#the-travelplanwidget-tag). The first is the heart button to indicate which destinations are _wished_ by your readers. The second is to implement the **Trip Planner** in your blog.
+Installing **Wish To Go** in your blog is really easy. We provide you with 2 widgets in the form of an _HTML_ tag; the [WishWidget](#the-wishwidget-tag) and the [TravelPlanWidget](#the-travelplanwidget-tag). The first is the heart button to indicate which destinations are _wished_ by your readers. The second is to implement the **Trip Planner** in your blog. In order the widgets to work, you should load the JavaScript code and the CSS style sheet.
+
+- [Loading the Code and the Style Sheet](#loading-the-code-and-the-style-sheet)
 
 - [WishWidget](#the-wishwidget-tag)
 
@@ -14,17 +16,25 @@ Installing **Wish To Go** in your blog is really easy. We provide you with 2 wid
 
 - [TravelPlanWidget](#the-travelplanwidget-tag)
 
-## The WishWidget tag
+## Loading the Code and the Style Sheet
 
-The **WishWidget** is used to show the **wish heart** tag <WishWidget country="TV"></WishWidget> in any part of a blog post. You only have to insert the following _html_ code snippet where you want the heart to appear.
+To use the **Wish to go** style sheet you should add a `<link>` tag in the `<header>` section of the **HTML** document. 
+
+```html
+
+```
+
+## The WishWidget Tag
+
+The **WishWidget** is used to show the **wish heart** tag <WishWidget country="TV"></WishWidget>in any part of a blog post. You only have to insert the following _html_ code snippet where you want the heart to appear.
 
 ```html
 <WishWidget country="Spain"></WishWidget>
 ```
 
-_This configuration will identify a blog entry talking about Spain_
+_This configuration will identify a blog entry talking about Spain_.
 
-The **WishWidget** snippet can be placed in any part of your _html_ page
+The **WishWidget** snippet can be placed in any part of your _html_ page.
 
 The following code shows just a few of the multiple places where you can insert the **WishWidget**. Only your creativity and imagination can put the limits.
 
@@ -139,13 +149,13 @@ The `country` attribute, when used with `city` or `activity` attributes, clearly
 ```html
 <WishWidget country="TH"></WishWidget>
 ```
-_The example above will show in your post a **Wish to go** heart and the context semantics is referring to Spain as a whole country_
+_The example above will show in your post a **Wish to go** heart and the context semantics is referring to Spain as a whole country_.
 
 #### `city`
 
 City name
 
-`city` attribute should be used along with `country` attribute. It is used to specify that the _wish heart_ refers to a city. A city is where the traveller will sleep. If you think the visit to a city or village can be done from another city in a 1 day tour, it is better to specify it as an activity done from the sleeping city.
+`city` attribute should be used along with `country` attribute. It is used to specify that the _wish heart_ refers to a city. A city is where the traveller will sleep. If you think the visit to a city or village can be done from another city in a one-day tour, it is better to specify it as an activity done from the sleeping city.
 
 You should use a widely known name of the city in order to keep consistency along blog posts. For example, Bangkok is known to locals as _Krungtep_ or _Krungtep Maha Nakhon_ or even _KMN_ but the most known around the world, even to the locals, is Bangkok. Although you are not obliged to use Bangkok, we recommend to use standardized English names as this name will be passed to flight, accommodation and tour search engines.
 
@@ -162,7 +172,7 @@ This city name has to be consistent in all your blog site. If you use different 
 </P>
 ```
 
-The above code produces
+The above code produces:
 
 > <p>
 > 	We are talking about Bangkok or, as known to locals, <em>Krungtep</em>
@@ -182,9 +192,9 @@ Activity name
 
 An activity can be something the traveller can do in destination. This includes monuments, spots, tours, courses or any other experience that can be done in a city or from a city.
 
-An activity can be a city name if you recommend not to overnight there because it is better to visit in a day tour from another city. For example, there are many tours visiting the city of Amphawa (2 hours drive from Bangkok) and most of times the traveller will not overnight there but going back to Bangkok. You can use one **WishWidget** for the city, giving the opportunity to book accommodation from the **Trip Planner** and other **WishWidget** as an activity, allowing the traveller to book a tour.
+An activity can be a city name if you recommend not to overnight there because it is better to visit in a day tour from another city. For example, there are many tours visiting the city of _Amphawa_ (2 hours drive from Bangkok) and most of times the traveller will not overnight there but going back to Bangkok. You can use one **WishWidget** for the city, giving the opportunity to book accommodation from the **Trip Planner** and other **WishWidget** as an activity, allowing the traveller to book a tour.
 
-Inserting this code
+Inserting this code:
 
 ```html
 <p>
@@ -250,7 +260,7 @@ The post URL can be shown in the **Trip Planner** as a reference for the reader.
 
 On some occasions you may want to point to a different post in your blog, i.e. when blogging about a city and you insert a country **WishWidget** and you have a specific post about the country. In that case you can get advantage of specify the country post address by using this attribute.
 
-The following code in a post about Bangkok
+The following code in a post about Bangkok,
 
 ```html
 <h1>
@@ -307,9 +317,9 @@ Featured image URL. This picture, if set, will be used in the **Trip Planner** t
 
 Shows a button with a text in `label` attribute
 
-When `label` is set to an arbitrary text string, the **WishWidget** takes the form of a button and shows the text in the `label` attribute. When `label` is set to `true`, the text shown in the button is the standard _Wish to go_ string. When set to `false` (default) or not set it doesn't show any text nor have the shape of a button.
+When `label` is set to an arbitrary text string, the **WishWidget** takes the form of a button and shows the text in the `label` attribute. If `label` is set to `true`, the text shown in the button is the standard _Wish to go_ string. When set to `false` (default) or not set it doesn't show any text nor have the shape of a button.
 
-Writing the following html code
+Writing the following html code:
 
 ```html
 <p>
