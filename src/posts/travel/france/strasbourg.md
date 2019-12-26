@@ -10,7 +10,7 @@ tags:
 # Strasbourg
 <WishWidget country="FR" city="Strasbourg" label="true"></WishWidget>
 
-Strasbourg is the capital of the Alsace region of France and is most widely known for hosting a number of important European institutions. It is also famous for its beautiful historical centre - the Grande Île - which was the first city centre to be classified entirely as a World Heritage Site by UNESCO.
+Strasbourg is the capital of the Alsace region of France and is most widely known for hosting a number of important European institutions. It is also famous for its beautiful historical centre —the _Grande Île_— which was the first city centre to be classified entirely as a World Heritage Site by UNESCO.
 
 ## What to see
 
@@ -20,7 +20,7 @@ Strasbourg is the capital of the Alsace region of France and is most widely know
 
 - **L'Opéra** <WishWidget country="FR" city="Strasbourg" activity="Opera House"></WishWidget>
 
-	Neoclassicist opera house, home of the opera company L'Opéra national du Rhin.
+	Neoclassicist opera house, home of the opera company _L'Opéra National du Rhin_.
 
 - **Petite France** <WishWidget country="FR" city="Strasbourg" activity="Paetite France"></WishWidget>
 

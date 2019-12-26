@@ -19,21 +19,21 @@ Despite the evident benefit of improving the customer's experience, wish lists h
 
 For merchants, they provide a great opportunity to attract more buyers and know more about them.
 
-- A wish list gives an overview of the customer's preferences and interests
+- A wish list gives an overview of the customer's preferences and interests.
 
-- Is an opportunity to identify user's intention and capitalize them with marketing tactics
+- Is an opportunity to identify user's intention and capitalize them with marketing tactics.
 
-- Helps to measure the effectiveness of email campaigns
+- Helps to measure the effectiveness of email campaigns.
 
-- It's a good way to understand customers needs
+- It's a good way to understand customers needs.
 
-- Can substantially attract a lot of new traffic
+- Can substantially attract a lot of new traffic.
 
-## Why are Wish List Important in a Travel Blog
+## Why are Wish List Important in Travel Blog
 
 Regardless you are monetizing your site, wish lists improve visitors experience by giving them an added value. This enhancement can be complemented with a [Travel Planning](/trip-planner) tool. Your audience will appreciate that your blog is giving a new feature that other travel sites don't have.
 
-A Wish List in your website not only is major benefit for your readers, but a tool you can use to boost traffic and increase pressent or future monetization.
+A Wish List in your website not only is major benefit for your readers, but a tool you can use to boost traffic and increase present or future monetization.
 
 - **It is a great opportunity to get the visitor's email**
 

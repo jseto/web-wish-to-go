@@ -12,7 +12,7 @@ tags:
 
 ![Paris](https://wikitravel.org/upload/en/thumb/3/32/Paris-eiffel-tower.jpg/300px-Paris-eiffel-tower.jpg)
 
-Paris, the cosmopolitan capital of France, is one Europe's largest cities, with 2.2 million people living in the dense, central city and almost 12 million people living in the whole metropolitan area. Located in the north of France on the river Seine, Paris has the well deserved reputation of being the most beautiful and romantic of all cities, brimming with historic associations and remaining vastly influential in the realms of culture, art, fashion, food and design. Dubbed the City of Light (la Ville Lumière) and Capital of Fashion, it is home to the world's finest and most luxurious fashion designers and cosmetics.
+Paris, the cosmopolitan capital of France, is one Europe's largest cities, with 2.2 million people living in the dense, central city and almost 12 million people living in the whole metropolitan area. Located in the north of France on the river Seine, Paris has the well-deserved reputation of being the most beautiful and romantic of all cities, brimming with historic associations and remaining vastly influential in the realms of culture, art, fashion, food and design. Dubbed the City of Light (_La Ville Lumière_) and Capital of Fashion, it is home to the world's finest and most luxurious fashion designers and cosmetics.
 
 ## Things to do
 
