@@ -76,7 +76,6 @@ export const SEO: React.FC<SEOProps> = ({ description, lang, meta, title }) => {
         },
       ].concat(meta)}
     >
-			<link href={ `${ wishToGoHost }wish-to-go.css` } rel="stylesheet"/>
 		</Helmet>
   )
 }

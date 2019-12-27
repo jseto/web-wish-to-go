@@ -6,23 +6,48 @@ order: 1
 
 # How To Use
 
-Installing **Wish To Go** in your blog is really easy. We provide you with 2 widgets in the form of an _HTML_ tag; the [WishWidget](#the-wishwidget-tag) and the [TravelPlanWidget](#the-travelplanwidget-tag). The first is the heart button to indicate which destinations are _wished_ by your readers. The second is to implement the **Trip Planner** in your blog. In order the widgets to work, you should load the JavaScript code and the CSS style sheet.
+Installing **Wish To Go** in your blog is really easy. We provide you with 2 widgets in the form of an _HTML_ tag; the [WishWidget](#the-wishwidget-tag) and the [TravelPlanWidget](#the-travelplanwidget-tag). The first is the heart button to indicate which destinations are _wished_ by your readers. The second is to implement the **Trip Planner** in your blog. In order the widgets to work, you should load the JavaScript code in your page.
 
-- [Loading the Code and the Style Sheet](#loading-the-code-and-the-style-sheet)
+- [Loading the JavaScript Code](#loading-the-javascript)
 
-- [WishWidget](#the-wishwidget-tag)
+- [WishWidget Tag Reference](#the-wishwidget-tag)
 
 	Attributes: [`country`](#country), [`city`](#city), [`activity`](#activity), [`post`](#post), [`picture`](#picture), [`label`](#label)
 
-- [TravelPlanWidget](#the-travelplanwidget-tag)
+- [TravelPlanWidget Tag Reference](#the-travelplanwidget-tag)
 
-## Loading the Code and the Style Sheet
+## Loading the JavaScript Code
 
-To use the **Wish to go** style sheet you should add a `<link>` tag in the `<header>` section of the **HTML** document. 
+The JavaScript code is loaded by inserting this 
 
 ```html
-
+	<script src="https://wish-to-go.com/wish-to-go.main.js"></script>
 ```
+
+tag at the bottom of your **HTML** document but still inside the `<body>` tag.
+
+A very minimalistic webpage loading a **WishWidget** and the needed scripts will be:
+
+```html{numberLines: false}{3,11}
+<html>
+<body>
+	<h1>My Entry Title</h1>
+	<p>
+		This is the entry body with a Wish To Go Heart.
+		<WishWidget country="TH"></WishWidget>
+	</p>
+	<script src="https://wish-to-go.com/wish-to-go.main.js"></script>
+</body>
+</html>
+```
+
+The highlighted line is the one loading the JavaScript code.
+
+### Troubleshooting 
+
+In some cases, the initialization of the script can fail because it is called before the actual page is rendered. This will likely happen when server rendering is used.
+
+The **Whish to go** JavaScript code exposes a global function in the window namespace called `wtgInit`. If the **WishWidget** and **TripPlannerWidget** are not rendered properly, you can call the `wtgInit` function somewhere in your webpage where you know the document has been rendered.
 
 ## The WishWidget Tag
 
