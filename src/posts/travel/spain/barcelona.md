@@ -15,7 +15,7 @@ tags:
 
 Barcelona is the capital and largest city of Catalonia and Spain's second largest city, with a population of over one and half million people (over five million in the whole province).
 
-In 1992, Barcelona gained international recognition by hosting the Olympic games which brought a massive upturn in its tourism industry.
+In 1992, Barcelona gained international recognition by hosting the Olympic Games which brought a massive upturn in its tourism industry.
 
 This beautiful city is full of what European cities are known for (outdoor markets, restaurants, shops, museums and churches) and is fantastic for walking with an extensive and reliable Metro system for more far-flung destinations. The core centre of town, focused around the _Ciutat Vella_ (Old City) provides days of enjoyment for those looking to experience the life of Barcelona while the beaches the city was built upon <WishWidget	country="ES"	city="Barcelona"	activity="Beach"></WishWidget>provide sun and relaxation during the long periods of agreeably warm weather.
 
@@ -30,7 +30,7 @@ If you are thinking of visiting several museums, an _articket_ will save you som
 
  ![La Sagrada Familia](https://wikitravel.org/upload/shared//thumb/5/56/Sagrada_Familia.jpg/200px-Sagrada_Familia.jpg)
 
- One of the most famous and breathtaking locations to visit in Barcelona the most famous building in the entire city and its landmark, _La Sagrada Familia_. Although incomplete, the church is a UNESCO World Heritage Site, and in November 2010 was consecrated and proclaimed a minor basilica by Pope Benedict XVI. From the outside, visitors are astonished by the sheer height and intricacy of the design of the church and although it is not completed yet, the progress that has been made is incredibly impressive. The project began nearly a century ago and was designed by one of Spain’s most well known and respected architects in Spanish history, _Antoni Gaudi_. _Gaudi_ was born a Catalan (ethnic group in Spain) and produced some of the most moving buildings and works of art that are still standing and praised by the Spanish people. Undoubtedly, his most famous work is La Sagrada Familia.
+ One of the most famous and breathtaking locations to visit in Barcelona the most famous building in the entire city and its landmark, _La Sagrada Familia_. Although incomplete, the church is a UNESCO World Heritage Site, and in November 2010 was consecrated and proclaimed a minor basilica by Pope Benedict XVI. From the outside, visitors are astonished by the sheer height and intricacy of the design of the church and although it is not completed yet, the progress that has been made is incredibly impressive. The project began nearly a century ago and was designed by one of Spain’s most well known and respected architects in Spanish history, _Antoni Gaudi_. _Gaudi_ was born a Catalan (ethnic group in Spain) and produced some of the most moving buildings and works of art that are still standing and praised by the Spanish people. Undoubtedly, his most famous work is _La Sagrada Familia_.
 
 ### Other Gaudi architecture and Modernist Barcelona
 
