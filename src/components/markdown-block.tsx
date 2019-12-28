@@ -5,6 +5,7 @@ import PreviewCompatibleImage from './preview-compatible-image';
 export type Align = 'vertical' | 'top';
 
 interface MarkdownBlockProps {
+	className?: string;
 	content: string;
 	leftImage?: any;
 	rightImage?: any;
@@ -14,12 +15,13 @@ interface MarkdownBlockProps {
 }
 
 const MarkdownBlock: React.FC<MarkdownBlockProps> = ({
+	className,
 	content,
 	leftImage,
 	rightImage,
 	align,
 	imageColumnWidth,
-	contentColumnWidth: contentColumnWidth
+	contentColumnWidth
 }) => {
 	imageColumnWidth = imageColumnWidth || 4;
 
@@ -34,7 +36,7 @@ const MarkdownBlock: React.FC<MarkdownBlockProps> = ({
 	}
 
 	return (
-		<div className={`columns${align === 'vertical' ? ' is-vcentered' : ''}`}>
+		<div className={`${ className } columns${align === 'vertical' ? ' is-vcentered' : ''}`}>
 			{
 				leftImage &&
 				<div className={`column is-${ imageColumnWidth }`}>

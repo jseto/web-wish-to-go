@@ -3,7 +3,7 @@ pageTemplate: index
 blockName: block
 leftImage: ../../images/wish-to-go-icon.png
 align: vertical
-imageColumnWidth: 2
+imageColumnWidth: 3
 order: 1
 ---
 

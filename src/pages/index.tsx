@@ -29,10 +29,12 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 				{
 					blocks.map( block =>
 						<MarkdownBlock
+							className="index-block"
 							key={ block.id }
 							content={ block.html }
 							leftImage={ block.frontmatter.leftImage }
 							rightImage={ block.frontmatter.rightImage }
+							imageColumnWidth={ block.frontmatter.imageColumnWidth }
 							align={ block.frontmatter.align as Align }
 						/>
 					)
@@ -76,6 +78,7 @@ query Index {
       id
 			frontmatter {
 				align
+				imageColumnWidth
 				rightImage {
 					absolutePath
 					internal {
