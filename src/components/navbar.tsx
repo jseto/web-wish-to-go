@@ -82,18 +82,6 @@ export class Navbar extends React.Component<{}, NavbarState> {
 								Trip Planner
 							</Link>
 						</div>
-						<div className="navbar-end has-text-centered">
-							<a
-								className="navbar-item"
-								href={navbarEndIconUrl}
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<span className="icon">
-									<img src={navbarEndIcon} alt={navbarEndIconAlt} />
-								</span>
-							</a>
-						</div>
 					</div>
 				</div>
 			</nav>

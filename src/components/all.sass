@@ -11,10 +11,14 @@ $body-color: #333
 $black: #2b2523
 
 $navbar-item-img-max-height: 3rem
+$navbar-item-hover-background-color: $kaldi-red
 // $column-gap: 0
 
 .navbar .navbar-menu
   box-shadow:none !important
+
+.menu-list .navbar-item
+  line-height: inherit
 
 .content .taglist
   list-style: none
@@ -94,6 +98,7 @@ $menu-item-hover-background-color: $black
 $menu-item-active-color: $kaldi-red-invert
 $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
+$menu-list-line-height: 0.5
 $menu-label-color: $white-ter
 
 
@@ -103,16 +108,13 @@ $menu-label-color: $white-ter
 .menu-list
   list-style: none !important
   text-align: left
-.social
-  padding: 2em
 .social a
-    padding: .5em .5em .3em .5em
+    color: black
+    padding: .2em .3em .2em .3em
     border-radius: 1em
     background-color: $white-ter
     margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
+    font-size: 1.5em
     display: inline
 
 // blog roll

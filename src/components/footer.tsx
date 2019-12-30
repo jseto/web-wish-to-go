@@ -31,22 +31,22 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/how-to-use">
+                      <Link className="navbar-item" to="/how-to-use/">
                         How to use
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/plans">
+                      <Link className="navbar-item" to="/plans/">
                         Plans
                       </Link>
                     </li>
 										<li>
-                      <Link className="navbar-item" to="/blog">
+                      <Link className="navbar-item" to="/blog/">
                         Blog Demo
                       </Link>
                     </li>
 										<li>
-                      <Link className="navbar-item" to="/trip-planner">
+                      <Link className="navbar-item" to="/trip-planner/">
                         Trip Planner
                       </Link>
                     </li>
@@ -57,62 +57,52 @@ const Footer = class extends React.Component {
                 <section>
                   <ul className="menu-list">
                     <li>
-                      <Link className="navbar-item" to="/blog">
+                      <Link className="navbar-item" to="/blog/">
                         Latest Stories
                       </Link>
                     </li>
 										<li>
-                      <Link className="navbar-item" to="/spain/spain">
+                      <Link className="navbar-item" to="/spain/spain/">
                         Spain
                       </Link>
                     </li>
 										<li>
-                      <Link className="navbar-item" to="/france/france">
+                      <Link className="navbar-item" to="/france/france/">
                         France
                       </Link>
                     </li>
 										<li>
-                      <Link className="navbar-item" to="/thailand/thailand">
+                      <Link className="navbar-item" to="/thailand/thailand/">
                         Thailand
                       </Link>
                     </li>
 										<li>
-                      <Link className="navbar-item" to="/contact">
+                      <Link className="navbar-item" to="/contact/">
                         Contact
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/legal/privacy-policy/">
+                        Privacy Policy
+                          </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/legal/terms/">
+                        Terms and Conditions
                       </Link>
                     </li>
                   </ul>
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
+                <a title="facebook" href="https://www.facebook.com/wishtogotravel">
+                  <i className="fab fa-facebook-square"></i>
                 </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
+                <a title="twitter" href="https://twitter.com/wish_to_go">
+                  <i className="fab fa-twitter-square"></i>
                 </a>
                 <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: '1em', height: '1em' }}
-                  />
+                  <i className="fab fa-instagram"></i>
                 </a>
               </div>
             </div>

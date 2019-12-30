@@ -12,7 +12,7 @@ order: 3
 # $198.99
 ### per month
 ### billed annually
-[Select](/signup/globetrotter)
+[Select](/subscription/?plan=globetrotter)
 
 - Wish List engine
 - Trip Planner tool

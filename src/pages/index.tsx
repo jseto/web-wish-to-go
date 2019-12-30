@@ -42,8 +42,8 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 
         <div className="columns">
           <div className="column is-12 has-text-centered">
-            <Link className="btn" to="/products">
-              See all products
+            <Link className="btn" to="/plans/">
+              See all plans
             </Link>
           </div>
         </div>

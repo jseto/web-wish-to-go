@@ -12,7 +12,7 @@ order: 2
 # $19.98
 ### per month
 ### _billed annually_
-[Select](/signup/explorer)
+[Select](/subscription/?plan=explorer)
 
 - Wish List engine
 - Trip Planner tool

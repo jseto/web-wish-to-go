@@ -12,7 +12,7 @@ order: 1
 # Free
 ### forever
 ### no credit card required
-[Select](/signup/free)
+[Select](/subscription/?plan=backpacker)
 
 - Wish List engine
 - Trip Planner tool

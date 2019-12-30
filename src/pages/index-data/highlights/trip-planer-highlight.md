@@ -13,5 +13,6 @@ To complement the Wish List, there is a Trip Planner where your readers can plan
 - Add _things to do_ at destination
 - Sort destinations
 - Automatically calculates hotel and travel booking dates.
-
+<!--
 [Read More](/trip-planner)
+-->
