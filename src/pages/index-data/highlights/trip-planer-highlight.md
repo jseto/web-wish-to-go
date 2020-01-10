@@ -3,7 +3,7 @@ order: 2
 pageTemplate: index
 section: productHighlights
 ---
-![Trip Planner tool](../../../images/feature-tools.svg)
+![Trip Planner tool](../../../images/feature-tools.min.svg)
 
 # Trip Planning Tool for **Enhanced Reader's Experience**
 
