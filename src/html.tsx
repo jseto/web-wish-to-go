@@ -39,7 +39,11 @@ export const HTML: React.FC = (props: any ) => {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-				<script type="text/javascript" src={ `${ wishToGoHost }wish-to-go.main.js` }></script>
+				<script type="text/javascript" src={ `${ wishToGoHost }wish-to-go.main.js` }/>
+        <script type="text/javascript" src={ `${ wishToGoHost }firebase-app.bundle.js`}/>
+        <script type="text/javascript" src={ `${ wishToGoHost }vendors~firebase-app~firebase-auth~firebase-firestore.bundle.js`}/>
+        <script type="text/javascript" src={ `${ wishToGoHost }vendors~firebase-firestore.bundle.js`}/>
+        <script type="text/javascript" src={ `${ wishToGoHost }vendors~firebase-auth.bundle.js`}/>
       </body>
     </html>
   )

@@ -1,8 +1,27 @@
 import * as React from "react"
 import {Layout, SectionBody} from "../components/layout"
 import { SEO } from "../components/seo"
-import * as firebase from 'firebase/app'
-import 'firebase/auth'
+
+interface UserCredential {
+	authId: string;
+	email: string;
+	name?: string;
+	pictureUrl?: string;
+	phoneNumber?: string;
+}
+
+interface SignData {
+	authProvider: string; 
+	email?: string; 
+	password?: string;
+	verificationLink?: string;
+}
+
+interface Auth {
+	signUp( signData: SignData ): Promise<UserCredential>;
+	login( signData: SignData ): Promise<UserCredential>;
+	logout(): Promise<void>;
+}
 
 interface SubscriptionProps {
 	location: Location;
@@ -18,28 +37,13 @@ export class Subscription extends React.Component<SubscriptionProps, Subscriptio
 
 	constructor( props: SubscriptionProps ) {
 		super( props );
-		this.plan = location.search.slice(6);
+		this.plan = props.location.search.slice(6);
 
 		this.state = {
 			email: '',
 			password: ''
 		}
 
-		const firebaseConfig = { 															// cspell: disable
-			apiKey: "AIzaSyAL7HGSveC9Qo_hUA-pIShdlEi3XWGI-Sg",
-			authDomain: "wish-to-go.com",
-			databaseURL: "https://wish-to-go.firebaseio.com",
-			projectId: "wish-to-go",
-			storageBucket: "wish-to-go.appspot.com",
-			messagingSenderId: "760218719658",
-			appId: "1:760218719658:web:5eddc4739e81f6fdaa87d3",
-			measurementId: "G-KYSSTEMQCG" 											// cspell: enable
-		};
-
-		if ( !Subscription.initialized ) {
-			firebase.initializeApp(firebaseConfig);
-			Subscription.initialized = true;
-		}
 	} 
 
 	render() {
@@ -87,7 +91,7 @@ export class Subscription extends React.Component<SubscriptionProps, Subscriptio
 								<div className="field control is-grouped is-grouped-centered">
 									<button	
 										className="button is-success"
-										onClick={ () => this.emailSignUp() }
+										onClick={ () => this.signWithEmail( email, password ) }
 									>
 										Subscribe with Email
 									</button>
@@ -99,7 +103,7 @@ export class Subscription extends React.Component<SubscriptionProps, Subscriptio
 							<p>
 								<button 
 									className="button is-info is-fullwidth"
-									onClick={() => this.signUp( new firebase.auth.GoogleAuthProvider() ) }
+									onClick={() => this.signWithProvider( 'google' ) }
 								>
 									<span>Subscribe with Google</span>
 									<span className="icon">
@@ -110,7 +114,7 @@ export class Subscription extends React.Component<SubscriptionProps, Subscriptio
 							<p>
 								<button 
 									className="button is-info is-fullwidth"
-									onClick={() => this.signUp( new firebase.auth.FacebookAuthProvider() )}
+									onClick={() => this.signWithProvider( 'facebook' )}
 								>
 									<span>Subscribe with Facebook</span>
 									<span className="icon">
@@ -126,30 +130,33 @@ export class Subscription extends React.Component<SubscriptionProps, Subscriptio
 		)
 	}
 
-	private async emailSignUp() {
-		const { email, password } = this.state;
-		try {
-			const userCredential = await firebase.auth().createUserWithEmailAndPassword(email, password)	
-			await userCredential.user.sendEmailVerification({
-				url: `https://wish-to-go.com/payment?plan=${this.plan}`
-			})
-			console.log( 'sent email' );
+	private signWithEmail( email: string, password: string) {
+		this.auth().signUp({ 
+			authProvider: 'email', 
+			email: email, 
+			password: password,
+			verificationLink: `https://wish-to-go.com/payment?plan=${this.plan}`,
+		}).then( userCredential => {
+			console.log( 'Signed Up with Email', userCredential )
 			window.location.href = `/verification-email-sent`
-		}
-		catch ( error ) {
-			console.error( 'Error when sign-up: ', error.code );
-		}
+		}).catch( error => {
+			console.error( 'Cannot sign up. Reason: ', error )
+		})
 	}
 
-	private async signUp( provider: firebase.auth.AuthProvider ) {
-		try {
-			const userCredential = await firebase.auth().signInWithPopup(provider)
-			console.log( userCredential.user );
+	private signWithProvider( provider: string ) {
+		this.auth().signUp({ 
+			authProvider: provider,
+		}).then( userCredential => {
+			console.log( 'Signed Up with ' + provider, userCredential )
 			window.location.href = `/payment?plan=${this.plan}`
-		}
-		catch( error ) {
-			console.error( 'Error when sign-up: ', error.code );
-		}
+		}).catch( error => {
+			console.error( 'Cannot sign up. Reason: ', error ) 
+		})
+	}
+
+	private auth(): Auth {
+		return window[ 'wtgAuth' ]()
 	}
 
 	private plan: string;
