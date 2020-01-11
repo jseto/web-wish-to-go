@@ -28,6 +28,7 @@ export class TripPlanner extends React.Component<GraphQLProps> {
 				<SectionBody>
 
 					<MarkdownBlock
+						className="trip-planner"
 						content={ data.markdownRemark.frontmatter.tripPlanner }
 						contentColumnWidth={ 8 }
 					/>
