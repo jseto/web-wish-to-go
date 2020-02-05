@@ -692,6 +692,46 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___pageTemplate' |
   'childMarkdownRemark___frontmatter___blockName' |
   'childMarkdownRemark___frontmatter___order' |
+  'childMarkdownRemark___frontmatter___leftImage___sourceInstanceName' |
+  'childMarkdownRemark___frontmatter___leftImage___absolutePath' |
+  'childMarkdownRemark___frontmatter___leftImage___relativePath' |
+  'childMarkdownRemark___frontmatter___leftImage___extension' |
+  'childMarkdownRemark___frontmatter___leftImage___size' |
+  'childMarkdownRemark___frontmatter___leftImage___prettySize' |
+  'childMarkdownRemark___frontmatter___leftImage___modifiedTime' |
+  'childMarkdownRemark___frontmatter___leftImage___accessTime' |
+  'childMarkdownRemark___frontmatter___leftImage___changeTime' |
+  'childMarkdownRemark___frontmatter___leftImage___birthTime' |
+  'childMarkdownRemark___frontmatter___leftImage___root' |
+  'childMarkdownRemark___frontmatter___leftImage___dir' |
+  'childMarkdownRemark___frontmatter___leftImage___base' |
+  'childMarkdownRemark___frontmatter___leftImage___ext' |
+  'childMarkdownRemark___frontmatter___leftImage___name' |
+  'childMarkdownRemark___frontmatter___leftImage___relativeDirectory' |
+  'childMarkdownRemark___frontmatter___leftImage___dev' |
+  'childMarkdownRemark___frontmatter___leftImage___mode' |
+  'childMarkdownRemark___frontmatter___leftImage___nlink' |
+  'childMarkdownRemark___frontmatter___leftImage___uid' |
+  'childMarkdownRemark___frontmatter___leftImage___gid' |
+  'childMarkdownRemark___frontmatter___leftImage___rdev' |
+  'childMarkdownRemark___frontmatter___leftImage___ino' |
+  'childMarkdownRemark___frontmatter___leftImage___atimeMs' |
+  'childMarkdownRemark___frontmatter___leftImage___mtimeMs' |
+  'childMarkdownRemark___frontmatter___leftImage___ctimeMs' |
+  'childMarkdownRemark___frontmatter___leftImage___atime' |
+  'childMarkdownRemark___frontmatter___leftImage___mtime' |
+  'childMarkdownRemark___frontmatter___leftImage___ctime' |
+  'childMarkdownRemark___frontmatter___leftImage___birthtime' |
+  'childMarkdownRemark___frontmatter___leftImage___birthtimeMs' |
+  'childMarkdownRemark___frontmatter___leftImage___blksize' |
+  'childMarkdownRemark___frontmatter___leftImage___blocks' |
+  'childMarkdownRemark___frontmatter___leftImage___publicURL' |
+  'childMarkdownRemark___frontmatter___leftImage___id' |
+  'childMarkdownRemark___frontmatter___leftImage___children' |
+  'childMarkdownRemark___frontmatter___align' |
+  'childMarkdownRemark___frontmatter___imageColumnWidth' |
+  'childMarkdownRemark___frontmatter___section' |
+  'childMarkdownRemark___frontmatter___tripPlanner' |
   'childMarkdownRemark___frontmatter___heading' |
   'childMarkdownRemark___frontmatter___subheading' |
   'childMarkdownRemark___frontmatter___backgroundImage___sourceInstanceName' |
@@ -766,46 +806,6 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___rightImage___publicURL' |
   'childMarkdownRemark___frontmatter___rightImage___id' |
   'childMarkdownRemark___frontmatter___rightImage___children' |
-  'childMarkdownRemark___frontmatter___leftImage___sourceInstanceName' |
-  'childMarkdownRemark___frontmatter___leftImage___absolutePath' |
-  'childMarkdownRemark___frontmatter___leftImage___relativePath' |
-  'childMarkdownRemark___frontmatter___leftImage___extension' |
-  'childMarkdownRemark___frontmatter___leftImage___size' |
-  'childMarkdownRemark___frontmatter___leftImage___prettySize' |
-  'childMarkdownRemark___frontmatter___leftImage___modifiedTime' |
-  'childMarkdownRemark___frontmatter___leftImage___accessTime' |
-  'childMarkdownRemark___frontmatter___leftImage___changeTime' |
-  'childMarkdownRemark___frontmatter___leftImage___birthTime' |
-  'childMarkdownRemark___frontmatter___leftImage___root' |
-  'childMarkdownRemark___frontmatter___leftImage___dir' |
-  'childMarkdownRemark___frontmatter___leftImage___base' |
-  'childMarkdownRemark___frontmatter___leftImage___ext' |
-  'childMarkdownRemark___frontmatter___leftImage___name' |
-  'childMarkdownRemark___frontmatter___leftImage___relativeDirectory' |
-  'childMarkdownRemark___frontmatter___leftImage___dev' |
-  'childMarkdownRemark___frontmatter___leftImage___mode' |
-  'childMarkdownRemark___frontmatter___leftImage___nlink' |
-  'childMarkdownRemark___frontmatter___leftImage___uid' |
-  'childMarkdownRemark___frontmatter___leftImage___gid' |
-  'childMarkdownRemark___frontmatter___leftImage___rdev' |
-  'childMarkdownRemark___frontmatter___leftImage___ino' |
-  'childMarkdownRemark___frontmatter___leftImage___atimeMs' |
-  'childMarkdownRemark___frontmatter___leftImage___mtimeMs' |
-  'childMarkdownRemark___frontmatter___leftImage___ctimeMs' |
-  'childMarkdownRemark___frontmatter___leftImage___atime' |
-  'childMarkdownRemark___frontmatter___leftImage___mtime' |
-  'childMarkdownRemark___frontmatter___leftImage___ctime' |
-  'childMarkdownRemark___frontmatter___leftImage___birthtime' |
-  'childMarkdownRemark___frontmatter___leftImage___birthtimeMs' |
-  'childMarkdownRemark___frontmatter___leftImage___blksize' |
-  'childMarkdownRemark___frontmatter___leftImage___blocks' |
-  'childMarkdownRemark___frontmatter___leftImage___publicURL' |
-  'childMarkdownRemark___frontmatter___leftImage___id' |
-  'childMarkdownRemark___frontmatter___leftImage___children' |
-  'childMarkdownRemark___frontmatter___align' |
-  'childMarkdownRemark___frontmatter___imageColumnWidth' |
-  'childMarkdownRemark___frontmatter___section' |
-  'childMarkdownRemark___frontmatter___tripPlanner' |
   'childMarkdownRemark___frontmatter___date' |
   'childMarkdownRemark___frontmatter___category' |
   'childMarkdownRemark___frontmatter___tags' |
@@ -1575,6 +1575,71 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___pageTemplate' |
   'frontmatter___blockName' |
   'frontmatter___order' |
+  'frontmatter___leftImage___sourceInstanceName' |
+  'frontmatter___leftImage___absolutePath' |
+  'frontmatter___leftImage___relativePath' |
+  'frontmatter___leftImage___extension' |
+  'frontmatter___leftImage___size' |
+  'frontmatter___leftImage___prettySize' |
+  'frontmatter___leftImage___modifiedTime' |
+  'frontmatter___leftImage___accessTime' |
+  'frontmatter___leftImage___changeTime' |
+  'frontmatter___leftImage___birthTime' |
+  'frontmatter___leftImage___root' |
+  'frontmatter___leftImage___dir' |
+  'frontmatter___leftImage___base' |
+  'frontmatter___leftImage___ext' |
+  'frontmatter___leftImage___name' |
+  'frontmatter___leftImage___relativeDirectory' |
+  'frontmatter___leftImage___dev' |
+  'frontmatter___leftImage___mode' |
+  'frontmatter___leftImage___nlink' |
+  'frontmatter___leftImage___uid' |
+  'frontmatter___leftImage___gid' |
+  'frontmatter___leftImage___rdev' |
+  'frontmatter___leftImage___ino' |
+  'frontmatter___leftImage___atimeMs' |
+  'frontmatter___leftImage___mtimeMs' |
+  'frontmatter___leftImage___ctimeMs' |
+  'frontmatter___leftImage___atime' |
+  'frontmatter___leftImage___mtime' |
+  'frontmatter___leftImage___ctime' |
+  'frontmatter___leftImage___birthtime' |
+  'frontmatter___leftImage___birthtimeMs' |
+  'frontmatter___leftImage___blksize' |
+  'frontmatter___leftImage___blocks' |
+  'frontmatter___leftImage___publicURL' |
+  'frontmatter___leftImage___childImageSharp___id' |
+  'frontmatter___leftImage___childImageSharp___children' |
+  'frontmatter___leftImage___id' |
+  'frontmatter___leftImage___parent___id' |
+  'frontmatter___leftImage___parent___children' |
+  'frontmatter___leftImage___children' |
+  'frontmatter___leftImage___children___id' |
+  'frontmatter___leftImage___children___children' |
+  'frontmatter___leftImage___internal___content' |
+  'frontmatter___leftImage___internal___contentDigest' |
+  'frontmatter___leftImage___internal___description' |
+  'frontmatter___leftImage___internal___fieldOwners' |
+  'frontmatter___leftImage___internal___ignoreType' |
+  'frontmatter___leftImage___internal___mediaType' |
+  'frontmatter___leftImage___internal___owner' |
+  'frontmatter___leftImage___internal___type' |
+  'frontmatter___leftImage___childMarkdownRemark___id' |
+  'frontmatter___leftImage___childMarkdownRemark___excerpt' |
+  'frontmatter___leftImage___childMarkdownRemark___rawMarkdownBody' |
+  'frontmatter___leftImage___childMarkdownRemark___fileAbsolutePath' |
+  'frontmatter___leftImage___childMarkdownRemark___html' |
+  'frontmatter___leftImage___childMarkdownRemark___htmlAst' |
+  'frontmatter___leftImage___childMarkdownRemark___excerptAst' |
+  'frontmatter___leftImage___childMarkdownRemark___headings' |
+  'frontmatter___leftImage___childMarkdownRemark___timeToRead' |
+  'frontmatter___leftImage___childMarkdownRemark___tableOfContents' |
+  'frontmatter___leftImage___childMarkdownRemark___children' |
+  'frontmatter___align' |
+  'frontmatter___imageColumnWidth' |
+  'frontmatter___section' |
+  'frontmatter___tripPlanner' |
   'frontmatter___heading' |
   'frontmatter___subheading' |
   'frontmatter___backgroundImage___sourceInstanceName' |
@@ -1699,71 +1764,6 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___rightImage___childMarkdownRemark___timeToRead' |
   'frontmatter___rightImage___childMarkdownRemark___tableOfContents' |
   'frontmatter___rightImage___childMarkdownRemark___children' |
-  'frontmatter___leftImage___sourceInstanceName' |
-  'frontmatter___leftImage___absolutePath' |
-  'frontmatter___leftImage___relativePath' |
-  'frontmatter___leftImage___extension' |
-  'frontmatter___leftImage___size' |
-  'frontmatter___leftImage___prettySize' |
-  'frontmatter___leftImage___modifiedTime' |
-  'frontmatter___leftImage___accessTime' |
-  'frontmatter___leftImage___changeTime' |
-  'frontmatter___leftImage___birthTime' |
-  'frontmatter___leftImage___root' |
-  'frontmatter___leftImage___dir' |
-  'frontmatter___leftImage___base' |
-  'frontmatter___leftImage___ext' |
-  'frontmatter___leftImage___name' |
-  'frontmatter___leftImage___relativeDirectory' |
-  'frontmatter___leftImage___dev' |
-  'frontmatter___leftImage___mode' |
-  'frontmatter___leftImage___nlink' |
-  'frontmatter___leftImage___uid' |
-  'frontmatter___leftImage___gid' |
-  'frontmatter___leftImage___rdev' |
-  'frontmatter___leftImage___ino' |
-  'frontmatter___leftImage___atimeMs' |
-  'frontmatter___leftImage___mtimeMs' |
-  'frontmatter___leftImage___ctimeMs' |
-  'frontmatter___leftImage___atime' |
-  'frontmatter___leftImage___mtime' |
-  'frontmatter___leftImage___ctime' |
-  'frontmatter___leftImage___birthtime' |
-  'frontmatter___leftImage___birthtimeMs' |
-  'frontmatter___leftImage___blksize' |
-  'frontmatter___leftImage___blocks' |
-  'frontmatter___leftImage___publicURL' |
-  'frontmatter___leftImage___childImageSharp___id' |
-  'frontmatter___leftImage___childImageSharp___children' |
-  'frontmatter___leftImage___id' |
-  'frontmatter___leftImage___parent___id' |
-  'frontmatter___leftImage___parent___children' |
-  'frontmatter___leftImage___children' |
-  'frontmatter___leftImage___children___id' |
-  'frontmatter___leftImage___children___children' |
-  'frontmatter___leftImage___internal___content' |
-  'frontmatter___leftImage___internal___contentDigest' |
-  'frontmatter___leftImage___internal___description' |
-  'frontmatter___leftImage___internal___fieldOwners' |
-  'frontmatter___leftImage___internal___ignoreType' |
-  'frontmatter___leftImage___internal___mediaType' |
-  'frontmatter___leftImage___internal___owner' |
-  'frontmatter___leftImage___internal___type' |
-  'frontmatter___leftImage___childMarkdownRemark___id' |
-  'frontmatter___leftImage___childMarkdownRemark___excerpt' |
-  'frontmatter___leftImage___childMarkdownRemark___rawMarkdownBody' |
-  'frontmatter___leftImage___childMarkdownRemark___fileAbsolutePath' |
-  'frontmatter___leftImage___childMarkdownRemark___html' |
-  'frontmatter___leftImage___childMarkdownRemark___htmlAst' |
-  'frontmatter___leftImage___childMarkdownRemark___excerptAst' |
-  'frontmatter___leftImage___childMarkdownRemark___headings' |
-  'frontmatter___leftImage___childMarkdownRemark___timeToRead' |
-  'frontmatter___leftImage___childMarkdownRemark___tableOfContents' |
-  'frontmatter___leftImage___childMarkdownRemark___children' |
-  'frontmatter___align' |
-  'frontmatter___imageColumnWidth' |
-  'frontmatter___section' |
-  'frontmatter___tripPlanner' |
   'frontmatter___date' |
   'frontmatter___category' |
   'frontmatter___tags' |
@@ -1896,15 +1896,15 @@ export type MarkdownRemarkFrontmatter = {
   pageTemplate?: Maybe<Scalars['String']>,
   blockName?: Maybe<Scalars['String']>,
   order?: Maybe<Scalars['Int']>,
-  heading?: Maybe<Scalars['String']>,
-  subheading?: Maybe<Scalars['String']>,
-  backgroundImage?: Maybe<File>,
-  rightImage?: Maybe<File>,
   leftImage?: Maybe<File>,
   align?: Maybe<Scalars['String']>,
   imageColumnWidth?: Maybe<Scalars['Int']>,
   section?: Maybe<Scalars['String']>,
   tripPlanner?: Maybe<Scalars['String']>,
+  heading?: Maybe<Scalars['String']>,
+  subheading?: Maybe<Scalars['String']>,
+  backgroundImage?: Maybe<File>,
+  rightImage?: Maybe<File>,
   date?: Maybe<Scalars['Date']>,
   category?: Maybe<Scalars['String']>,
   tags?: Maybe<Array<Maybe<Scalars['String']>>>,
@@ -1923,15 +1923,15 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   pageTemplate?: Maybe<StringQueryOperatorInput>,
   blockName?: Maybe<StringQueryOperatorInput>,
   order?: Maybe<IntQueryOperatorInput>,
-  heading?: Maybe<StringQueryOperatorInput>,
-  subheading?: Maybe<StringQueryOperatorInput>,
-  backgroundImage?: Maybe<FileFilterInput>,
-  rightImage?: Maybe<FileFilterInput>,
   leftImage?: Maybe<FileFilterInput>,
   align?: Maybe<StringQueryOperatorInput>,
   imageColumnWidth?: Maybe<IntQueryOperatorInput>,
   section?: Maybe<StringQueryOperatorInput>,
   tripPlanner?: Maybe<StringQueryOperatorInput>,
+  heading?: Maybe<StringQueryOperatorInput>,
+  subheading?: Maybe<StringQueryOperatorInput>,
+  backgroundImage?: Maybe<FileFilterInput>,
+  rightImage?: Maybe<FileFilterInput>,
   date?: Maybe<DateQueryOperatorInput>,
   category?: Maybe<StringQueryOperatorInput>,
   tags?: Maybe<StringQueryOperatorInput>,
@@ -2186,8 +2186,6 @@ export type QuerySiteArgs = {
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
-  port?: Maybe<IntQueryOperatorInput>,
-  host?: Maybe<StringQueryOperatorInput>,
   polyfill?: Maybe<BooleanQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   buildTime?: Maybe<DateQueryOperatorInput>
@@ -2257,8 +2255,6 @@ export type Site = Node & {
   children: Array<Node>,
   internal: Internal,
   siteMetadata?: Maybe<SiteSiteMetadata>,
-  port?: Maybe<Scalars['Int']>,
-  host?: Maybe<Scalars['String']>,
   polyfill?: Maybe<Scalars['Boolean']>,
   pathPrefix?: Maybe<Scalars['String']>,
   buildTime?: Maybe<Scalars['Date']>,
@@ -2389,8 +2385,6 @@ export type SiteFieldsEnum =
   'siteMetadata___title' |
   'siteMetadata___description' |
   'siteMetadata___author' |
-  'port' |
-  'host' |
   'polyfill' |
   'pathPrefix' |
   'buildTime';
@@ -2401,8 +2395,6 @@ export type SiteFilterInput = {
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
-  port?: Maybe<IntQueryOperatorInput>,
-  host?: Maybe<StringQueryOperatorInput>,
   polyfill?: Maybe<BooleanQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   buildTime?: Maybe<DateQueryOperatorInput>,
@@ -2612,6 +2604,18 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___plugins___pluginFilepath' |
   'pluginCreator___pluginOptions___removeAccents' |
   'pluginCreator___pluginOptions___maxWidth' |
+  'pluginCreator___pluginOptions___pathPrefix' |
+  'pluginCreator___pluginOptions___wrapperStyle' |
+  'pluginCreator___pluginOptions___backgroundColor' |
+  'pluginCreator___pluginOptions___linkImagesToOriginal' |
+  'pluginCreator___pluginOptions___showCaptions' |
+  'pluginCreator___pluginOptions___markdownCaptions' |
+  'pluginCreator___pluginOptions___withWebp' |
+  'pluginCreator___pluginOptions___tracedSVG' |
+  'pluginCreator___pluginOptions___loading' |
+  'pluginCreator___pluginOptions___disableBgImageOnAlpha' |
+  'pluginCreator___pluginOptions___disableBgImage' |
+  'pluginCreator___pluginOptions___ignoreFileExtensions' |
   'pluginCreator___pluginOptions___classPrefix' |
   'pluginCreator___pluginOptions___name' |
   'pluginCreator___pluginOptions___path' |
@@ -2816,12 +2820,36 @@ export type SitePluginFieldsEnum =
   'pluginOptions___plugins___pluginOptions___icon' |
   'pluginOptions___plugins___pluginOptions___removeAccents' |
   'pluginOptions___plugins___pluginOptions___maxWidth' |
+  'pluginOptions___plugins___pluginOptions___pathPrefix' |
+  'pluginOptions___plugins___pluginOptions___wrapperStyle' |
+  'pluginOptions___plugins___pluginOptions___backgroundColor' |
+  'pluginOptions___plugins___pluginOptions___linkImagesToOriginal' |
+  'pluginOptions___plugins___pluginOptions___showCaptions' |
+  'pluginOptions___plugins___pluginOptions___markdownCaptions' |
+  'pluginOptions___plugins___pluginOptions___withWebp' |
+  'pluginOptions___plugins___pluginOptions___tracedSVG' |
+  'pluginOptions___plugins___pluginOptions___loading' |
+  'pluginOptions___plugins___pluginOptions___disableBgImageOnAlpha' |
+  'pluginOptions___plugins___pluginOptions___disableBgImage' |
+  'pluginOptions___plugins___pluginOptions___ignoreFileExtensions' |
   'pluginOptions___plugins___pluginOptions___classPrefix' |
   'pluginOptions___plugins___browserAPIs' |
   'pluginOptions___plugins___ssrAPIs' |
   'pluginOptions___plugins___pluginFilepath' |
   'pluginOptions___removeAccents' |
   'pluginOptions___maxWidth' |
+  'pluginOptions___pathPrefix' |
+  'pluginOptions___wrapperStyle' |
+  'pluginOptions___backgroundColor' |
+  'pluginOptions___linkImagesToOriginal' |
+  'pluginOptions___showCaptions' |
+  'pluginOptions___markdownCaptions' |
+  'pluginOptions___withWebp' |
+  'pluginOptions___tracedSVG' |
+  'pluginOptions___loading' |
+  'pluginOptions___disableBgImageOnAlpha' |
+  'pluginOptions___disableBgImage' |
+  'pluginOptions___ignoreFileExtensions' |
   'pluginOptions___classPrefix' |
   'pluginOptions___name' |
   'pluginOptions___path' |
@@ -2948,6 +2976,18 @@ export type SitePluginPluginOptions = {
   plugins?: Maybe<Array<Maybe<SitePluginPluginOptionsPlugins>>>,
   removeAccents?: Maybe<Scalars['Boolean']>,
   maxWidth?: Maybe<Scalars['Int']>,
+  pathPrefix?: Maybe<Scalars['String']>,
+  wrapperStyle?: Maybe<Scalars['String']>,
+  backgroundColor?: Maybe<Scalars['String']>,
+  linkImagesToOriginal?: Maybe<Scalars['Boolean']>,
+  showCaptions?: Maybe<Scalars['Boolean']>,
+  markdownCaptions?: Maybe<Scalars['Boolean']>,
+  withWebp?: Maybe<Scalars['Boolean']>,
+  tracedSVG?: Maybe<Scalars['Boolean']>,
+  loading?: Maybe<Scalars['String']>,
+  disableBgImageOnAlpha?: Maybe<Scalars['Boolean']>,
+  disableBgImage?: Maybe<Scalars['Boolean']>,
+  ignoreFileExtensions?: Maybe<Array<Maybe<Scalars['String']>>>,
   classPrefix?: Maybe<Scalars['String']>,
   name?: Maybe<Scalars['String']>,
   path?: Maybe<Scalars['String']>,
@@ -2965,6 +3005,18 @@ export type SitePluginPluginOptionsFilterInput = {
   plugins?: Maybe<SitePluginPluginOptionsPluginsFilterListInput>,
   removeAccents?: Maybe<BooleanQueryOperatorInput>,
   maxWidth?: Maybe<IntQueryOperatorInput>,
+  pathPrefix?: Maybe<StringQueryOperatorInput>,
+  wrapperStyle?: Maybe<StringQueryOperatorInput>,
+  backgroundColor?: Maybe<StringQueryOperatorInput>,
+  linkImagesToOriginal?: Maybe<BooleanQueryOperatorInput>,
+  showCaptions?: Maybe<BooleanQueryOperatorInput>,
+  markdownCaptions?: Maybe<BooleanQueryOperatorInput>,
+  withWebp?: Maybe<BooleanQueryOperatorInput>,
+  tracedSVG?: Maybe<BooleanQueryOperatorInput>,
+  loading?: Maybe<StringQueryOperatorInput>,
+  disableBgImageOnAlpha?: Maybe<BooleanQueryOperatorInput>,
+  disableBgImage?: Maybe<BooleanQueryOperatorInput>,
+  ignoreFileExtensions?: Maybe<StringQueryOperatorInput>,
   classPrefix?: Maybe<StringQueryOperatorInput>,
   name?: Maybe<StringQueryOperatorInput>,
   path?: Maybe<StringQueryOperatorInput>,
@@ -3008,6 +3060,18 @@ export type SitePluginPluginOptionsPluginsPluginOptions = {
   icon?: Maybe<Scalars['Boolean']>,
   removeAccents?: Maybe<Scalars['Boolean']>,
   maxWidth?: Maybe<Scalars['Int']>,
+  pathPrefix?: Maybe<Scalars['String']>,
+  wrapperStyle?: Maybe<Scalars['String']>,
+  backgroundColor?: Maybe<Scalars['String']>,
+  linkImagesToOriginal?: Maybe<Scalars['Boolean']>,
+  showCaptions?: Maybe<Scalars['Boolean']>,
+  markdownCaptions?: Maybe<Scalars['Boolean']>,
+  withWebp?: Maybe<Scalars['Boolean']>,
+  tracedSVG?: Maybe<Scalars['Boolean']>,
+  loading?: Maybe<Scalars['String']>,
+  disableBgImageOnAlpha?: Maybe<Scalars['Boolean']>,
+  disableBgImage?: Maybe<Scalars['Boolean']>,
+  ignoreFileExtensions?: Maybe<Array<Maybe<Scalars['String']>>>,
   classPrefix?: Maybe<Scalars['String']>,
 };
 
@@ -3015,6 +3079,18 @@ export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
   icon?: Maybe<BooleanQueryOperatorInput>,
   removeAccents?: Maybe<BooleanQueryOperatorInput>,
   maxWidth?: Maybe<IntQueryOperatorInput>,
+  pathPrefix?: Maybe<StringQueryOperatorInput>,
+  wrapperStyle?: Maybe<StringQueryOperatorInput>,
+  backgroundColor?: Maybe<StringQueryOperatorInput>,
+  linkImagesToOriginal?: Maybe<BooleanQueryOperatorInput>,
+  showCaptions?: Maybe<BooleanQueryOperatorInput>,
+  markdownCaptions?: Maybe<BooleanQueryOperatorInput>,
+  withWebp?: Maybe<BooleanQueryOperatorInput>,
+  tracedSVG?: Maybe<BooleanQueryOperatorInput>,
+  loading?: Maybe<StringQueryOperatorInput>,
+  disableBgImageOnAlpha?: Maybe<BooleanQueryOperatorInput>,
+  disableBgImage?: Maybe<BooleanQueryOperatorInput>,
+  ignoreFileExtensions?: Maybe<StringQueryOperatorInput>,
   classPrefix?: Maybe<StringQueryOperatorInput>,
 };
 

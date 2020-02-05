@@ -20,39 +20,27 @@ const MarkdownBlock: React.FC<MarkdownBlockProps> = ({
 	leftImage,
 	rightImage,
 	align,
-	imageColumnWidth,
 	contentColumnWidth
 }) => {
-	imageColumnWidth = imageColumnWidth || 4;
+	contentColumnWidth = contentColumnWidth || 12;
 
-	if ( contentColumnWidth ) {
-		var textColumnWith = contentColumnWidth;
-		var offset = 'is-offset-' + ( 12 - contentColumnWidth ) / 2;
-	}
-	else {
-		textColumnWith = 12
-			- (leftImage? imageColumnWidth : 0)
-			- (rightImage? imageColumnWidth : 0);
-	}
+	const imageColumnWidth = (12 - contentColumnWidth) / 2
 
 	return (
-		<div className={`${ className } columns${align === 'vertical' ? ' is-vcentered' : ''}`}>
-			{
-				leftImage &&
-				<div className={`column is-${ imageColumnWidth }`}>
-					<PreviewCompatibleImage imageInfo={ leftImage } />
-				</div>
-			}
+		<div className={`${ className? className : '' } columns${align === 'vertical' ? ' is-vcentered' : ''}`}>
+				
+			<div className={`column is-${ imageColumnWidth }`}>
+				{ leftImage && <PreviewCompatibleImage imageInfo={ leftImage } /> }
+			</div>
 
-			<div className={`column is-${textColumnWith} ${ offset }`}>
+			<div className={`column is-${ contentColumnWidth }`}>
 				<HTMLContent className="content" content={content} />
 			</div>
 
-			{rightImage && (
-				<div className={`column is-${ imageColumnWidth}`}>
-					<PreviewCompatibleImage imageInfo={rightImage} />
-				</div>
-			)}
+			<div className={`column is-${ imageColumnWidth}`}>
+				{ rightImage && <PreviewCompatibleImage imageInfo={rightImage} /> }
+			</div>
+
 		</div>
 	);
 };

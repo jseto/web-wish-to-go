@@ -6,7 +6,8 @@
  */
 import * as React from 'react';
 import { Fragment } from "react"
-import './all.sass'
+// import './all.sass'
+import './wish-to-go.sass'
 import { Navbar } from "./navbar";
 import Footer from './footer'
 
@@ -36,14 +37,16 @@ export class Layout extends React.Component<{}, LayoutState> {
 export const SectionBody: React.FC = ({ children })=>{
 	return (
 		<section className="section">
-			<div className="columns">
-				<div className="column is-10-desktop is-offset-1-desktop">
-					<div className="content">
-						{ children }
+			<div className="container">
+				<div className="content">
+					<div className="columns is-desktop">
+						<div className="column is-10-desktop is-offset-1-desktop">
+							{ children }
 						</div>
-          </div>
-        </div>
-      </section>
+					</div>
+				</div>
+			</div>
+  	</section>
 	)
 }
 

@@ -1,7 +1,7 @@
 ---
 pageTemplate: trip-planner
 blockName: header
-tripPlanner: <TravelPlanWidget></TravelPlanWidget>
+tripPlanner: <TravelPlanWidget blog="/blog"></TravelPlanWidget>
 order: 1
 ---
 
