@@ -27,7 +27,7 @@ const MarkdownBlock: React.FC<MarkdownBlockProps> = ({
 	const imageColumnWidth = (12 - contentColumnWidth) / 2
 
 	return (
-		<div className={`${ className? className : '' } columns${align === 'vertical' ? ' is-vcentered' : ''}`}>
+		<div className={`markdown-block ${ className? className : '' } columns${align === 'vertical' ? ' is-vcentered' : ''}`}>
 				
 			<div className={`column is-${ imageColumnWidth }`}>
 				{ leftImage && <PreviewCompatibleImage imageInfo={ leftImage } /> }

@@ -11,7 +11,8 @@ module.exports = {
   siteMetadata: {
     title: `Wish to go`,
     description: `Improve visitor engagement in your travel blog site.`,
-    author: `@wish_to_go`,
+		author: `@wish_to_go`,
+		siteUrl: `https://wish-to-go.com`,
   },
   plugins: [
 		`gatsby-plugin-ts`,
@@ -79,6 +80,18 @@ module.exports = {
 				path: `${__dirname}/src/posts/generic`,
 			}
 		},
+		{
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        // your google analytics tracking id
+        trackingId: `G-DV6NWG4TE7`,
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // enable ip anonymization
+        anonymize: false,
+      },
+    },
+		`gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
