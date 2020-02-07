@@ -15,7 +15,7 @@ export class HowToUse extends React.Component<GraphQLProps> {
 
 		return (
 			<Layout>
-				<SEO title="Home" />
+				<SEO title="How to use" />
 
 				<div className="hero is-primary" style={{ textAlign: 'center' }}>
 				<div className="hero-body">

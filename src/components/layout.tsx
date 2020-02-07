@@ -10,6 +10,7 @@ import { Fragment } from "react"
 import './wish-to-go.sass'
 import { Navbar } from "./navbar";
 import Footer from './footer'
+import { HTMLContent } from './content';
 
 interface LayoutState {
 	script: any;
@@ -18,6 +19,10 @@ interface LayoutState {
 export class Layout extends React.Component<{}, LayoutState> {
 	componentDidMount() {
 		window[ 'wtgInit' ]()
+	}
+
+	componentWillUnmount() {
+			window[ 'wtgDismount' ]()
 	}
 
 	render() {
@@ -29,6 +34,12 @@ export class Layout extends React.Component<{}, LayoutState> {
 	      <main>{children}</main>
 				<Footer/>
 				{ this.state && this.state.script }
+
+				<HTMLContent 
+					className="stick-to-bottom" 
+					content="<WishCounterWidget></WishCounterWidget>" 
+				/>
+
 	    </Fragment>
 	  )
 	}

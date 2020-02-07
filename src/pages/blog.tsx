@@ -13,7 +13,7 @@ interface GraphQLProps {
 export const Blog: React.FC<GraphQLProps> = ({ data }) => {
 	return (
 		<Layout>
-			<SEO title="Home" />
+			<SEO title="Travel Blog demo" />
 
 			<div className="hero is-primary" style={{ textAlign: 'center' }}>
 				<div className="hero-body">

@@ -44,7 +44,7 @@ export class Navbar extends React.Component<{}, NavbarState> {
 	render() {
 		return (
 			<nav
-				className="navbar is-transparent"
+				className="navbar is-dark"
 				role="navigation"
 				aria-label="main-navigation"
 			>
@@ -53,7 +53,7 @@ export class Navbar extends React.Component<{}, NavbarState> {
 						<Link to="/" className="navbar-item" title="Logo">
 							<img src={logo} alt="Wish to go" style={{ width: '88px' }} />
 						</Link>
-						{/* Hamburger menu */}
+					{/* Hamburger menu */}
 						<div
 							className={`navbar-burger burger ${this.state.navBarActiveClass}`}
 							data-target="navMenu"

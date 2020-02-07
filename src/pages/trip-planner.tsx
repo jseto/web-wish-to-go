@@ -15,7 +15,7 @@ export class TripPlanner extends React.Component<GraphQLProps> {
 
 		return (
 			<Layout>
-				<SEO title="Home" />
+				<SEO title="Trip planner" />
 
 				<div className="hero is-primary" style={{ textAlign: 'center' }}>
 				<div className="hero-body">
