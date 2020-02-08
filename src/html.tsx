@@ -26,6 +26,7 @@ export const HTML: React.FC = (props: any ) => {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <link rel="preload" href={ `${ wishToGoHost }wish-to-go.css`} as="style"/>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
