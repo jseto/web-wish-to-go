@@ -3,10 +3,10 @@ import {Layout, SectionBody} from "../components/layout"
 import { SEO } from "../components/seo"
 import MarkdownBlock from "../components/markdown-block"
 import { graphql } from "gatsby"
-import { HowToUseQuery } from "../../graphql-types"
+import { TripPlannerQuery } from "../../graphql-types"
 
 interface GraphQLProps {
-	data: HowToUseQuery;
+	data: TripPlannerQuery;
 }
 
 export class TripPlanner extends React.Component<GraphQLProps> {
@@ -27,6 +27,7 @@ export class TripPlanner extends React.Component<GraphQLProps> {
 				</div>
 
 				<SectionBody>
+
 					{
 						blocks.map( block =>
 							<MarkdownBlock
@@ -36,7 +37,6 @@ export class TripPlanner extends React.Component<GraphQLProps> {
 							/>
 						)
 					}
-
 
 					<MarkdownBlock
 						className="trip-planner"
