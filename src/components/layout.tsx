@@ -6,8 +6,8 @@
  */
 import * as React from 'react';
 import { Fragment } from "react"
-// import './all.sass'
-import './wish-to-go.sass'
+import './all.sass'
+import './wish-to-go-widget-customization.scss'
 import { Navbar } from "./navbar";
 import Footer from './footer'
 import { HTMLContent } from './content';
