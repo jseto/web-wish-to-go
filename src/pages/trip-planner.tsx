@@ -12,6 +12,7 @@ interface GraphQLProps {
 export class TripPlanner extends React.Component<GraphQLProps> {
 	render() {
 		const { data } = this.props;
+		const blocks = data.allMarkdownRemark.nodes;
 
 		return (
 			<Layout>
@@ -26,6 +27,16 @@ export class TripPlanner extends React.Component<GraphQLProps> {
 				</div>
 
 				<SectionBody>
+					{
+						blocks.map( block =>
+							<MarkdownBlock
+								className="index-block"
+								key={ block.id }
+								content={ block.html }
+							/>
+						)
+					}
+
 
 					<MarkdownBlock
 						className="trip-planner"
@@ -49,5 +60,11 @@ query TripPlanner {
 		frontmatter {
 			tripPlanner
 		}
-  }
+	}
+	allMarkdownRemark(filter: {frontmatter: {pageTemplate: {eq: "trip-planner"}, blockName: {eq: "block"}}}, sort: {order: ASC, fields: frontmatter___order}) {
+		nodes {
+			html
+			id
+		}
+	}
 }`
