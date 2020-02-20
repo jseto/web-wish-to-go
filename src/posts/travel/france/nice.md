@@ -8,21 +8,20 @@ tags:
 ---
 
 # Nice
-<WishWidget country="FR" city="Nice" label="true"></WishWidget>
+<WishWidget country="FR" city="Nice" label="true" picture="https://images.unsplash.com/photo-1491166617655-0723a0999cfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"></WishWidget>
+
+![Nice - Photo by Nick Karvounis on Unsplash](https://images.unsplash.com/photo-1491166617655-0723a0999cfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 
 Nice is a large city in France on the French Riviera. It's a popular destination for tourists, both young and old, with something to offer nearly everyone. It is well known for the beautiful view on the *Promenade des Anglais*, its famous waterfront, and is an ethnically diverse port city.
 
 ## What to see
 
-![Colline du chateau](https://wikitravel.org/upload/shared//thumb/c/cb/NiceColline.JPG/300px-NiceColline.JPG)
+![Colline du chateau](https://images.unsplash.com/photo-1521309033026-f3438b7c4264?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80)
 
-The **Colline du Chateau** <WishWidget country="FR" city="Nice" activity="Colline du Chateau"></WishWidget> overlooking the _Baie des Anges_ and harbour offers a spectacular vantage point overlooking the city. Not much is left of its ruined castle besides crumbling walls. Still, climbing up the stairs to reach the platforms 90 metres above Nice is well worth the view. There is also an *ascenseur* (lift) which will take you three quarters of the way up. Be aware that the castle _park_ closes at around
+The **Colline du Chateau** <WishWidget country="FR" city="Nice" activity="Colline du Chateau" picture="https://images.unsplash.com/photo-1521309033026-f3438b7c4264?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"></WishWidget> overlooking the _Baie des Anges_ and harbour offers a spectacular vantage point overlooking the city. Not much is left of its ruined castle besides crumbling walls. Still, climbing up the stairs to reach the platforms 90 metres above Nice is well worth the view. There is also an *ascenseur* (lift) which will take you three quarters of the way up. Be aware that the castle _park_ closes at around
 sunset. Expect to be escorted outside if you stay longer.
 
 ### Museums
-
-![Museum of
-Asian Art](https://wikitravel.org/upload/shared//thumb/9/9f/NiceAsianMuseum.jpg/300px-NiceAsianMuseum.jpg)
 
 Nice is also known for several museums, entry to most of which (as of July 2008) is free. Some of the most famous are in Cimiez, the older, upper part of the city which in a previous century was a favourite of Queen Victoria, including:
 
@@ -39,7 +38,9 @@ Nice is also known for several museums, entry to most of which (as of July 2008)
 	Charming collection of paintings, drawings and sculptures in 17th century Genoese villa
 
 ### The Beaches
-<WishWidget country="FR" city="Nice" activity="Beaches"></WishWidget>
+<WishWidget country="FR" city="Nice" activity="Beaches" picture="https://images.unsplash.com/photo-1485716797159-8b39d572960d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"></WishWidget>
+
+![The Beaches - Photo by Jp Valery on Unsplash](https://images.unsplash.com/photo-1485716797159-8b39d572960d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 
 If you go to Nice for bathing or general lounging on the beach, you may wish to think again. The beaches of Nice consist entirely of large flat stones (_gallets_).
 

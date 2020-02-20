@@ -8,7 +8,9 @@ tags:
 ---
 
 # Strasbourg
-<WishWidget country="FR" city="Strasbourg" label="true"></WishWidget>
+<WishWidget country="FR" city="Strasbourg" label="true" picture="https://images.unsplash.com/photo-1572965735971-82a251c84b82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"></WishWidget>
+
+![Strasbourg - Photo by Patrick Robert Doyle on Unsplash](https://images.unsplash.com/photo-1572965735971-82a251c84b82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80)
 
 Strasbourg is the capital of the Alsace region of France and is most widely known for hosting a number of important European institutions. It is also famous for its beautiful historical centre —the _Grande Île_— which was the first city centre to be classified entirely as a World Heritage Site by UNESCO.
 
@@ -22,7 +24,7 @@ Strasbourg is the capital of the Alsace region of France and is most widely know
 
 	Neoclassicist opera house, home of the opera company _L'Opéra National du Rhin_.
 
-- **Petite France** <WishWidget country="FR" city="Strasbourg" activity="Paetite France"></WishWidget>
+- **Petite France** <WishWidget country="FR" city="Strasbourg" activity="Petite France"></WishWidget>
 
 	![Petite France](https://wikitravel.org/upload/en/thumb/8/84/Petitfrance.JPG/350px-Petitfrance.JPG)
 

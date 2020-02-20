@@ -8,9 +8,9 @@ tags:
 ---
 
 # San Sebastian
-<WishWidget	country="ES" city="San Sebastian"	picture="https://wikitravel.org/upload/en/thumb/a/a9/San_Sebastian.JPG/320px-San_Sebastian.JPG" label="true"></WishWidget>
+<WishWidget	country="ES" city="San Sebastian"	picture="https://images.unsplash.com/photo-1553455010-bdb488ac12e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" label="true"></WishWidget>
 
-![San Sebastian](https://wikitravel.org/upload/en/thumb/a/a9/San_Sebastian.JPG/320px-San_Sebastian.JPG)
+![San Sebastian - Photo by Raul Cacho Oses on Unsplash](https://images.unsplash.com/photo-1553455010-bdb488ac12e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80)
 
 San Sebastian boasts one of the best in-city beaches in Europe. It is quite unusual feeling that you can sunbathe and swim right next to major historical buildings and churches. Surfers are in abundance here.
 
@@ -22,7 +22,7 @@ The city is quite small and cosy, featuring many fish restaurants, several beach
 
 There are two main beaches, one on either side of the river.
 
-- **La Concha**	<WishWidget	country="ES" city="San Sebastian"	activity="La Concha" picture="https://wikitravel.org/upload/en/thumb/1/19/SanSebastian_PaseoDeLaConcha.jpg/320px-SanSebastian_PaseoDeLaConcha.jpg"></WishWidget>, on the west side is the larger, is protected from the sea and has an island and boats in the bay.
+- **La Concha**	<WishWidget	country="ES" city="San Sebastian"	activity="La Concha" picture="https://images.unsplash.com/photo-1541696600154-297b00782a04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"></WishWidget>, on the west side is the larger, is protected from the sea and has an island and boats in the bay.
 
 - **Ondarreta** <WishWidget	country="ES" city="San Sebastian"	activity="Ondarreta"></WishWidget>is in the same bay as La Concha, but split by *El pico del Loro* (a rocky outcropping). _La Concha_ and _Ondarreta_ have umbrellas, tents and lounge chairs for €15 per day; free WC, showers and changing rooms. A team of fully-equipped life-guards are there during the daytime.
 

@@ -8,9 +8,9 @@ tags:
 ---
 
 # Bangkok
-<WishWidget	country="TH" city="Bangkok" picture="https://wikitravel.org/upload/shared//thumb/5/59/Tuktukpktalad05b.jpg/300px-Tuktukpktalad05b.jpg" label="true"></WishWidget>
+<WishWidget	country="TH" city="Bangkok" picture="https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80" label="true"></WishWidget>
 
-![Bangkok](https://wikitravel.org/upload/shared//thumb/5/59/Tuktukpktalad05b.jpg/300px-Tuktukpktalad05b.jpg)
+![Bangkok - Photo by Florian Wehde on Unsplash](https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80)
 
 Bangkok, official name _Krung Thep Maha Nakhon_, is the capital of Thailand and, with a population of over eleven million inhabitants, by far its largest city. Its high-rise buildings, heavy traffic congestion, intense heat and naughty nightlife may not immediately give you the best impression — but don't let that mislead you. It is one of Asia's most cosmopolitan cities with magnificent temples and palaces, authentic canals, busy markets and a vibrant nightlife that has something for everyone.
 
@@ -45,15 +45,13 @@ _Wat Phra Kaew_, the Temple of Emerald Buddha, is the most sacred Buddhist templ
 
 ## What to do
 
-- **Canal Tour** <WishWidget country="TH"
-	city="Bangkok" activity="Canal Tour" picture="https://wikitravel.org/upload/shared//thumb/0/05/DSC04039_copy.JPG/350px-DSC04039_copy.JPG"></WishWidget>
+- **Canal Tour** <WishWidget country="TH"	city="Bangkok" activity="Canal Tour" picture="https://images.unsplash.com/photo-1506801310323-534be5e7a730?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"></WishWidget>
 
-	![Canal Tour](https://wikitravel.org/upload/shared//thumb/0/05/DSC04039_copy.JPG/350px-DSC04039_copy.JPG)
+	![Canal Tour](https://images.unsplash.com/photo-1506801310323-534be5e7a730?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80)
 
 	A great way to see the _Chao Phraya__ River_ and the original canals of the city is by canal tour. Most of these special boat trips start at the eastern bank of the Chao Phraya and head through the backwaters of _Thonburi_, taking in Wat Arun, the Royal Barges National Museum and a floating market. More information about these canal tours can be found in the _Thonburi_ article. At 1,000 baht or more, they are quite expensive though; a cheaper and also fun activity is to take the public express boat along the Chao Phraya River. You can get off anywhere between Thewet and Sathon (_Taksin_) piers as there are many things to see in all those neighbourhoods. You can even go all the way north to _Nonthaburi_ in the morning, enjoy the afternoon in this laid-back traditional urban town and take the boat back around rush hour.
 
-- **Food Tour** <WishWidget
- 	country="TH" city="Bangkok" activity="Food Tour"></WishWidget>
+- **Food Tour** <WishWidget country="TH" city="Bangkok" activity="Food Tour"></WishWidget>
 
 	![Food Tour](https://static.asiawebdirect.com/m/bangkok/portals/bangkok-com/homepage/food-top10/pagePropertiesImage/thai-som-tum.jpg)
 
@@ -68,25 +66,17 @@ _Wat Phra Kaew_, the Temple of Emerald Buddha, is the most sacred Buddhist templ
 
 	Thai Cooking School is glad to bring you in a typical Thaï market for a tour. This tour is not a quick tour to show you what a market looks like, it’s much more than that! Indeed, we have decided to make you discover a real Thai market attended by only Thaï people and where you are going to find every fresh product we will need for cooking.
 
-- **Chatuchak Market** <WishWidget
- 	country="TH"
- 	city="Bangkok"
- 	activity="Chatuchak Market"
- 	picture="https://wikitravel.org/upload/shared//thumb/1/15/Weekend_market_bangkok.jpg/350px-Weekend_market_bangkok.jpg">
- </WishWidget>
+- **Chatuchak Market** <WishWidget country="TH" city="Bangkok" activity="Chatuchak Market" 	picture="https://images.unsplash.com/photo-1531638280689-3b3cd8ac2833?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"></WishWidget>
 
-	![Chatuchak Market](https://wikitravel.org/upload/shared//thumb/1/15/Weekend_market_bangkok.jpg/350px-Weekend_market_bangkok.jpg)
+	![Chatuchak Market - Photo by Zach Inglis on Unsplash](https://images.unsplash.com/photo-1531638280689-3b3cd8ac2833?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80)
 
 	Northern Bangkok's biggest draw is the Chatuchak Weekend Market, Sa-Su 09:00-18:00, +66 2 272-4441), an incredibly vast, 35-acre indoor and outdoor market that has more than 8,000 vendors selling anything and everything under the sun. To put that number in perspective, if you browsed every stall one minute each, non-stop for eight hours on every Saturday and Sunday, it would take you around two months to visit them all! A good rule of thumb is to buy immediately if you spot something interesting, as you will never find that same stall again.
 
 ## Bangkok Outskirts
 
-- **Amphawa Floating Market** <WishWidget
-	country="TH"
-	city="Bangkok"
-	activity="Amphawa Floating Market"></WishWidget>
+- **Amphawa Floating Market** <WishWidget	country="TH" city="Bangkok"	activity="Amphawa Floating Market" picture="https://images.unsplash.com/photo-1506781961370-37a89d6b3095?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"></WishWidget>
 
-	![Amphawa](https://wikitravel.org/upload/shared//thumb/0/05/DSC04039_copy.JPG/350px-DSC04039_copy.JPG)
+	![Amphawa - Photo by Lisheng Chang on Unsplash](https://images.unsplash.com/photo-1506781961370-37a89d6b3095?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80)
 
 	The canal-side way of life in Amphawa takes place along the waterfront walkways of Amphawa Canal, a small tributary of the _Mae Khlong_ River. Every weekend Thais flock to the Amphawa Floating Market, as big queues emerge along the canal's bridges and walkways. While commercially developed, the old wooden houses and shopfronts retain some of their original charm.
 

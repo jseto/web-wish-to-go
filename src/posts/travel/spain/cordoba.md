@@ -8,18 +8,16 @@ tags:
 ---
 
 # Cordoba
-<WishWidget country="ES" city="Cordoba" label="true"></WishWidget>
+<WishWidget country="ES" city="Cordoba" label="true" picture="https://images.unsplash.com/photo-1560331447-8c1f7f726c95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"></WishWidget>
 
-![Cordoba](https://wikitravel.org/upload/shared//thumb/0/0f/Belltower_street_cordoba.jpg/300px-Belltower_street_cordoba.jpg)
+![Cordoba](https://images.unsplash.com/photo-1560331447-8c1f7f726c95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 
 Cordoba is a mid-sized city of 350,000 inhabitants and the capital of the province of Cordoba, situated in the centre of *Andalucia* in Spain. A great cultural reference point in Europe, this ancient city has been declared a World Heritage Site and contains a mixture of the diverse cultures that have settled it throughout history.
 
 ## The Mezquita
 <WishWidget country="ES" city="Cordoba" activity="The Mezquita" label="true"></WishWidget>
 
-![The famous arches of the Mezquita](https://wikitravel.org/upload/shared//thumb/0/0a/Mezquita_arches_cordoba.jpg/350px-Mezquita_arches_cordoba.jpg)
-
-![The outside wall](https://wikitravel.org/upload/en/thumb/d/d6/Mezquitaout.jpg/300px-Mezquitaout.jpg)
+![The famous arches of the Mezquita](https://images.unsplash.com/photo-1572127803552-213cabfeefe6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
 
 The biggest attraction in Cordoba and a truly must-see building, the Mezquita is a massive former mosque-turned-cathedral famed for its “forest” of columns topped with Islamic-style red and white striped arches among its other many architectural highlights and serves as a reminder of the glory and importance Cordoba held in medieval times. The building is full of history and beauty - you'll want to give yourself at least a couple of hours to do it justice.
 
