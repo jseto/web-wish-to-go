@@ -5,6 +5,7 @@ import MarkdownBlock from "../components/markdown-block"
 import { graphql } from "gatsby"
 import { BlogQuery } from "../../graphql-types"
 import { BlogLastEntries } from "../templates/blog-last-entries"
+import { HTMLContent } from "../components/content"
 
 interface GraphQLProps {
 	data: BlogQuery;
@@ -26,6 +27,11 @@ export const Blog: React.FC<GraphQLProps> = ({ data }) => {
 			<SectionBody>
 
 				<BlogLastEntries />
+
+				<HTMLContent 
+					className="stick-to-bottom" 
+					content="<WishCounterWidget></WishCounterWidget>" 
+				/>
 
 			</SectionBody>
 		</Layout>

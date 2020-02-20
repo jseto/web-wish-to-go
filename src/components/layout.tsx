@@ -10,7 +10,6 @@ import './all.sass'
 import './wish-to-go-widget-customization.scss'
 import { Navbar } from "./navbar";
 import Footer from './footer'
-import { HTMLContent } from './content';
 
 interface LayoutState {
 	script: any;
@@ -33,12 +32,8 @@ export class Layout extends React.Component<{}, LayoutState> {
 				<Navbar/>
 	      <main>{children}</main>
 				<Footer/>
-				{ this.state && this.state.script }
 
-				<HTMLContent 
-					className="stick-to-bottom" 
-					content="<WishCounterWidget></WishCounterWidget>" 
-				/>
+				{ this.state && this.state.script }
 
 	    </Fragment>
 	  )

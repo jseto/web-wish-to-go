@@ -4,6 +4,7 @@ import { SEO } from "../components/seo"
 import MarkdownBlock from "../components/markdown-block"
 import { graphql } from "gatsby"
 import { BlogEntryPageQuery } from "../../graphql-types"
+import { HTMLContent } from "../components/content"
 
 interface GraphQLProps {
 	data: BlogEntryPageQuery;
@@ -22,6 +23,10 @@ export const BlogEntryPage: React.FC<GraphQLProps> = ({ data }) => {
 					content={ data.markdownRemark.html }
 				/>
 
+				<HTMLContent 
+					className="stick-to-bottom" 
+					content="<WishCounterWidget></WishCounterWidget>" 
+				/>
 			</SectionBody>
 		</Layout>
 	)
