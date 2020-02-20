@@ -7,7 +7,7 @@ tags:
   - Southeast Asia
 ---
 
-# The North and the mountains
+# The North and the mountains of Thailand
 
 ![Doi Intanon](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Naphamethinidon%2C_Naphaphonphumisiri_near_summit_of_Doi_Inthanon.jpg/1024px-Naphamethinidon%2C_Naphaphonphumisiri_near_summit_of_Doi_Inthanon.jpg)
 

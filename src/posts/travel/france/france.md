@@ -1,6 +1,6 @@
 ---
 title: France
-date: 2020-02-05T03:35:59Z
+date: 2020-02-05T04:32:59Z
 category: country
 tags:
   - France
@@ -18,7 +18,7 @@ France has been the world's most popular tourist destination for quite some time
 
 - [Paris](/france/paris) <WishWidget country="FR" city="Paris" label="true"></WishWidget>
 
-	- [Château de Versailles (Versailles)](/france/paris/#things-to-do)	<WishWidget country="FR" city="Paris" activity="Vesailles"></WishWidget>
+	- [Château de Versailles (Versailles)](/france/paris/#things-to-do)	<WishWidget country="FR" city="Paris" activity="Vesailles" post="/france/paris/#things-to-do"></WishWidget>
 
 	- [Notre Dame Cathedral](/france/paris/#things-to-do)	<WishWidget country="FR" city="Paris" activity="Notre Dame"></WishWidget>
 
