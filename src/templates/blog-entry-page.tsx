@@ -11,7 +11,7 @@ interface GraphQLProps {
 }
 
 export const BlogEntryPage: React.FC<GraphQLProps> = ({ data }) => {
-	const { title } = data.markdownRemark.frontmatter;
+	const { title, category } = data.markdownRemark.frontmatter;
 
 	return (
 		<Layout>
@@ -23,10 +23,12 @@ export const BlogEntryPage: React.FC<GraphQLProps> = ({ data }) => {
 					content={ data.markdownRemark.html }
 				/>
 
-				<HTMLContent 
-					className="stick-to-bottom" 
-					content="<WishCounterWidget></WishCounterWidget>" 
-				/>
+				{ category !== 'generic' &&
+					<HTMLContent 
+						className="stick-to-bottom" 
+						content="<WishCounterWidget></WishCounterWidget>" 
+					/>
+				}
 			</SectionBody>
 		</Layout>
 	)

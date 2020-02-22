@@ -9,7 +9,7 @@ order: 3
 
 ## Globetrotter
 **Tailored for the outstanding blogger**
-# $198.99
+# €198.99
 ### per month
 ### billed annually
 [Select](/subscription/?plan=globetrotter)

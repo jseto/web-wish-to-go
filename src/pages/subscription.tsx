@@ -135,7 +135,7 @@ export class Subscription extends React.Component<SubscriptionProps, Subscriptio
 			authProvider: 'email', 
 			email: email, 
 			password: password,
-			verificationLink: `https://wish-to-go.com/payment?plan=${this.plan}`,
+			verificationLink: `https://wish-to-go.com/${this.plan === 'backpacker'? 'payed' : 'payment'}?plan=${this.plan}`,
 		}).then( userCredential => {
 			console.log( 'Signed Up with Email', userCredential )
 			window.location.href = `/verification-email-sent`
@@ -149,7 +149,7 @@ export class Subscription extends React.Component<SubscriptionProps, Subscriptio
 			authProvider: provider,
 		}).then( userCredential => {
 			console.log( 'Signed Up with ' + provider, userCredential )
-			window.location.href = `/payment?plan=${this.plan}`
+			window.location.href = `/${this.plan === 'backpacker'? 'payed' : 'payment'}?plan=${this.plan}`
 		}).catch( error => {
 			console.error( 'Cannot sign up. Reason: ', error ) 
 		})

@@ -9,7 +9,7 @@ order: 2
 
 ## Explorer
 **Engage audience on mature websites**
-# $19.98
+# €29.97
 ### per month
 ### _billed annually_
 [Select](/subscription/?plan=explorer)
