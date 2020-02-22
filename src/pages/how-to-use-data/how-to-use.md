@@ -16,6 +16,8 @@ Installing **Wish To Go** in your blog is really easy. We provide 2 widgets in t
 
 - [TravelPlanWidget Tag Reference](#the-travelplanwidget-tag)
 
+- [WishCounterWidget Tag Reference](#the-wishcounterwidget-tag)
+
 ## Loading the JavaScript Code
 
 The JavaScript code is loaded by inserting this 
@@ -383,12 +385,30 @@ The **TravelPlanWidget** has only one attribute. It is used to set the customer'
 
 ```html
 	<TravelPlanWidget
-		customerId="xxxx-xxx-xxx-xxx"
+		customer-id="xxxx-xxx-xxx-xxx"
 	>
 	</TravelPlanWidget>
 ```
 
 Change the _xxxx-xxx-xxx-xxx_ string by your own customer's id.
+
+## The WishCounterWidget Tag
+
+This tag will show a heart icon with a wish counter in the top right corner of the heart. The Trip Planner will appear a a modal window when the user click on it. If you don't want a modal window you can set the page URL where you have the **Travel Plan Widget** using the `trip-planner` attribute.
+
+This widget is to be used in the bottom of your blog pages or as a menu item in the way it is used as a shopping chart in marketplaces.
+
+### WishCounterWidget attributes
+
+#### `trip-planner`
+
+URL where you have the **Travel Plan Widget**. When the user clicks on the **WishCounterWidget** it will be send to the URL specified in this attribute. If you leave this attribute empty or it is not declared, when the user clicks on the _widget_ a modal window with the Travel Plan will appear. We recommend **not setting** this attribute as it will improve the _user experience_.
+
+#### `customer-id`
+
+Set your customer id.
+
+
 
 
 [^country_wishwidget]: A ***Country WishWidget*** is a **WishWidget** with the `country` attribute set but not `city` and `activity` attributes. It is used to denote that the **WishWidget** describes a country as a whole.

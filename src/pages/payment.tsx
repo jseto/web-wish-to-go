@@ -73,6 +73,8 @@ export class Payment extends React.Component<PaymentProps, PaymentState> {
 		const { couponCode, validCoupon } = this.state
 		const periodName = period === 'anual'? 'year':'month'
 
+		if ( !plan ) return
+
 		return (
 			<React.Fragment>
 				{ validCoupon &&
@@ -85,7 +87,7 @@ export class Payment extends React.Component<PaymentProps, PaymentState> {
 								After the first { periodName } you will pay €{ plans[ plan ][ period ].net.totalPrice }&nbsp; 
 							</p>				
 							Saves €{ 
-								plans[ plan ][ period ].net.totalPrice - plans[ plan ][ period ].coupon.totalPrice 
+								( plans[ plan ][ period ].net.totalPrice - plans[ plan ][ period ].coupon.totalPrice ).toFixed(2)
 							} from coupon { couponCode }
 						</small>
 						{ this.paypalButton( plans[ plan ][ period ].coupon.paypalCode )}
