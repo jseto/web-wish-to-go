@@ -6,6 +6,8 @@ import { IndexQuery } from "../../graphql-types"
 import MarkdownBlock, { Align } from "../components/markdown-block"
 import { Banner } from "../components/banner"
 import { ProductHighlights } from "../templates/product-highlights"
+import { HTMLContent } from "../components/content"
+// import logo from '../images/logo.svg'
 
 interface GraphQLProps {
 	data: IndexQuery;
@@ -13,6 +15,7 @@ interface GraphQLProps {
 
 const Index: React.FC<GraphQLProps> = ({data}) => {
 	const { backgroundImage, heading, subheading } = data.markdownRemark.frontmatter;
+	const { html } = data.markdownRemark
 	const blocks = data.allMarkdownRemark.nodes;
 
 	return (
@@ -24,6 +27,21 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 				backgroundImage={ backgroundImage }
 			/>
 			<SectionBody>
+
+				{/* <div className="box" style={{ backgroundColor: '#fdddd0'}}>
+						<h1 className="title">
+							Learn how Wish to go can help you to enhance your readers experience
+						</h1>
+				</div> */}
+
+				<HTMLContent className="index-header" content={ html } />
+		
+				{/* <img
+					src={logo}
+					alt="Wish to go"
+					style={{ height: '15em' }}
+				/> */}
+
 				<ProductHighlights />
 
 				{

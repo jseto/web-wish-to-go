@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 
 interface BannerProps {
 	backgroundImage: any;
@@ -26,14 +27,15 @@ export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subhead
 					justifyContent: 'space-around',
 					alignItems: 'left',
 					flexDirection: 'column',
+					textAlign: 'center'
 				}}
 			>
 				<h1
-					className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+					className="has-text-weight-bold is-size-3-mobile is-size-1-tablet is-size-1-widescreen"
 					style={{
-						boxShadow:
-							'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-						backgroundColor: 'rgb(255, 68, 0)',
+						// boxShadow:
+						// 	'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+						// backgroundColor: 'rgb(255, 68, 0)',
 						color: 'white',
 						lineHeight: '1',
 						padding: '0.25em',
@@ -41,19 +43,37 @@ export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subhead
 				>
 					{header}
 				</h1>
-				<h3
-					className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+				<h2
+					className="has-text-weight-bold is-size-5-mobile is-size-3-tablet is-size-3-widescreen"
 					style={{
-						boxShadow:
-							'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-						backgroundColor: 'rgb(255, 68, 0)',
+						// boxShadow:
+						// 	'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+						// backgroundColor: 'rgb(255, 68, 0)',
 						color: 'white',
 						lineHeight: '1',
 						padding: '0.25em',
+						marginBottom: '0.5em'
 					}}
 				>
 					{subheader}
-				</h3>
+				</h2>
+				<Link 
+					className="button is-primary side-margin-1em"
+					to="/plans/"
+				>
+					<h3 className="has-text-weight-bold">Start now for Free</h3>
+				</Link>
+				<small 
+					className="side-margin-1em5"
+					style={{
+						color: 'lightgrey',
+						fontSize: '0.8em',
+						textAlign: 'left',
+						marginTop: '0.3em'
+					}}
+				>
+					*And get a 20% off from your next payed plan purchase. Limited time period.
+				</small>
 			</div>
 		</div>
 	)
