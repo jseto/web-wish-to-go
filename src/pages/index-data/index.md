@@ -12,3 +12,9 @@ imageColumnWidth: 4
 ---
 
 # Learn how _Wish to go_ can help your Travel Blog
+
+- Have you ever wondered why big marketplaces as _Amazon_ use wish list for their products?
+
+- Have you ever imagined that your blog could have a wish list? Do you imagine how powerful a destination wish list can be for your blog?
+
+[Read More](/destination-wish-list-for-your-travel-blog/)

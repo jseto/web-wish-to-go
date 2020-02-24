@@ -72,7 +72,7 @@ export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subhead
 						marginTop: '0.3em'
 					}}
 				>
-					*And get a 20% off from your next payed plan purchase. Limited time period.
+					*And get a 20% off your next paid plan purchase. Limited time period.
 				</small>
 			</div>
 		</div>
