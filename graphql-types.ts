@@ -692,8 +692,11 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___pageTemplate' |
   'childMarkdownRemark___frontmatter___blockName' |
   'childMarkdownRemark___frontmatter___order' |
+  'childMarkdownRemark___frontmatter___className' |
   'childMarkdownRemark___frontmatter___heading' |
   'childMarkdownRemark___frontmatter___subheading' |
+  'childMarkdownRemark___frontmatter___callToAction' |
+  'childMarkdownRemark___frontmatter___callToActionSmallText' |
   'childMarkdownRemark___frontmatter___backgroundImage___sourceInstanceName' |
   'childMarkdownRemark___frontmatter___backgroundImage___absolutePath' |
   'childMarkdownRemark___frontmatter___backgroundImage___relativePath' |
@@ -804,9 +807,8 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___leftImage___children' |
   'childMarkdownRemark___frontmatter___align' |
   'childMarkdownRemark___frontmatter___imageColumnWidth' |
-  'childMarkdownRemark___frontmatter___className' |
-  'childMarkdownRemark___frontmatter___tripPlanner' |
   'childMarkdownRemark___frontmatter___section' |
+  'childMarkdownRemark___frontmatter___tripPlanner' |
   'childMarkdownRemark___frontmatter___date' |
   'childMarkdownRemark___frontmatter___category' |
   'childMarkdownRemark___frontmatter___tags' |
@@ -1576,8 +1578,11 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___pageTemplate' |
   'frontmatter___blockName' |
   'frontmatter___order' |
+  'frontmatter___className' |
   'frontmatter___heading' |
   'frontmatter___subheading' |
+  'frontmatter___callToAction' |
+  'frontmatter___callToActionSmallText' |
   'frontmatter___backgroundImage___sourceInstanceName' |
   'frontmatter___backgroundImage___absolutePath' |
   'frontmatter___backgroundImage___relativePath' |
@@ -1763,9 +1768,8 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___leftImage___childMarkdownRemark___children' |
   'frontmatter___align' |
   'frontmatter___imageColumnWidth' |
-  'frontmatter___className' |
-  'frontmatter___tripPlanner' |
   'frontmatter___section' |
+  'frontmatter___tripPlanner' |
   'frontmatter___date' |
   'frontmatter___category' |
   'frontmatter___tags' |
@@ -1898,16 +1902,18 @@ export type MarkdownRemarkFrontmatter = {
   pageTemplate?: Maybe<Scalars['String']>,
   blockName?: Maybe<Scalars['String']>,
   order?: Maybe<Scalars['Int']>,
+  className?: Maybe<Scalars['String']>,
   heading?: Maybe<Scalars['String']>,
   subheading?: Maybe<Scalars['String']>,
+  callToAction?: Maybe<Scalars['String']>,
+  callToActionSmallText?: Maybe<Scalars['String']>,
   backgroundImage?: Maybe<File>,
   rightImage?: Maybe<File>,
   leftImage?: Maybe<File>,
   align?: Maybe<Scalars['String']>,
   imageColumnWidth?: Maybe<Scalars['Int']>,
-  className?: Maybe<Scalars['String']>,
-  tripPlanner?: Maybe<Scalars['String']>,
   section?: Maybe<Scalars['String']>,
+  tripPlanner?: Maybe<Scalars['String']>,
   date?: Maybe<Scalars['Date']>,
   category?: Maybe<Scalars['String']>,
   tags?: Maybe<Array<Maybe<Scalars['String']>>>,
@@ -1926,16 +1932,18 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   pageTemplate?: Maybe<StringQueryOperatorInput>,
   blockName?: Maybe<StringQueryOperatorInput>,
   order?: Maybe<IntQueryOperatorInput>,
+  className?: Maybe<StringQueryOperatorInput>,
   heading?: Maybe<StringQueryOperatorInput>,
   subheading?: Maybe<StringQueryOperatorInput>,
+  callToAction?: Maybe<StringQueryOperatorInput>,
+  callToActionSmallText?: Maybe<StringQueryOperatorInput>,
   backgroundImage?: Maybe<FileFilterInput>,
   rightImage?: Maybe<FileFilterInput>,
   leftImage?: Maybe<FileFilterInput>,
   align?: Maybe<StringQueryOperatorInput>,
   imageColumnWidth?: Maybe<IntQueryOperatorInput>,
-  className?: Maybe<StringQueryOperatorInput>,
-  tripPlanner?: Maybe<StringQueryOperatorInput>,
   section?: Maybe<StringQueryOperatorInput>,
+  tripPlanner?: Maybe<StringQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
   category?: Maybe<StringQueryOperatorInput>,
   tags?: Maybe<StringQueryOperatorInput>,
@@ -2236,8 +2244,8 @@ export type QuerySitePageArgs = {
   parent?: Maybe<NodeFilterInput>,
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
-  path?: Maybe<StringQueryOperatorInput>,
   internalComponentName?: Maybe<StringQueryOperatorInput>,
+  path?: Maybe<StringQueryOperatorInput>,
   component?: Maybe<StringQueryOperatorInput>,
   componentChunkName?: Maybe<StringQueryOperatorInput>,
   isCreatedByStatefulCreatePages?: Maybe<BooleanQueryOperatorInput>,
@@ -2427,8 +2435,8 @@ export type SitePage = Node & {
   parent?: Maybe<Node>,
   children: Array<Node>,
   internal: Internal,
-  path?: Maybe<Scalars['String']>,
   internalComponentName?: Maybe<Scalars['String']>,
+  path?: Maybe<Scalars['String']>,
   component?: Maybe<Scalars['String']>,
   componentChunkName?: Maybe<Scalars['String']>,
   isCreatedByStatefulCreatePages?: Maybe<Scalars['Boolean']>,
@@ -2560,8 +2568,8 @@ export type SitePageFieldsEnum =
   'internal___mediaType' |
   'internal___owner' |
   'internal___type' |
-  'path' |
   'internalComponentName' |
+  'path' |
   'component' |
   'componentChunkName' |
   'isCreatedByStatefulCreatePages' |
@@ -2617,18 +2625,6 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___plugins___pluginFilepath' |
   'pluginCreator___pluginOptions___removeAccents' |
   'pluginCreator___pluginOptions___maxWidth' |
-  'pluginCreator___pluginOptions___pathPrefix' |
-  'pluginCreator___pluginOptions___wrapperStyle' |
-  'pluginCreator___pluginOptions___backgroundColor' |
-  'pluginCreator___pluginOptions___linkImagesToOriginal' |
-  'pluginCreator___pluginOptions___showCaptions' |
-  'pluginCreator___pluginOptions___markdownCaptions' |
-  'pluginCreator___pluginOptions___withWebp' |
-  'pluginCreator___pluginOptions___tracedSVG' |
-  'pluginCreator___pluginOptions___loading' |
-  'pluginCreator___pluginOptions___disableBgImageOnAlpha' |
-  'pluginCreator___pluginOptions___disableBgImage' |
-  'pluginCreator___pluginOptions___ignoreFileExtensions' |
   'pluginCreator___pluginOptions___classPrefix' |
   'pluginCreator___pluginOptions___name' |
   'pluginCreator___pluginOptions___path' |
@@ -2671,8 +2667,8 @@ export type SitePageFilterInput = {
   parent?: Maybe<NodeFilterInput>,
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
-  path?: Maybe<StringQueryOperatorInput>,
   internalComponentName?: Maybe<StringQueryOperatorInput>,
+  path?: Maybe<StringQueryOperatorInput>,
   component?: Maybe<StringQueryOperatorInput>,
   componentChunkName?: Maybe<StringQueryOperatorInput>,
   isCreatedByStatefulCreatePages?: Maybe<BooleanQueryOperatorInput>,
@@ -2837,36 +2833,12 @@ export type SitePluginFieldsEnum =
   'pluginOptions___plugins___pluginOptions___icon' |
   'pluginOptions___plugins___pluginOptions___removeAccents' |
   'pluginOptions___plugins___pluginOptions___maxWidth' |
-  'pluginOptions___plugins___pluginOptions___pathPrefix' |
-  'pluginOptions___plugins___pluginOptions___wrapperStyle' |
-  'pluginOptions___plugins___pluginOptions___backgroundColor' |
-  'pluginOptions___plugins___pluginOptions___linkImagesToOriginal' |
-  'pluginOptions___plugins___pluginOptions___showCaptions' |
-  'pluginOptions___plugins___pluginOptions___markdownCaptions' |
-  'pluginOptions___plugins___pluginOptions___withWebp' |
-  'pluginOptions___plugins___pluginOptions___tracedSVG' |
-  'pluginOptions___plugins___pluginOptions___loading' |
-  'pluginOptions___plugins___pluginOptions___disableBgImageOnAlpha' |
-  'pluginOptions___plugins___pluginOptions___disableBgImage' |
-  'pluginOptions___plugins___pluginOptions___ignoreFileExtensions' |
   'pluginOptions___plugins___pluginOptions___classPrefix' |
   'pluginOptions___plugins___browserAPIs' |
   'pluginOptions___plugins___ssrAPIs' |
   'pluginOptions___plugins___pluginFilepath' |
   'pluginOptions___removeAccents' |
   'pluginOptions___maxWidth' |
-  'pluginOptions___pathPrefix' |
-  'pluginOptions___wrapperStyle' |
-  'pluginOptions___backgroundColor' |
-  'pluginOptions___linkImagesToOriginal' |
-  'pluginOptions___showCaptions' |
-  'pluginOptions___markdownCaptions' |
-  'pluginOptions___withWebp' |
-  'pluginOptions___tracedSVG' |
-  'pluginOptions___loading' |
-  'pluginOptions___disableBgImageOnAlpha' |
-  'pluginOptions___disableBgImage' |
-  'pluginOptions___ignoreFileExtensions' |
   'pluginOptions___classPrefix' |
   'pluginOptions___name' |
   'pluginOptions___path' |
@@ -2997,18 +2969,6 @@ export type SitePluginPluginOptions = {
   plugins?: Maybe<Array<Maybe<SitePluginPluginOptionsPlugins>>>,
   removeAccents?: Maybe<Scalars['Boolean']>,
   maxWidth?: Maybe<Scalars['Int']>,
-  pathPrefix?: Maybe<Scalars['String']>,
-  wrapperStyle?: Maybe<Scalars['String']>,
-  backgroundColor?: Maybe<Scalars['String']>,
-  linkImagesToOriginal?: Maybe<Scalars['Boolean']>,
-  showCaptions?: Maybe<Scalars['Boolean']>,
-  markdownCaptions?: Maybe<Scalars['Boolean']>,
-  withWebp?: Maybe<Scalars['Boolean']>,
-  tracedSVG?: Maybe<Scalars['Boolean']>,
-  loading?: Maybe<Scalars['String']>,
-  disableBgImageOnAlpha?: Maybe<Scalars['Boolean']>,
-  disableBgImage?: Maybe<Scalars['Boolean']>,
-  ignoreFileExtensions?: Maybe<Array<Maybe<Scalars['String']>>>,
   classPrefix?: Maybe<Scalars['String']>,
   name?: Maybe<Scalars['String']>,
   path?: Maybe<Scalars['String']>,
@@ -3030,18 +2990,6 @@ export type SitePluginPluginOptionsFilterInput = {
   plugins?: Maybe<SitePluginPluginOptionsPluginsFilterListInput>,
   removeAccents?: Maybe<BooleanQueryOperatorInput>,
   maxWidth?: Maybe<IntQueryOperatorInput>,
-  pathPrefix?: Maybe<StringQueryOperatorInput>,
-  wrapperStyle?: Maybe<StringQueryOperatorInput>,
-  backgroundColor?: Maybe<StringQueryOperatorInput>,
-  linkImagesToOriginal?: Maybe<BooleanQueryOperatorInput>,
-  showCaptions?: Maybe<BooleanQueryOperatorInput>,
-  markdownCaptions?: Maybe<BooleanQueryOperatorInput>,
-  withWebp?: Maybe<BooleanQueryOperatorInput>,
-  tracedSVG?: Maybe<BooleanQueryOperatorInput>,
-  loading?: Maybe<StringQueryOperatorInput>,
-  disableBgImageOnAlpha?: Maybe<BooleanQueryOperatorInput>,
-  disableBgImage?: Maybe<BooleanQueryOperatorInput>,
-  ignoreFileExtensions?: Maybe<StringQueryOperatorInput>,
   classPrefix?: Maybe<StringQueryOperatorInput>,
   name?: Maybe<StringQueryOperatorInput>,
   path?: Maybe<StringQueryOperatorInput>,
@@ -3089,18 +3037,6 @@ export type SitePluginPluginOptionsPluginsPluginOptions = {
   icon?: Maybe<Scalars['Boolean']>,
   removeAccents?: Maybe<Scalars['Boolean']>,
   maxWidth?: Maybe<Scalars['Int']>,
-  pathPrefix?: Maybe<Scalars['String']>,
-  wrapperStyle?: Maybe<Scalars['String']>,
-  backgroundColor?: Maybe<Scalars['String']>,
-  linkImagesToOriginal?: Maybe<Scalars['Boolean']>,
-  showCaptions?: Maybe<Scalars['Boolean']>,
-  markdownCaptions?: Maybe<Scalars['Boolean']>,
-  withWebp?: Maybe<Scalars['Boolean']>,
-  tracedSVG?: Maybe<Scalars['Boolean']>,
-  loading?: Maybe<Scalars['String']>,
-  disableBgImageOnAlpha?: Maybe<Scalars['Boolean']>,
-  disableBgImage?: Maybe<Scalars['Boolean']>,
-  ignoreFileExtensions?: Maybe<Array<Maybe<Scalars['String']>>>,
   classPrefix?: Maybe<Scalars['String']>,
 };
 
@@ -3108,18 +3044,6 @@ export type SitePluginPluginOptionsPluginsPluginOptionsFilterInput = {
   icon?: Maybe<BooleanQueryOperatorInput>,
   removeAccents?: Maybe<BooleanQueryOperatorInput>,
   maxWidth?: Maybe<IntQueryOperatorInput>,
-  pathPrefix?: Maybe<StringQueryOperatorInput>,
-  wrapperStyle?: Maybe<StringQueryOperatorInput>,
-  backgroundColor?: Maybe<StringQueryOperatorInput>,
-  linkImagesToOriginal?: Maybe<BooleanQueryOperatorInput>,
-  showCaptions?: Maybe<BooleanQueryOperatorInput>,
-  markdownCaptions?: Maybe<BooleanQueryOperatorInput>,
-  withWebp?: Maybe<BooleanQueryOperatorInput>,
-  tracedSVG?: Maybe<BooleanQueryOperatorInput>,
-  loading?: Maybe<StringQueryOperatorInput>,
-  disableBgImageOnAlpha?: Maybe<BooleanQueryOperatorInput>,
-  disableBgImage?: Maybe<BooleanQueryOperatorInput>,
-  ignoreFileExtensions?: Maybe<StringQueryOperatorInput>,
   classPrefix?: Maybe<StringQueryOperatorInput>,
 };
 
@@ -3184,7 +3108,7 @@ export type IndexQueryVariables = {};
 export type IndexQuery = { markdownRemark: Maybe<(
     Pick<MarkdownRemark, 'html'>
     & { frontmatter: Maybe<(
-      Pick<MarkdownRemarkFrontmatter, 'title' | 'heading' | 'subheading'>
+      Pick<MarkdownRemarkFrontmatter, 'title' | 'heading' | 'subheading' | 'callToAction' | 'callToActionSmallText'>
       & { backgroundImage: Maybe<{ childImageSharp: Maybe<{ fluid: Maybe<GatsbyImageSharpFluidFragment> }> }> }
     )> }
   )>, allMarkdownRemark: { nodes: Array<(

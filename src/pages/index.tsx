@@ -14,7 +14,7 @@ interface GraphQLProps {
 }
 
 const Index: React.FC<GraphQLProps> = ({data}) => {
-	const { backgroundImage, heading, subheading } = data.markdownRemark.frontmatter;
+	const { backgroundImage, heading, subheading, callToAction, callToActionSmallText } = data.markdownRemark.frontmatter;
 	const { html } = data.markdownRemark
 	const blocks = data.allMarkdownRemark.nodes;
 
@@ -25,6 +25,8 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 				header={ heading }
 				subheader={ subheading }
 				backgroundImage={ backgroundImage }
+				callToAction={ callToAction }
+				callToActionSmallText={ callToActionSmallText }
 			/>
 			<SectionBody>
 
@@ -81,7 +83,9 @@ query Index {
 			title
 			heading
 			subheading
-      backgroundImage {
+			callToAction
+			callToActionSmallText
+			backgroundImage {
         childImageSharp {
           fluid(maxWidth: 800) {
             ...GatsbyImageSharpFluid

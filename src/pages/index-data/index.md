@@ -4,6 +4,8 @@ blockName: header
 title: Wish to go
 heading: The Traveller Wish List
 subheading: Improve your travel blog visitor's engagement
+callToAction: Get the Plugin for Free
+callToActionSmallText: And get a 20% off your next paid plan purchase. Limited time period.
 backgroundImage: ../../images/arrows-conflict-directions-guidance-434446.jpg
 rightImage: ../../images/logo.min.svg
 leftImage: ../../images/logo.min.svg

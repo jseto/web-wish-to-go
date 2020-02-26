@@ -5,9 +5,11 @@ interface BannerProps {
 	backgroundImage: any;
 	header: string;
 	subheader: string;
+	callToAction: string;
+	callToActionSmallText: string;
 }
 
-export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subheader })=>{
+export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subheader, callToAction, callToActionSmallText })=>{
 	return (
 		<div
 			className="full-width-image margin-top-0"
@@ -61,7 +63,9 @@ export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subhead
 					className="button is-primary side-margin-1em"
 					to="/plans/"
 				>
-					<h3 className="has-text-weight-bold">Start now for Free</h3>
+					<h3 className="has-text-weight-bold">
+						{ callToAction }
+					</h3>
 				</Link>
 				<small 
 					className="side-margin-1em5"
@@ -72,7 +76,7 @@ export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subhead
 						marginTop: '0.3em'
 					}}
 				>
-					*And get a 20% off your next paid plan purchase. Limited time period.
+					*{ callToActionSmallText }
 				</small>
 			</div>
 		</div>
