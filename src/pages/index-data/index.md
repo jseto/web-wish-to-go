@@ -9,6 +9,7 @@ rightImage: ../../images/logo.min.svg
 leftImage: ../../images/logo.min.svg
 align: top
 imageColumnWidth: 4
+className: ''
 ---
 
 # Learn how _Wish to go_ can help your Travel Blog

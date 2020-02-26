@@ -25,6 +25,7 @@ export const ProductHighlights = ( props: any ) => (
 				>
 					{ item => (
 						<HTMLContent
+							className="highlight-element"
 							content={ item.html }
 						/>
 					) }

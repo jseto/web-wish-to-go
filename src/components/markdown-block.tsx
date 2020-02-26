@@ -29,7 +29,7 @@ const MarkdownBlock: React.FC<MarkdownBlockProps> = ({
 	return (
 		<div className={`markdown-block ${ className? className : '' } columns${align === 'vertical' ? ' is-vcentered' : ''}`}>
 				
-			<div className={`column is-${ imageColumnWidth }`}>
+			<div className={imageColumnWidth? `column is-${ imageColumnWidth }` : '' }>
 				{ leftImage && <PreviewCompatibleImage imageInfo={ leftImage } /> }
 			</div>
 
@@ -37,7 +37,7 @@ const MarkdownBlock: React.FC<MarkdownBlockProps> = ({
 				<HTMLContent className="content" content={content} />
 			</div>
 
-			<div className={`column is-${ imageColumnWidth}`}>
+			<div className={ imageColumnWidth? `column is-${ imageColumnWidth}` : ''}>
 				{ rightImage && <PreviewCompatibleImage imageInfo={rightImage} /> }
 			</div>
 

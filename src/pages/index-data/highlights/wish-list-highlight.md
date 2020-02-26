@@ -5,7 +5,9 @@ section: productHighlights
 ---
 ![Wish List Feature](../../../images/feature-wish-list.min.svg)
 
-# Wish List to **Increase Visitor Engagement**
+# Increase Visitor Engagement
+
+> Wish List to Increase Visitor Engagement
 
 Every online store have a wish list. Why a travel blog shouldn't have one? Wish lists are an excellent tool to increase income:
 

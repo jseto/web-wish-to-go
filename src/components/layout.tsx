@@ -46,7 +46,7 @@ export const SectionBody: React.FC = ({ children })=>{
 			<div className="container">
 				<div className="content">
 					<div className="columns is-desktop">
-						<div className="column is-10-desktop is-offset-1-desktop">
+						<div className="column is-8-desktop is-offset-2-desktop">
 							{ children }
 						</div>
 					</div>

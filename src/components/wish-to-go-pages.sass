@@ -85,17 +85,33 @@
 	margin-bottom: -200px
 	text-align: center
 
-.product-highlights h1 strong
-	color: #00bda0
+.product-highlights 
+	.column 
+		.highlight-element
+			// border: solid 1px #0005
+			box-shadow: 4px 4px 10px #0003
+			border-radius: 10px
+			padding: 0.5em
 
-.product-highlights li
-	margin-bottom: 0
+	h1
+		color: #00bda0
 
-.product-highlights img
-	display: block
-	margin-left: auto
-	margin-right: auto
-	width: 80%
+	li
+		margin-bottom: 0
+
+	img
+		display: block
+		margin-left: auto
+		margin-right: auto
+		// width: 75%
+
+	blockquote
+		background-color: unset
+		border-left: none
+		font-variant-caps: all-small-caps
+		padding: 0
+		font-size: 1.3em
+		color: steelblue
 
 .index-block .gatsby-image-wrapper
 	// display: block
@@ -163,3 +179,30 @@
 	li
 		@extend .is-size-7-mobile
 	
+.joanna-banner
+	margin-top: 1em
+	h1
+		color: white
+		text-shadow: 2px 2px 8px #FF0000;
+		// transform: translateY(3em)
+		z-index: 20
+		padding: 0 1em
+		max-width: 8em
+		margin-top: 1em
+		@extend .is-size-5-mobile
+		@extend .is-size-1
+	.gatsby-resp-image-wrapper, ul
+		margin-top: -17em
+		@media screen and ( max-width: $tablet - 1px )
+			margin-top: -8em
+	ul
+		@extend .button 
+		@extend .is-success 
+		@extend .is-pulled-right
+		@media screen and ( max-width: $tablet - 1px )
+			font-size: 0.75rem
+		list-style-type: none
+		margin-top: -5em
+		margin-right: 1em
+		a
+			color: inherit		
