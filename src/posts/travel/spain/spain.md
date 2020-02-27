@@ -7,8 +7,7 @@ tags:
   - Europe
 ---
 
-# Spain
-<WishWidget	country="ES" picture="https://images.unsplash.com/photo-1515443961218-a51367888e4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" label="true"></WishWidget>
+# Spain <WishWidget	country="ES" picture="https://images.unsplash.com/photo-1515443961218-a51367888e4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"></WishWidget>
 
 ![Spain - Photo by Kaitlin Dowis on Unsplash](https://images.unsplash.com/photo-1515443961218-a51367888e4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 

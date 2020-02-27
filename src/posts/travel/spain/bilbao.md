@@ -7,8 +7,7 @@ tags:
   - Europe
 ---
 
-# Bilbao
-<WishWidget country="ES" city="Bilbao" picture="https://images.unsplash.com/photo-1554212264-aae064407bd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80" label="true"></WishWidget>
+# Bilbao <WishWidget country="ES" city="Bilbao" picture="https://images.unsplash.com/photo-1554212264-aae064407bd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80"></WishWidget>
 
 ![Bilbao](https://images.unsplash.com/photo-1554212264-aae064407bd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80)
 

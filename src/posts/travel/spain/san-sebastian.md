@@ -7,8 +7,7 @@ tags:
   - Europe
 ---
 
-# San Sebastian
-<WishWidget	country="ES" city="San Sebastian"	picture="https://images.unsplash.com/photo-1553455010-bdb488ac12e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" label="true"></WishWidget>
+# San Sebastian <WishWidget	country="ES" city="San Sebastian"	picture="https://images.unsplash.com/photo-1553455010-bdb488ac12e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80"></WishWidget>
 
 ![San Sebastian - Photo by Raul Cacho Oses on Unsplash](https://images.unsplash.com/photo-1553455010-bdb488ac12e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80)
 

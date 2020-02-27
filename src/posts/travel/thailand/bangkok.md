@@ -7,8 +7,7 @@ tags:
   - Southeast Asia
 ---
 
-# Bangkok
-<WishWidget	country="TH" city="Bangkok" picture="https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80" label="true"></WishWidget>
+# Bangkok <WishWidget	country="TH" city="Bangkok" picture="https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80"></WishWidget>
 
 ![Bangkok - Photo by Florian Wehde on Unsplash](https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80)
 

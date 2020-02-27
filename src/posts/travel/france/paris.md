@@ -7,8 +7,7 @@ tags:
   - Europe
 ---
 
-# Paris
-<WishWidget country="FR" city="Paris" label="true" picture="https://images.unsplash.com/photo-1500039436846-25ae2f11882e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"></WishWidget>
+# Paris <WishWidget country="FR" city="Paris" picture="https://images.unsplash.com/photo-1500039436846-25ae2f11882e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"></WishWidget>
 
 ![Paris - Photo by Chris Karidis on Unsplash](https://images.unsplash.com/photo-1500039436846-25ae2f11882e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80)
 

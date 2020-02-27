@@ -7,8 +7,7 @@ tags:
   - Europe
 ---
 
-# Cordoba
-<WishWidget country="ES" city="Cordoba" label="true" picture="https://images.unsplash.com/photo-1560331447-8c1f7f726c95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"></WishWidget>
+# Cordoba <WishWidget country="ES" city="Cordoba" picture="https://images.unsplash.com/photo-1560331447-8c1f7f726c95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"></WishWidget>
 
 ![Cordoba](https://images.unsplash.com/photo-1560331447-8c1f7f726c95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 

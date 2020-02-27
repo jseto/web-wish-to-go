@@ -8,8 +8,7 @@ tags:
   - Catalonia
 ---
 
-# Barcelona
-<WishWidget	country="ES"	city="Barcelona"	picture="https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" label="true"></WishWidget>
+# Barcelona <WishWidget	country="ES"	city="Barcelona"	picture="https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"></WishWidget>
 
 ![Barcelona](https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 

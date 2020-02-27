@@ -7,8 +7,7 @@ tags:
   - Europe
 ---
 
-# Strasbourg
-<WishWidget country="FR" city="Strasbourg" label="true" picture="https://images.unsplash.com/photo-1572965735971-82a251c84b82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"></WishWidget>
+# Strasbourg <WishWidget country="FR" city="Strasbourg" picture="https://images.unsplash.com/photo-1572965735971-82a251c84b82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"></WishWidget>
 
 ![Strasbourg - Photo by Patrick Robert Doyle on Unsplash](https://images.unsplash.com/photo-1572965735971-82a251c84b82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80)
 

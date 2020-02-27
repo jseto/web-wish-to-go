@@ -39,13 +39,13 @@ export const BlogLastEntries = ( props: any ) => (
 		render={
 			( data: BlogLastEntriesQuery ) => (
 				<>
-					<BlogEntryCard
+					{/* <BlogEntryCard
 						key={ data.allMarkdownRemark.nodes[0].id }
 						postData={ data.allMarkdownRemark.nodes[0] as BlogEntryData }
-					/>
+					/> */}
 
 					<FeatureGrid
-						features={data.allMarkdownRemark.nodes.slice( 1 )}
+						features={data.allMarkdownRemark.nodes}
 						compact={ true }
 						{...props}
 					>

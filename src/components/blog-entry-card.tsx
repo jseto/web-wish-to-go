@@ -22,15 +22,15 @@ export class BlogEntryCard extends React.Component< BlogEntryCardProps > {
 	render () {
 		const { excerpt, fields } = this.props.postData;
 
-		const noWtgExcerpt = excerpt.replace( '<WishWidget', '<!---' )
-			.replace( '</WishWidget>', '--->');
+		// const noWtgExcerpt = excerpt.replace( '<WishWidget', '<!---' )
+		// 	.replace( '</WishWidget>', '--->');
 
 		return (
-			<div className="plans-grid">
+			<div className="blog-entry-card" onClick={ ()=>window.location.href = fields.slug }>
 				<HTMLContent
-					content={ noWtgExcerpt }
+					content={ excerpt }
 				/>
-				<Link to={ fields.slug }>Read More</Link>
+				<Link to={ fields.slug }>Read More→</Link>
 			</div>
 		)
 	}

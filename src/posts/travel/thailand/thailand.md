@@ -7,8 +7,7 @@ tags:
   - Southeast Asia
 ---
 
-# Thailand
-<WishWidget country="TH" picture="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1023&q=80" label="true"></WishWidget>
+# Thailand <WishWidget country="TH" picture="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1023&q=80"></WishWidget>
 
 ![Thailand - Photo by Sumit Chinchane on Unsplash](https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1023&q=80)
 
