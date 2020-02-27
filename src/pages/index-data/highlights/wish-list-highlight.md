@@ -3,9 +3,10 @@ order: 1
 pageTemplate: index
 section: productHighlights
 ---
-![Wish List Feature](../../../images/feature-wish-list.min.svg)
 
 # Increase Visitor Engagement
+
+![Wish List Feature](../../../images/feature-wish-list.min.svg)
 
 > Wish List to Increase Visitor Engagement
 

@@ -92,10 +92,15 @@
 			box-shadow: 4px 4px 10px #0003
 			border-radius: 10px
 			padding: 0.5em
+			background-color: #f8f8f8
 
 	h1
 		color: #00bda0
-
+		min-height: 2em
+		text-align: center
+		padding-bottom: 0.3em
+		border-bottom: solid 4px #bbb
+		
 	li
 		margin-bottom: 0
 
@@ -103,7 +108,6 @@
 		display: block
 		margin-left: auto
 		margin-right: auto
-		// width: 75%
 
 	blockquote
 		background-color: unset
@@ -207,11 +211,14 @@
 		a
 			color: inherit		
 
-.blog-entry-card
+.blog-entry-panel
 	box-shadow: 0 1px 4px #0002
 	border-radius: 3px
 	margin-bottom: 1.5em
 	padding-bottom: 2em
+
+.blog-entry-card
+	@extend .blog-entry-panel
 	h1
 		cursor: pointer
 		padding: 0.5em 1em
@@ -229,4 +236,16 @@
 	a
 		padding: 0em 1em
 		@extend .is-pulled-right
-		
+
+.blog-entry-page
+	.side-bar
+		margin-left: 1em
+		margin-top: -0.75rem
+		@extend .blog-entry-panel
+		padding: 1em
+	.main-column
+		@extend .blog-entry-panel
+		h1
+			padding: 0.5em 1em
+
+

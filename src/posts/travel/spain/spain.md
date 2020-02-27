@@ -66,6 +66,6 @@ Spain is considered an exotic country in Europe due to its friendly inhabitants,
 
 	- [Patio de los Naranjos](/spain/cordoba/#the-mezquita) <WishWidget country="ES" city="Cordoba" activity="Patio de los Naranjos"></WishWidget>
 
-	- [Plaza del Cristo de los Faroles](/spain/cordoba/outside-the-old-city) <WishWidget country="ES" city="Cordoba" activity="Cristo de los faroles"></WishWidget>
+	- [Plaza del Cristo de los Faroles](/spain/cordoba/#outside-the-old-city) <WishWidget country="ES" city="Cordoba" activity="Cristo de los faroles"></WishWidget>
 
-	- [Madina Azahara](/spain/cordoba/outside-the-old-city) <WishWidget country="ES" city="Cordoba" activity="Medina Azahara"></WishWidget>
+	- [Madina Azahara](/spain/cordoba/#outside-the-old-city) <WishWidget country="ES" city="Cordoba" activity="Medina Azahara"></WishWidget>

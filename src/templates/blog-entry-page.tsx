@@ -5,6 +5,7 @@ import MarkdownBlock from "../components/markdown-block"
 import { graphql } from "gatsby"
 import { BlogEntryPageQuery } from "../../graphql-types"
 import { HTMLContent } from "../components/content"
+import SideBar from "../components/side-bar"
 
 interface GraphQLProps {
 	data: BlogEntryPageQuery;
@@ -18,11 +19,19 @@ export const BlogEntryPage: React.FC<GraphQLProps> = ({ data }) => {
 			<SEO title={title} />
 
 			<SectionBody>
+				<div className="columns is-multiline blog-entry-page">
 
-				<MarkdownBlock
-					content={ data.markdownRemark.html }
-				/>
-
+					<div className="column is-8">
+						<MarkdownBlock 
+							className={ `main-column ${ category || '' }` }
+							content={ data.markdownRemark.html }
+						/>
+					</div>
+					<div className="column is-4">
+						<SideBar/>
+					</div>
+				</div>
+				
 				{ category !== 'generic' &&
 					<HTMLContent 
 						className="stick-to-bottom" 

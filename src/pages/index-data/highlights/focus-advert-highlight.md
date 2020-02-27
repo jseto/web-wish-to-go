@@ -3,9 +3,10 @@ order: 3
 pageTemplate: index
 section: productHighlights
 ---
-![Focus Adverts Highlight](../../../images/feature-adverts.min.svg)
 
 # Boost Monetization
+
+![Focus Adverts Highlight](../../../images/feature-adverts.min.svg)
 
 > Focussed Advertisement to Boost Monetization
 

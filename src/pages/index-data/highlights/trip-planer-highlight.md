@@ -3,9 +3,10 @@ order: 2
 pageTemplate: index
 section: productHighlights
 ---
-![Trip Planner tool](../../../images/feature-tools.min.svg)
 
 # Enhance Reader's Experience
+
+![Trip Planner tool](../../../images/feature-tools.min.svg)
 
 > Trip Planning Tool for Enhanced Reader's Experience
 
