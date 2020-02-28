@@ -10,19 +10,17 @@ tags:
 
 # A Wish List for your Travel Blog
 
-Have you ever wondered why big marketplaces as _Amazon_ use wish list for their products?
+A _destination wish list_ is an engine (in a plugin or piece of HTML code form) installed in your travel blog which allows your readers to bookmark posts or destinations that appear in them. Think about Instagram. When you click the heart, you are saying that you like the picture. 
 
-Have you ever imagined that your blog could have a wish list? Do you imagine how powerful a destination wish list can be for your blog?
+Now imagine that instead of _liking_ pictures, what you _like_ are destinations in your blog. Clicking on the heart next to a travel post, means that the reader like that destination. In the future, when readers are ready to travel, they can go back to have a look at the _liked_ destinations and build up a trip plan tailored to their tastes expressed through their clicks on the hearts inserted in the posts.
 
-If you think that a destination wish list can be useful for your travel blog and for your readers or want to know why wish lists are a powerful marketing tool, keep reading. 
+The idea of a wish list is widely used in big marketplaces as _Amazon_ which use wish list for their products. Recently, travel related sites like _Booking.com_ or _Airbnb_ have also implemented such feature.
 
-## How can I implement a destination wish list in my travel blog?
+Have you ever wondered why big marketplaces use wish list for their products?
 
-**Wish To Go Travel** has developed a wish list for travel destinations that can be integrated in your blog very easily. 
+Have you ever imagined that your blog could have a destination wish list? Do you imagine how powerful can be this feature for your blog?
 
-The **Wish To Go** wish list has a _widget_ with a heart shape that you can insert in any place in your posts. This _widget_ allows your reader to click on it to keep in the destination wish list the destination that you are talking about in the article.
-
-To complement the heart _widget_, you have the trip planner _widget_. The trip planner is a powerful tool that your readers can use to plan their holidays based on the destinations in the wish list they made previously.
+Keep reading to know why destination wish list can be useful for your travel blog, both, for your readers and for your blog as a powerful marketing tool. 
 
 ## How a destination wish list can help your readers?
 
@@ -34,13 +32,13 @@ Moreover, if they want, the readers can publish their holiday plans in their soc
 
 ## How a destination wish list can help your travel blog?
 
-Despite being a help for your readers, **Wish To Go** is also a great help for your blog. You will note that many companies in the electronic market place use wish lists. The first one was _Amazon_ but, just to mention a couple of our sector, _Booking.com_ and _Airbnb_ also implement them.
+Despite being a help for your readers, a destination wish list is also a great help for your blog. You will note that many companies in the electronic market place use wish lists. The first one was _Amazon_ but, just to mention a couple of our sector, _Booking.com_ and _Airbnb_ also implement them.
 
 Those companies use wish list because they know that it's a good way to increase _user engagement_. If you are monetizing already your blog, you will know that user engagement is an important factor to convert future sales because recurrent customers are those developing confidence in you. If you still do not monetize it, the fact that your reader come back to your blog again and again, it is a success guaranty.
 
 Another advantage of using a wish list is that you can get your reader's email without significant friction, that is, you don't need to insist to them to subscribe. Moreover, to have their email, you will know where they are planning to go in their next holidays. Therefore, you can recommend relevant articles in your blog of make offers of products or packages that you have agreed with your providers.
 
-You can enjoy all of these advantages for ***free*** with our _Backpacker_ plan.
+You can enjoy all of these advantages for ***free*** with the **Wish To Go** [_Backpacker_ plan](/plans/).
 
 ## How can a destination wish list improve monetization of your travel blog?
 
@@ -48,13 +46,21 @@ There is a last advantage for you when using **Wish To Go**. When your readers u
 
 Forget about the _cookie expire_ date, forget about someone will take over (cookies are assigned to the last affiliate in the chain) and forget about other subtle details of affiliate marketing. It is frustrating when a reader, having learnt a lot about her/his next destination from your blog, at the time to buy the accommodation, he or her, books with the first _Booking.com_ advert seen on the internet. Since your reader has all the trip information in the trip planner, it will be a lot easier to book from there. This guaranties that the affiliate commission is fully assigned to your account.
 
-This last option is only available with the _Explorer_ and _Globetrotter_ plans.
+This option is only available in the **Wish To Go** [premium plans](/plans/).
 
 ## What if I'm using my travel blog to attract customers to my travel agency?
 
-We thought about you as well. The _Globetrotter_ plan has been designed specially for your case. When you subscribe to the _Globertrotter Travel Agency_ plan, the trip planner will send you a copy of your customers travel plan instead of proposing them to book through affiliate links. In this way you can advise your customers about the best package for them.
+**Wish To Go** offers a solution for you as well. The [_Globetrotter_ plan](/plans/) has been designed specially for your case. When you subscribe to the _Globetrotter Travel Agency_ plan, the trip planner will send you a copy of your customers travel plan instead of proposing them to book through affiliate links. In this way you can advise your customers about the best package for them.
+
+## How can I implement a destination wish list in my travel blog?
+
+**Wish To Go Travel** has developed a wish list for travel destinations that can be integrated in your blog very easily. 
+
+The **Wish To Go** wish list has a _widget_ with the heart shape that you can insert in any place in your posts. This _widget_ allows your reader to click on it to keep in the destination wish list the destination that you are talking about in the article.
+
+To complement the heart _widget_, you have the trip planner _widget_. The trip planner is a powerful tool that your readers can use to plan their holidays based on the destinations in the wish list they made previously.
 
 ## Where can I see a travel blog with a destination wish list?
 
-You can see how **Wish To Go** works in our [blog demo](https://wish-to-go.com/blog). Please, don't laugh at us when you see our blog, it's just a little demo, right? 😊.
+You can see how **Wish To Go** works in our [blog demo](https://wish-to-go.com/blog). 
 
