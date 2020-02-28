@@ -12,12 +12,13 @@ import { wishToGoHost } from "../html"
 
 interface SEOProps {
 	title: string;
-	description?: string;
+  description?: string;
+  featuredImage?: string;
 	lang?: string;
 	meta?: any[];
 }
 
-export const SEO: React.FC<SEOProps> = ({ description, lang, meta, title }) => {
+export const SEO: React.FC<SEOProps> = ({ description, lang, meta, title, featuredImage }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -26,6 +27,7 @@ export const SEO: React.FC<SEOProps> = ({ description, lang, meta, title }) => {
             title
             description
             author
+            siteUrl
           }
         }
       }
@@ -55,12 +57,20 @@ export const SEO: React.FC<SEOProps> = ({ description, lang, meta, title }) => {
           content: metaDescription,
         },
         {
+          property: `og:images`,
+          content: featuredImage && `${ site.siteMetadata.siteUrl }${ featuredImage }`,
+        },
+        {
+          property: `og:image`,
+          content: featuredImage && `${ site.siteMetadata.siteUrl }${ featuredImage }`,
+        },
+        {
           property: `og:type`,
           content: `website`,
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -73,6 +83,10 @@ export const SEO: React.FC<SEOProps> = ({ description, lang, meta, title }) => {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: featuredImage && `${ site.siteMetadata.siteUrl }${ featuredImage }`,
         },
       ].concat(meta)}
     >

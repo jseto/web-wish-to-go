@@ -2,6 +2,7 @@
 title: A wish list for your travel blog
 date: 2020-02-24T03:01:57Z
 category: generic
+featuredImage: ../../images/lennart-jonsson-0nc0_v-PRUg-unsplash.jpg
 tags:
   - Wishlist
 ---

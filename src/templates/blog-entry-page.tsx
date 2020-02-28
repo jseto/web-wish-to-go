@@ -16,7 +16,11 @@ export const BlogEntryPage: React.FC<GraphQLProps> = ({ data }) => {
 
 	return (
 		<Layout>
-			<SEO title={title} />
+			<SEO
+				title={ title } 
+				description={ data.markdownRemark.excerpt }
+				featuredImage={ data.markdownRemark.frontmatter.featuredImage?.publicURL }
+			/>
 
 			<SectionBody>
 				<div className="columns is-multiline blog-entry-page">
@@ -51,11 +55,23 @@ query BlogEntryPage( $slug: String! ) {
 		html
 		id
 		tableOfContents
+		excerpt
 		frontmatter {
 			title
 			date
 			category
-			tags
+			featuredImage {
+				publicURL
+				internal {
+					mediaType
+				}
+				childImageSharp {
+					fluid(maxWidth: 800) {
+						...GatsbyImageSharpFluid
+					}
+				}
+			}
+		tags
 		}
   }
 }`

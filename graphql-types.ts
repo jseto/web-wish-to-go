@@ -812,6 +812,42 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___date' |
   'childMarkdownRemark___frontmatter___category' |
   'childMarkdownRemark___frontmatter___tags' |
+  'childMarkdownRemark___frontmatter___featuredImage___sourceInstanceName' |
+  'childMarkdownRemark___frontmatter___featuredImage___absolutePath' |
+  'childMarkdownRemark___frontmatter___featuredImage___relativePath' |
+  'childMarkdownRemark___frontmatter___featuredImage___extension' |
+  'childMarkdownRemark___frontmatter___featuredImage___size' |
+  'childMarkdownRemark___frontmatter___featuredImage___prettySize' |
+  'childMarkdownRemark___frontmatter___featuredImage___modifiedTime' |
+  'childMarkdownRemark___frontmatter___featuredImage___accessTime' |
+  'childMarkdownRemark___frontmatter___featuredImage___changeTime' |
+  'childMarkdownRemark___frontmatter___featuredImage___birthTime' |
+  'childMarkdownRemark___frontmatter___featuredImage___root' |
+  'childMarkdownRemark___frontmatter___featuredImage___dir' |
+  'childMarkdownRemark___frontmatter___featuredImage___base' |
+  'childMarkdownRemark___frontmatter___featuredImage___ext' |
+  'childMarkdownRemark___frontmatter___featuredImage___name' |
+  'childMarkdownRemark___frontmatter___featuredImage___relativeDirectory' |
+  'childMarkdownRemark___frontmatter___featuredImage___dev' |
+  'childMarkdownRemark___frontmatter___featuredImage___mode' |
+  'childMarkdownRemark___frontmatter___featuredImage___nlink' |
+  'childMarkdownRemark___frontmatter___featuredImage___uid' |
+  'childMarkdownRemark___frontmatter___featuredImage___gid' |
+  'childMarkdownRemark___frontmatter___featuredImage___rdev' |
+  'childMarkdownRemark___frontmatter___featuredImage___ino' |
+  'childMarkdownRemark___frontmatter___featuredImage___atimeMs' |
+  'childMarkdownRemark___frontmatter___featuredImage___mtimeMs' |
+  'childMarkdownRemark___frontmatter___featuredImage___ctimeMs' |
+  'childMarkdownRemark___frontmatter___featuredImage___atime' |
+  'childMarkdownRemark___frontmatter___featuredImage___mtime' |
+  'childMarkdownRemark___frontmatter___featuredImage___ctime' |
+  'childMarkdownRemark___frontmatter___featuredImage___birthtime' |
+  'childMarkdownRemark___frontmatter___featuredImage___birthtimeMs' |
+  'childMarkdownRemark___frontmatter___featuredImage___blksize' |
+  'childMarkdownRemark___frontmatter___featuredImage___blocks' |
+  'childMarkdownRemark___frontmatter___featuredImage___publicURL' |
+  'childMarkdownRemark___frontmatter___featuredImage___id' |
+  'childMarkdownRemark___frontmatter___featuredImage___children' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
   'childMarkdownRemark___fileAbsolutePath' |
@@ -1773,6 +1809,67 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___date' |
   'frontmatter___category' |
   'frontmatter___tags' |
+  'frontmatter___featuredImage___sourceInstanceName' |
+  'frontmatter___featuredImage___absolutePath' |
+  'frontmatter___featuredImage___relativePath' |
+  'frontmatter___featuredImage___extension' |
+  'frontmatter___featuredImage___size' |
+  'frontmatter___featuredImage___prettySize' |
+  'frontmatter___featuredImage___modifiedTime' |
+  'frontmatter___featuredImage___accessTime' |
+  'frontmatter___featuredImage___changeTime' |
+  'frontmatter___featuredImage___birthTime' |
+  'frontmatter___featuredImage___root' |
+  'frontmatter___featuredImage___dir' |
+  'frontmatter___featuredImage___base' |
+  'frontmatter___featuredImage___ext' |
+  'frontmatter___featuredImage___name' |
+  'frontmatter___featuredImage___relativeDirectory' |
+  'frontmatter___featuredImage___dev' |
+  'frontmatter___featuredImage___mode' |
+  'frontmatter___featuredImage___nlink' |
+  'frontmatter___featuredImage___uid' |
+  'frontmatter___featuredImage___gid' |
+  'frontmatter___featuredImage___rdev' |
+  'frontmatter___featuredImage___ino' |
+  'frontmatter___featuredImage___atimeMs' |
+  'frontmatter___featuredImage___mtimeMs' |
+  'frontmatter___featuredImage___ctimeMs' |
+  'frontmatter___featuredImage___atime' |
+  'frontmatter___featuredImage___mtime' |
+  'frontmatter___featuredImage___ctime' |
+  'frontmatter___featuredImage___birthtime' |
+  'frontmatter___featuredImage___birthtimeMs' |
+  'frontmatter___featuredImage___blksize' |
+  'frontmatter___featuredImage___blocks' |
+  'frontmatter___featuredImage___publicURL' |
+  'frontmatter___featuredImage___childImageSharp___id' |
+  'frontmatter___featuredImage___childImageSharp___children' |
+  'frontmatter___featuredImage___id' |
+  'frontmatter___featuredImage___parent___id' |
+  'frontmatter___featuredImage___parent___children' |
+  'frontmatter___featuredImage___children' |
+  'frontmatter___featuredImage___children___id' |
+  'frontmatter___featuredImage___children___children' |
+  'frontmatter___featuredImage___internal___content' |
+  'frontmatter___featuredImage___internal___contentDigest' |
+  'frontmatter___featuredImage___internal___description' |
+  'frontmatter___featuredImage___internal___fieldOwners' |
+  'frontmatter___featuredImage___internal___ignoreType' |
+  'frontmatter___featuredImage___internal___mediaType' |
+  'frontmatter___featuredImage___internal___owner' |
+  'frontmatter___featuredImage___internal___type' |
+  'frontmatter___featuredImage___childMarkdownRemark___id' |
+  'frontmatter___featuredImage___childMarkdownRemark___excerpt' |
+  'frontmatter___featuredImage___childMarkdownRemark___rawMarkdownBody' |
+  'frontmatter___featuredImage___childMarkdownRemark___fileAbsolutePath' |
+  'frontmatter___featuredImage___childMarkdownRemark___html' |
+  'frontmatter___featuredImage___childMarkdownRemark___htmlAst' |
+  'frontmatter___featuredImage___childMarkdownRemark___excerptAst' |
+  'frontmatter___featuredImage___childMarkdownRemark___headings' |
+  'frontmatter___featuredImage___childMarkdownRemark___timeToRead' |
+  'frontmatter___featuredImage___childMarkdownRemark___tableOfContents' |
+  'frontmatter___featuredImage___childMarkdownRemark___children' |
   'excerpt' |
   'rawMarkdownBody' |
   'fileAbsolutePath' |
@@ -1917,6 +2014,7 @@ export type MarkdownRemarkFrontmatter = {
   date?: Maybe<Scalars['Date']>,
   category?: Maybe<Scalars['String']>,
   tags?: Maybe<Array<Maybe<Scalars['String']>>>,
+  featuredImage?: Maybe<File>,
 };
 
 
@@ -1947,6 +2045,7 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   date?: Maybe<DateQueryOperatorInput>,
   category?: Maybe<StringQueryOperatorInput>,
   tags?: Maybe<StringQueryOperatorInput>,
+  featuredImage?: Maybe<FileFilterInput>,
 };
 
 export type MarkdownRemarkGroupConnection = {
@@ -2198,8 +2297,6 @@ export type QuerySiteArgs = {
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
-  port?: Maybe<IntQueryOperatorInput>,
-  host?: Maybe<StringQueryOperatorInput>,
   polyfill?: Maybe<BooleanQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   buildTime?: Maybe<DateQueryOperatorInput>
@@ -2269,8 +2366,6 @@ export type Site = Node & {
   children: Array<Node>,
   internal: Internal,
   siteMetadata?: Maybe<SiteSiteMetadata>,
-  port?: Maybe<Scalars['Int']>,
-  host?: Maybe<Scalars['String']>,
   polyfill?: Maybe<Scalars['Boolean']>,
   pathPrefix?: Maybe<Scalars['String']>,
   buildTime?: Maybe<Scalars['Date']>,
@@ -2402,8 +2497,6 @@ export type SiteFieldsEnum =
   'siteMetadata___description' |
   'siteMetadata___author' |
   'siteMetadata___siteUrl' |
-  'port' |
-  'host' |
   'polyfill' |
   'pathPrefix' |
   'buildTime';
@@ -2414,8 +2507,6 @@ export type SiteFilterInput = {
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
-  port?: Maybe<IntQueryOperatorInput>,
-  host?: Maybe<StringQueryOperatorInput>,
   polyfill?: Maybe<BooleanQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   buildTime?: Maybe<DateQueryOperatorInput>,
@@ -3171,7 +3262,7 @@ export type StringQueryOperatorInput = {
 export type Unnamed_1_QueryVariables = {};
 
 
-export type Unnamed_1_Query = { site: Maybe<{ siteMetadata: Maybe<Pick<SiteSiteMetadata, 'title' | 'description' | 'author'>> }> };
+export type Unnamed_1_Query = { site: Maybe<{ siteMetadata: Maybe<Pick<SiteSiteMetadata, 'title' | 'description' | 'author' | 'siteUrl'>> }> };
 
 export type SideBarQueryVariables = {};
 
@@ -3236,8 +3327,14 @@ export type BlogEntryPageQueryVariables = {
 
 
 export type BlogEntryPageQuery = { markdownRemark: Maybe<(
-    Pick<MarkdownRemark, 'html' | 'id' | 'tableOfContents'>
-    & { frontmatter: Maybe<Pick<MarkdownRemarkFrontmatter, 'title' | 'date' | 'category' | 'tags'>> }
+    Pick<MarkdownRemark, 'html' | 'id' | 'tableOfContents' | 'excerpt'>
+    & { frontmatter: Maybe<(
+      Pick<MarkdownRemarkFrontmatter, 'title' | 'date' | 'category' | 'tags'>
+      & { featuredImage: Maybe<(
+        Pick<File, 'publicURL'>
+        & { internal: Pick<Internal, 'mediaType'>, childImageSharp: Maybe<{ fluid: Maybe<GatsbyImageSharpFluidFragment> }> }
+      )> }
+    )> }
   )> };
 
 export type BlogLastEntriesQueryVariables = {};
