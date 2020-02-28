@@ -193,12 +193,18 @@
 		padding: 0 1em
 		max-width: 8em
 		margin-top: 1em
-		@extend .is-size-5-mobile
+		@media screen and ( max-width: 500px )
+			font-size: 1.2rem !important
+		@extend .is-size-4-mobile
+		@extend .is-size-3-tablet
+		@extend .is-size-2-desktop
 		@extend .is-size-1
 	.gatsby-resp-image-wrapper, ul
 		margin-top: -17em
 		@media screen and ( max-width: $tablet - 1px )
 			margin-top: -8em
+		@media screen and ( max-width: $desktop )
+			margin-top: -10em
 	ul
 		@extend .button 
 		@extend .is-success 

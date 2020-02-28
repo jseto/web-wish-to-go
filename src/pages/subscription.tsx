@@ -111,7 +111,7 @@ export class Subscription extends React.Component<SubscriptionProps, Subscriptio
 									</span>
 								</button>
 							</p>
-							<p>
+							{/* <p>
 								<button 
 									className="button is-info is-fullwidth"
 									onClick={() => this.signWithProvider( 'facebook' )}
@@ -121,7 +121,7 @@ export class Subscription extends React.Component<SubscriptionProps, Subscriptio
 										<i className=" fab fa-facebook"></i>
 									</span>
 								</button>
-							</p>
+							</p> */}
 						</div>
 					</div>
 					

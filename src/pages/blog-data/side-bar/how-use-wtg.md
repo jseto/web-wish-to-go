@@ -9,4 +9,10 @@ order: 1
 
 # Using _Wish to go_
 
-Wish to go is a wish list for your travel posts. Your readers can mark an entry in your blog as a _Wish to go_ destination by clicking on the heart icon <WishWidget country="TV"></WishWidget> that you can insert in any place of your site. As they continue reading articles in your blog, they keep choosing destinations that they would like to visit. Once they have a collection of destinations in the wish list, they can plan their next trip in the Wish to go Trip Planner.
+1. Install the plugin in your blog.
+2. Click on the hearts in the blog entries.
+
+	As your readers bookmark your destinations they start building a destination wish list
+3. Go to the Trip Panel
+
+	Your readers can plan their holiday trip based on the liked destinations.
