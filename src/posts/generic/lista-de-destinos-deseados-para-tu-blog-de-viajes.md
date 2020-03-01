@@ -2,6 +2,7 @@
 title: Una lista de deseos para tu blog
 date: 2020-02-24T03:02:57Z
 category: generic
+featuredImage: ../../images/lennart-jonsson-0nc0_v-PRUg-unsplash.jpg
 tags:
 	- Wishlist
 ---

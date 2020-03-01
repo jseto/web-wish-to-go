@@ -2,6 +2,7 @@
 title: Wish Lists as a Visitor Engagement Tool
 date: 2019-12-14T05:30:56Z
 category: generic
+featuredImage: ../../images/woman-s-hand-using-a-pen-noting-on-notepad-6360.jpg
 tags:
   - Wishlist
 ---
