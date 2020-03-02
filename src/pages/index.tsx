@@ -7,6 +7,8 @@ import MarkdownBlock, { Align } from "../components/markdown-block"
 import { Banner } from "../components/banner"
 import { ProductHighlights } from "../templates/product-highlights"
 import { HTMLContent } from "../components/content"
+import { Slider } from "../components/slider"
+import { SlideShow } from "../templates/slide-show"
 // import logo from '../images/logo.svg'
 
 interface GraphQLProps {

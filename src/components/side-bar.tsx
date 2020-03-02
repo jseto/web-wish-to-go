@@ -1,12 +1,7 @@
 import * as React from "react"
 import { graphql, StaticQuery } from "gatsby"
-import MarkdownBlock, { Align } from "../components/markdown-block"
 import { SideBarQuery } from "../../graphql-types";
 import { HTMLContent } from "./content";
-
-interface GraphQLProps {
-	data: SideBarQuery;
-}
 
 const SideBar = () => {
 	

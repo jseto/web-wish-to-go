@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import { SlideShow } from '../templates/slide-show'
 
 interface BannerProps {
 	backgroundImage: any;
@@ -24,7 +25,7 @@ export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subhead
 			<div
 				style={{
 					display: 'flex',
-					height: '150px',
+					height: '500px',
 					lineHeight: '1',
 					justifyContent: 'space-around',
 					alignItems: 'left',
@@ -45,6 +46,9 @@ export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subhead
 				>
 					{header}
 				</h1>
+
+				<SlideShow/>
+
 				<h2
 					className="has-text-weight-bold is-size-5-mobile is-size-3-tablet is-size-3-widescreen"
 					style={{
