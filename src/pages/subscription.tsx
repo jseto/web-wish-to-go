@@ -1,6 +1,9 @@
 import * as React from "react"
 import {Layout, SectionBody} from "../components/layout"
 import { SEO } from "../components/seo"
+import { graphql } from "gatsby";
+import { SubscriptionQuery } from "../../graphql-types";
+import MarkdownBlock from "../components/markdown-block";
 
 interface UserCredential {
 	authId: string;
@@ -25,6 +28,7 @@ interface Auth {
 
 interface SubscriptionProps {
 	location: Location;
+	data: SubscriptionQuery;
 }
 
 interface SubscriptionState {
@@ -49,6 +53,10 @@ export class Subscription extends React.Component<SubscriptionProps, Subscriptio
 	render() {
 		const { email, password } = this.state;
 
+		const content = this.props.data.allMarkdownRemark.nodes.find( 
+			value => value.frontmatter.plan === this.plan 
+		)
+
 		return (
 			<Layout>
 				<SEO title="Sign-up" />
@@ -60,6 +68,9 @@ export class Subscription extends React.Component<SubscriptionProps, Subscriptio
 				</div>
 
 				<SectionBody>
+					{ content &&
+						<MarkdownBlock content={ content.html } contentColumnWidth={8}/>
+					}
 
 					<div className="columns is-vcentered">
 						<div className="column is-4 is-offset-2 subscription-group">
@@ -163,3 +174,18 @@ export class Subscription extends React.Component<SubscriptionProps, Subscriptio
 }
 
 export default Subscription
+
+
+export const query = graphql`
+query Subscription {
+	allMarkdownRemark(filter: {frontmatter: {pageTemplate: {eq: "subscription"}}}) {
+    nodes {
+      html
+      id
+			frontmatter {
+				plan
+			}
+    }
+  }
+}
+`

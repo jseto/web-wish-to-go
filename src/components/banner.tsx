@@ -7,10 +7,11 @@ interface BannerProps {
 	header: string;
 	subheader: string;
 	callToAction: string;
+	callToActionURL: string
 	callToActionSmallText: string;
 }
 
-export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subheader, callToAction, callToActionSmallText })=>{
+export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subheader, callToAction, callToActionSmallText, callToActionURL })=>{
 	return (
 		<div
 			className="full-width-image margin-top-0"
@@ -25,7 +26,7 @@ export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subhead
 			<div
 				style={{
 					display: 'flex',
-					height: '500px',
+					height: '530px',
 					lineHeight: '1',
 					justifyContent: 'space-around',
 					alignItems: 'left',
@@ -65,23 +66,26 @@ export const Banner: React.FC<BannerProps> = ({ backgroundImage, header, subhead
 				</h2>
 				<Link 
 					className="button is-primary side-margin-1em"
-					to="/plans/"
+					to={ callToActionURL }
 				>
 					<h3 className="has-text-weight-bold">
 						{ callToAction }
 					</h3>
 				</Link>
-				<small 
-					className="side-margin-1em5"
-					style={{
-						color: 'lightgrey',
-						fontSize: '0.8em',
-						textAlign: 'left',
-						marginTop: '0.3em'
-					}}
-				>
-					*{ callToActionSmallText }
-				</small>
+
+				{ callToActionSmallText &&
+					<small 
+						className="side-margin-1em5"
+						style={{
+							color: 'lightgrey',
+							fontSize: '0.8em',
+							textAlign: 'left',
+							marginTop: '0.3em'
+						}}
+					>
+						*{ callToActionSmallText }
+					</small>
+				}
 			</div>
 		</div>
 	)

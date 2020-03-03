@@ -7,16 +7,13 @@ import MarkdownBlock, { Align } from "../components/markdown-block"
 import { Banner } from "../components/banner"
 import { ProductHighlights } from "../templates/product-highlights"
 import { HTMLContent } from "../components/content"
-import { Slider } from "../components/slider"
-import { SlideShow } from "../templates/slide-show"
-// import logo from '../images/logo.svg'
 
 interface GraphQLProps {
 	data: IndexQuery;
 }
 
 const Index: React.FC<GraphQLProps> = ({data}) => {
-	const { backgroundImage, heading, subheading, callToAction, callToActionSmallText } = data.markdownRemark.frontmatter;
+	const { backgroundImage, heading, subheading, callToAction, callToActionSmallText, callToActionURL } = data.markdownRemark.frontmatter;
 	const { html } = data.markdownRemark
 	const blocks = data.allMarkdownRemark.nodes;
 
@@ -29,6 +26,7 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 				backgroundImage={ backgroundImage }
 				callToAction={ callToAction }
 				callToActionSmallText={ callToActionSmallText }
+				callToActionURL={ callToActionURL }
 			/>
 			<SectionBody>
 
@@ -62,13 +60,13 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 					)
 				}
 
-        <div className="columns">
+        {/* <div className="columns">
           <div className="column is-12 has-text-centered">
             <Link className="btn" to="/plans/">
               See all plans
             </Link>
           </div>
-        </div>
+        </div> */}
 
       </SectionBody>
 	  </Layout>
@@ -86,6 +84,7 @@ query Index {
 			heading
 			subheading
 			callToAction
+			callToActionURL
 			callToActionSmallText
 			backgroundImage {
         childImageSharp {

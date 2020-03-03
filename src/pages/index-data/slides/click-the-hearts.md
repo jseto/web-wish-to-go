@@ -5,6 +5,6 @@ section: slide
 image: ../../../images/click-on-the-hearts-animation.gif
 ---
 
-# Click on the Hearts
+## Let Readers to Like your Posts
 
-Readers click on the hearts to add posts to the **Destination Wish List**
+Readers can click on the hearts next to your posts to add them to the **Destination Wish List**

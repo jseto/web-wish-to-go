@@ -20,3 +20,5 @@ order: 1
 	![Plan a trip](../../../images/plan-a-trip-animation.gif)
 
 	Your readers can plan their holiday trip based on the liked destinations.
+
+[Get the Plugin for Free Now](/subscription/?plan=backpacker)

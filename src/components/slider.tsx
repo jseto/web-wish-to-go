@@ -15,11 +15,11 @@ interface SliderProps {
 export const Slider: React.FC<SliderProps> = props => {
 	return (
 		<Carousel 
-			defaultWait={ 5000 }
+			defaultWait={ 10000 }
 			maxTurns={Number.MAX_SAFE_INTEGER}
 		>
 			{
-				props.slides.map( item => <Slide right>{ item }</Slide>)
+				props.slides.map( ( item, idx ) => <Slide right key={idx}>{ item }</Slide>)
 			}
 		</Carousel>
 	)

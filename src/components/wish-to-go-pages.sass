@@ -249,6 +249,10 @@
 		margin-top: -0.75rem
 		@extend .blog-entry-panel
 		padding: 1em
+		// a
+		// 	@extend .button
+		// 	@extend .is-success
+		// 	// @extend .is-pulled-right
 	.main-column
 		@extend .blog-entry-panel
 		h1
@@ -256,7 +260,9 @@
 
 .carousel
 	// border: 1px solid red
+	// background-color: #0005
 	position: relative
+	line-height: normal
 	overflow: hidden
 	min-height: 200px
 	@media screen and ( max-width: $tablet - 1px )
@@ -273,9 +279,15 @@
 		// height: 800px
 		margin-left: auto
 		margin-right: auto
-		h1
-			color: white
-			// lineHeight: 1
+		@media screen and ( min-width: $tablet - 1px )
+			text-align: left
+		p, strong, em
+			color: wheat
+		
+		h2
+			color: #fe4c00
+			text-shadow: 1px 1px 10px #0005
+			// line-height: 1
 			// padding: 0.25em
 			@extend .has-text-weight-bold 
 			@extend .is-size-4-mobile 

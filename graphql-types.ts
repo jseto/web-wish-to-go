@@ -695,6 +695,7 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___heading' |
   'childMarkdownRemark___frontmatter___subheading' |
   'childMarkdownRemark___frontmatter___callToAction' |
+  'childMarkdownRemark___frontmatter___callToActionURL' |
   'childMarkdownRemark___frontmatter___callToActionSmallText' |
   'childMarkdownRemark___frontmatter___backgroundImage___sourceInstanceName' |
   'childMarkdownRemark___frontmatter___backgroundImage___absolutePath' |
@@ -809,6 +810,43 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___className' |
   'childMarkdownRemark___frontmatter___section' |
   'childMarkdownRemark___frontmatter___tripPlanner' |
+  'childMarkdownRemark___frontmatter___image___sourceInstanceName' |
+  'childMarkdownRemark___frontmatter___image___absolutePath' |
+  'childMarkdownRemark___frontmatter___image___relativePath' |
+  'childMarkdownRemark___frontmatter___image___extension' |
+  'childMarkdownRemark___frontmatter___image___size' |
+  'childMarkdownRemark___frontmatter___image___prettySize' |
+  'childMarkdownRemark___frontmatter___image___modifiedTime' |
+  'childMarkdownRemark___frontmatter___image___accessTime' |
+  'childMarkdownRemark___frontmatter___image___changeTime' |
+  'childMarkdownRemark___frontmatter___image___birthTime' |
+  'childMarkdownRemark___frontmatter___image___root' |
+  'childMarkdownRemark___frontmatter___image___dir' |
+  'childMarkdownRemark___frontmatter___image___base' |
+  'childMarkdownRemark___frontmatter___image___ext' |
+  'childMarkdownRemark___frontmatter___image___name' |
+  'childMarkdownRemark___frontmatter___image___relativeDirectory' |
+  'childMarkdownRemark___frontmatter___image___dev' |
+  'childMarkdownRemark___frontmatter___image___mode' |
+  'childMarkdownRemark___frontmatter___image___nlink' |
+  'childMarkdownRemark___frontmatter___image___uid' |
+  'childMarkdownRemark___frontmatter___image___gid' |
+  'childMarkdownRemark___frontmatter___image___rdev' |
+  'childMarkdownRemark___frontmatter___image___ino' |
+  'childMarkdownRemark___frontmatter___image___atimeMs' |
+  'childMarkdownRemark___frontmatter___image___mtimeMs' |
+  'childMarkdownRemark___frontmatter___image___ctimeMs' |
+  'childMarkdownRemark___frontmatter___image___atime' |
+  'childMarkdownRemark___frontmatter___image___mtime' |
+  'childMarkdownRemark___frontmatter___image___ctime' |
+  'childMarkdownRemark___frontmatter___image___birthtime' |
+  'childMarkdownRemark___frontmatter___image___birthtimeMs' |
+  'childMarkdownRemark___frontmatter___image___blksize' |
+  'childMarkdownRemark___frontmatter___image___blocks' |
+  'childMarkdownRemark___frontmatter___image___publicURL' |
+  'childMarkdownRemark___frontmatter___image___id' |
+  'childMarkdownRemark___frontmatter___image___children' |
+  'childMarkdownRemark___frontmatter___plan' |
   'childMarkdownRemark___frontmatter___date' |
   'childMarkdownRemark___frontmatter___category' |
   'childMarkdownRemark___frontmatter___tags' |
@@ -848,42 +886,6 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___featuredImage___publicURL' |
   'childMarkdownRemark___frontmatter___featuredImage___id' |
   'childMarkdownRemark___frontmatter___featuredImage___children' |
-  'childMarkdownRemark___frontmatter___image___sourceInstanceName' |
-  'childMarkdownRemark___frontmatter___image___absolutePath' |
-  'childMarkdownRemark___frontmatter___image___relativePath' |
-  'childMarkdownRemark___frontmatter___image___extension' |
-  'childMarkdownRemark___frontmatter___image___size' |
-  'childMarkdownRemark___frontmatter___image___prettySize' |
-  'childMarkdownRemark___frontmatter___image___modifiedTime' |
-  'childMarkdownRemark___frontmatter___image___accessTime' |
-  'childMarkdownRemark___frontmatter___image___changeTime' |
-  'childMarkdownRemark___frontmatter___image___birthTime' |
-  'childMarkdownRemark___frontmatter___image___root' |
-  'childMarkdownRemark___frontmatter___image___dir' |
-  'childMarkdownRemark___frontmatter___image___base' |
-  'childMarkdownRemark___frontmatter___image___ext' |
-  'childMarkdownRemark___frontmatter___image___name' |
-  'childMarkdownRemark___frontmatter___image___relativeDirectory' |
-  'childMarkdownRemark___frontmatter___image___dev' |
-  'childMarkdownRemark___frontmatter___image___mode' |
-  'childMarkdownRemark___frontmatter___image___nlink' |
-  'childMarkdownRemark___frontmatter___image___uid' |
-  'childMarkdownRemark___frontmatter___image___gid' |
-  'childMarkdownRemark___frontmatter___image___rdev' |
-  'childMarkdownRemark___frontmatter___image___ino' |
-  'childMarkdownRemark___frontmatter___image___atimeMs' |
-  'childMarkdownRemark___frontmatter___image___mtimeMs' |
-  'childMarkdownRemark___frontmatter___image___ctimeMs' |
-  'childMarkdownRemark___frontmatter___image___atime' |
-  'childMarkdownRemark___frontmatter___image___mtime' |
-  'childMarkdownRemark___frontmatter___image___ctime' |
-  'childMarkdownRemark___frontmatter___image___birthtime' |
-  'childMarkdownRemark___frontmatter___image___birthtimeMs' |
-  'childMarkdownRemark___frontmatter___image___blksize' |
-  'childMarkdownRemark___frontmatter___image___blocks' |
-  'childMarkdownRemark___frontmatter___image___publicURL' |
-  'childMarkdownRemark___frontmatter___image___id' |
-  'childMarkdownRemark___frontmatter___image___children' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
   'childMarkdownRemark___fileAbsolutePath' |
@@ -1653,6 +1655,7 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___heading' |
   'frontmatter___subheading' |
   'frontmatter___callToAction' |
+  'frontmatter___callToActionURL' |
   'frontmatter___callToActionSmallText' |
   'frontmatter___backgroundImage___sourceInstanceName' |
   'frontmatter___backgroundImage___absolutePath' |
@@ -1842,6 +1845,68 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___className' |
   'frontmatter___section' |
   'frontmatter___tripPlanner' |
+  'frontmatter___image___sourceInstanceName' |
+  'frontmatter___image___absolutePath' |
+  'frontmatter___image___relativePath' |
+  'frontmatter___image___extension' |
+  'frontmatter___image___size' |
+  'frontmatter___image___prettySize' |
+  'frontmatter___image___modifiedTime' |
+  'frontmatter___image___accessTime' |
+  'frontmatter___image___changeTime' |
+  'frontmatter___image___birthTime' |
+  'frontmatter___image___root' |
+  'frontmatter___image___dir' |
+  'frontmatter___image___base' |
+  'frontmatter___image___ext' |
+  'frontmatter___image___name' |
+  'frontmatter___image___relativeDirectory' |
+  'frontmatter___image___dev' |
+  'frontmatter___image___mode' |
+  'frontmatter___image___nlink' |
+  'frontmatter___image___uid' |
+  'frontmatter___image___gid' |
+  'frontmatter___image___rdev' |
+  'frontmatter___image___ino' |
+  'frontmatter___image___atimeMs' |
+  'frontmatter___image___mtimeMs' |
+  'frontmatter___image___ctimeMs' |
+  'frontmatter___image___atime' |
+  'frontmatter___image___mtime' |
+  'frontmatter___image___ctime' |
+  'frontmatter___image___birthtime' |
+  'frontmatter___image___birthtimeMs' |
+  'frontmatter___image___blksize' |
+  'frontmatter___image___blocks' |
+  'frontmatter___image___publicURL' |
+  'frontmatter___image___childImageSharp___id' |
+  'frontmatter___image___childImageSharp___children' |
+  'frontmatter___image___id' |
+  'frontmatter___image___parent___id' |
+  'frontmatter___image___parent___children' |
+  'frontmatter___image___children' |
+  'frontmatter___image___children___id' |
+  'frontmatter___image___children___children' |
+  'frontmatter___image___internal___content' |
+  'frontmatter___image___internal___contentDigest' |
+  'frontmatter___image___internal___description' |
+  'frontmatter___image___internal___fieldOwners' |
+  'frontmatter___image___internal___ignoreType' |
+  'frontmatter___image___internal___mediaType' |
+  'frontmatter___image___internal___owner' |
+  'frontmatter___image___internal___type' |
+  'frontmatter___image___childMarkdownRemark___id' |
+  'frontmatter___image___childMarkdownRemark___excerpt' |
+  'frontmatter___image___childMarkdownRemark___rawMarkdownBody' |
+  'frontmatter___image___childMarkdownRemark___fileAbsolutePath' |
+  'frontmatter___image___childMarkdownRemark___html' |
+  'frontmatter___image___childMarkdownRemark___htmlAst' |
+  'frontmatter___image___childMarkdownRemark___excerptAst' |
+  'frontmatter___image___childMarkdownRemark___headings' |
+  'frontmatter___image___childMarkdownRemark___timeToRead' |
+  'frontmatter___image___childMarkdownRemark___tableOfContents' |
+  'frontmatter___image___childMarkdownRemark___children' |
+  'frontmatter___plan' |
   'frontmatter___date' |
   'frontmatter___category' |
   'frontmatter___tags' |
@@ -1906,67 +1971,6 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___featuredImage___childMarkdownRemark___timeToRead' |
   'frontmatter___featuredImage___childMarkdownRemark___tableOfContents' |
   'frontmatter___featuredImage___childMarkdownRemark___children' |
-  'frontmatter___image___sourceInstanceName' |
-  'frontmatter___image___absolutePath' |
-  'frontmatter___image___relativePath' |
-  'frontmatter___image___extension' |
-  'frontmatter___image___size' |
-  'frontmatter___image___prettySize' |
-  'frontmatter___image___modifiedTime' |
-  'frontmatter___image___accessTime' |
-  'frontmatter___image___changeTime' |
-  'frontmatter___image___birthTime' |
-  'frontmatter___image___root' |
-  'frontmatter___image___dir' |
-  'frontmatter___image___base' |
-  'frontmatter___image___ext' |
-  'frontmatter___image___name' |
-  'frontmatter___image___relativeDirectory' |
-  'frontmatter___image___dev' |
-  'frontmatter___image___mode' |
-  'frontmatter___image___nlink' |
-  'frontmatter___image___uid' |
-  'frontmatter___image___gid' |
-  'frontmatter___image___rdev' |
-  'frontmatter___image___ino' |
-  'frontmatter___image___atimeMs' |
-  'frontmatter___image___mtimeMs' |
-  'frontmatter___image___ctimeMs' |
-  'frontmatter___image___atime' |
-  'frontmatter___image___mtime' |
-  'frontmatter___image___ctime' |
-  'frontmatter___image___birthtime' |
-  'frontmatter___image___birthtimeMs' |
-  'frontmatter___image___blksize' |
-  'frontmatter___image___blocks' |
-  'frontmatter___image___publicURL' |
-  'frontmatter___image___childImageSharp___id' |
-  'frontmatter___image___childImageSharp___children' |
-  'frontmatter___image___id' |
-  'frontmatter___image___parent___id' |
-  'frontmatter___image___parent___children' |
-  'frontmatter___image___children' |
-  'frontmatter___image___children___id' |
-  'frontmatter___image___children___children' |
-  'frontmatter___image___internal___content' |
-  'frontmatter___image___internal___contentDigest' |
-  'frontmatter___image___internal___description' |
-  'frontmatter___image___internal___fieldOwners' |
-  'frontmatter___image___internal___ignoreType' |
-  'frontmatter___image___internal___mediaType' |
-  'frontmatter___image___internal___owner' |
-  'frontmatter___image___internal___type' |
-  'frontmatter___image___childMarkdownRemark___id' |
-  'frontmatter___image___childMarkdownRemark___excerpt' |
-  'frontmatter___image___childMarkdownRemark___rawMarkdownBody' |
-  'frontmatter___image___childMarkdownRemark___fileAbsolutePath' |
-  'frontmatter___image___childMarkdownRemark___html' |
-  'frontmatter___image___childMarkdownRemark___htmlAst' |
-  'frontmatter___image___childMarkdownRemark___excerptAst' |
-  'frontmatter___image___childMarkdownRemark___headings' |
-  'frontmatter___image___childMarkdownRemark___timeToRead' |
-  'frontmatter___image___childMarkdownRemark___tableOfContents' |
-  'frontmatter___image___childMarkdownRemark___children' |
   'excerpt' |
   'rawMarkdownBody' |
   'fileAbsolutePath' |
@@ -2099,6 +2103,7 @@ export type MarkdownRemarkFrontmatter = {
   heading?: Maybe<Scalars['String']>,
   subheading?: Maybe<Scalars['String']>,
   callToAction?: Maybe<Scalars['String']>,
+  callToActionURL?: Maybe<Scalars['String']>,
   callToActionSmallText?: Maybe<Scalars['String']>,
   backgroundImage?: Maybe<File>,
   rightImage?: Maybe<File>,
@@ -2108,11 +2113,12 @@ export type MarkdownRemarkFrontmatter = {
   className?: Maybe<Scalars['String']>,
   section?: Maybe<Scalars['String']>,
   tripPlanner?: Maybe<Scalars['String']>,
+  image?: Maybe<File>,
+  plan?: Maybe<Scalars['String']>,
   date?: Maybe<Scalars['Date']>,
   category?: Maybe<Scalars['String']>,
   tags?: Maybe<Array<Maybe<Scalars['String']>>>,
   featuredImage?: Maybe<File>,
-  image?: Maybe<File>,
 };
 
 
@@ -2131,6 +2137,7 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   heading?: Maybe<StringQueryOperatorInput>,
   subheading?: Maybe<StringQueryOperatorInput>,
   callToAction?: Maybe<StringQueryOperatorInput>,
+  callToActionURL?: Maybe<StringQueryOperatorInput>,
   callToActionSmallText?: Maybe<StringQueryOperatorInput>,
   backgroundImage?: Maybe<FileFilterInput>,
   rightImage?: Maybe<FileFilterInput>,
@@ -2140,11 +2147,12 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   className?: Maybe<StringQueryOperatorInput>,
   section?: Maybe<StringQueryOperatorInput>,
   tripPlanner?: Maybe<StringQueryOperatorInput>,
+  image?: Maybe<FileFilterInput>,
+  plan?: Maybe<StringQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
   category?: Maybe<StringQueryOperatorInput>,
   tags?: Maybe<StringQueryOperatorInput>,
   featuredImage?: Maybe<FileFilterInput>,
-  image?: Maybe<FileFilterInput>,
 };
 
 export type MarkdownRemarkGroupConnection = {
@@ -2228,12 +2236,14 @@ export type Query = {
   allDirectory: DirectoryConnection,
   sitePage?: Maybe<SitePage>,
   allSitePage: SitePageConnection,
+  site?: Maybe<Site>,
+  allSite: SiteConnection,
   imageSharp?: Maybe<ImageSharp>,
   allImageSharp: ImageSharpConnection,
   markdownRemark?: Maybe<MarkdownRemark>,
   allMarkdownRemark: MarkdownRemarkConnection,
-  site?: Maybe<Site>,
-  allSite: SiteConnection,
+  siteBuildMetadata?: Maybe<SiteBuildMetadata>,
+  allSiteBuildMetadata: SiteBuildMetadataConnection,
   sitePlugin?: Maybe<SitePlugin>,
   allSitePlugin: SitePluginConnection,
 };
@@ -2366,6 +2376,28 @@ export type QueryAllSitePageArgs = {
 };
 
 
+export type QuerySiteArgs = {
+  buildTime?: Maybe<DateQueryOperatorInput>,
+  siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
+  port?: Maybe<IntQueryOperatorInput>,
+  host?: Maybe<StringQueryOperatorInput>,
+  polyfill?: Maybe<BooleanQueryOperatorInput>,
+  pathPrefix?: Maybe<StringQueryOperatorInput>,
+  id?: Maybe<StringQueryOperatorInput>,
+  parent?: Maybe<NodeFilterInput>,
+  children?: Maybe<NodeFilterListInput>,
+  internal?: Maybe<InternalFilterInput>
+};
+
+
+export type QueryAllSiteArgs = {
+  filter?: Maybe<SiteFilterInput>,
+  sort?: Maybe<SiteSortInput>,
+  skip?: Maybe<Scalars['Int']>,
+  limit?: Maybe<Scalars['Int']>
+};
+
+
 export type QueryImageSharpArgs = {
   fixed?: Maybe<ImageSharpFixedFilterInput>,
   resolutions?: Maybe<ImageSharpResolutionsFilterInput>,
@@ -2416,23 +2448,18 @@ export type QueryAllMarkdownRemarkArgs = {
 };
 
 
-export type QuerySiteArgs = {
+export type QuerySiteBuildMetadataArgs = {
   id?: Maybe<StringQueryOperatorInput>,
   parent?: Maybe<NodeFilterInput>,
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
-  siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
-  port?: Maybe<IntQueryOperatorInput>,
-  host?: Maybe<StringQueryOperatorInput>,
-  polyfill?: Maybe<BooleanQueryOperatorInput>,
-  pathPrefix?: Maybe<StringQueryOperatorInput>,
   buildTime?: Maybe<DateQueryOperatorInput>
 };
 
 
-export type QueryAllSiteArgs = {
-  filter?: Maybe<SiteFilterInput>,
-  sort?: Maybe<SiteSortInput>,
+export type QueryAllSiteBuildMetadataArgs = {
+  filter?: Maybe<SiteBuildMetadataFilterInput>,
+  sort?: Maybe<SiteBuildMetadataSortInput>,
   skip?: Maybe<Scalars['Int']>,
   limit?: Maybe<Scalars['Int']>
 };
@@ -2463,16 +2490,16 @@ export type QueryAllSitePluginArgs = {
 };
 
 export type Site = Node & {
-  id: Scalars['ID'],
-  parent?: Maybe<Node>,
-  children: Array<Node>,
-  internal: Internal,
+  buildTime?: Maybe<Scalars['Date']>,
   siteMetadata?: Maybe<SiteSiteMetadata>,
   port?: Maybe<Scalars['Int']>,
   host?: Maybe<Scalars['String']>,
   polyfill?: Maybe<Scalars['Boolean']>,
   pathPrefix?: Maybe<Scalars['String']>,
-  buildTime?: Maybe<Scalars['Date']>,
+  id: Scalars['ID'],
+  parent?: Maybe<Node>,
+  children: Array<Node>,
+  internal: Internal,
 };
 
 
@@ -2483,34 +2510,50 @@ export type SiteBuildTimeArgs = {
   locale?: Maybe<Scalars['String']>
 };
 
-export type SiteConnection = {
+export type SiteBuildMetadata = Node & {
+  id: Scalars['ID'],
+  parent?: Maybe<Node>,
+  children: Array<Node>,
+  internal: Internal,
+  buildTime?: Maybe<Scalars['Date']>,
+};
+
+
+export type SiteBuildMetadataBuildTimeArgs = {
+  formatString?: Maybe<Scalars['String']>,
+  fromNow?: Maybe<Scalars['Boolean']>,
+  difference?: Maybe<Scalars['String']>,
+  locale?: Maybe<Scalars['String']>
+};
+
+export type SiteBuildMetadataConnection = {
   totalCount: Scalars['Int'],
-  edges: Array<SiteEdge>,
-  nodes: Array<Site>,
+  edges: Array<SiteBuildMetadataEdge>,
+  nodes: Array<SiteBuildMetadata>,
   pageInfo: PageInfo,
   distinct: Array<Scalars['String']>,
-  group: Array<SiteGroupConnection>,
+  group: Array<SiteBuildMetadataGroupConnection>,
 };
 
 
-export type SiteConnectionDistinctArgs = {
-  field: SiteFieldsEnum
+export type SiteBuildMetadataConnectionDistinctArgs = {
+  field: SiteBuildMetadataFieldsEnum
 };
 
 
-export type SiteConnectionGroupArgs = {
+export type SiteBuildMetadataConnectionGroupArgs = {
   skip?: Maybe<Scalars['Int']>,
   limit?: Maybe<Scalars['Int']>,
-  field: SiteFieldsEnum
+  field: SiteBuildMetadataFieldsEnum
 };
 
-export type SiteEdge = {
-  next?: Maybe<Site>,
-  node: Site,
-  previous?: Maybe<Site>,
+export type SiteBuildMetadataEdge = {
+  next?: Maybe<SiteBuildMetadata>,
+  node: SiteBuildMetadata,
+  previous?: Maybe<SiteBuildMetadata>,
 };
 
-export type SiteFieldsEnum = 
+export type SiteBuildMetadataFieldsEnum = 
   'id' |
   'parent___id' |
   'parent___parent___id' |
@@ -2597,6 +2640,59 @@ export type SiteFieldsEnum =
   'internal___mediaType' |
   'internal___owner' |
   'internal___type' |
+  'buildTime';
+
+export type SiteBuildMetadataFilterInput = {
+  id?: Maybe<StringQueryOperatorInput>,
+  parent?: Maybe<NodeFilterInput>,
+  children?: Maybe<NodeFilterListInput>,
+  internal?: Maybe<InternalFilterInput>,
+  buildTime?: Maybe<DateQueryOperatorInput>,
+};
+
+export type SiteBuildMetadataGroupConnection = {
+  totalCount: Scalars['Int'],
+  edges: Array<SiteBuildMetadataEdge>,
+  nodes: Array<SiteBuildMetadata>,
+  pageInfo: PageInfo,
+  field: Scalars['String'],
+  fieldValue?: Maybe<Scalars['String']>,
+};
+
+export type SiteBuildMetadataSortInput = {
+  fields?: Maybe<Array<Maybe<SiteBuildMetadataFieldsEnum>>>,
+  order?: Maybe<Array<Maybe<SortOrderEnum>>>,
+};
+
+export type SiteConnection = {
+  totalCount: Scalars['Int'],
+  edges: Array<SiteEdge>,
+  nodes: Array<Site>,
+  pageInfo: PageInfo,
+  distinct: Array<Scalars['String']>,
+  group: Array<SiteGroupConnection>,
+};
+
+
+export type SiteConnectionDistinctArgs = {
+  field: SiteFieldsEnum
+};
+
+
+export type SiteConnectionGroupArgs = {
+  skip?: Maybe<Scalars['Int']>,
+  limit?: Maybe<Scalars['Int']>,
+  field: SiteFieldsEnum
+};
+
+export type SiteEdge = {
+  next?: Maybe<Site>,
+  node: Site,
+  previous?: Maybe<Site>,
+};
+
+export type SiteFieldsEnum = 
+  'buildTime' |
   'siteMetadata___title' |
   'siteMetadata___description' |
   'siteMetadata___author' |
@@ -2605,19 +2701,104 @@ export type SiteFieldsEnum =
   'host' |
   'polyfill' |
   'pathPrefix' |
-  'buildTime';
+  'id' |
+  'parent___id' |
+  'parent___parent___id' |
+  'parent___parent___parent___id' |
+  'parent___parent___parent___children' |
+  'parent___parent___children' |
+  'parent___parent___children___id' |
+  'parent___parent___children___children' |
+  'parent___parent___internal___content' |
+  'parent___parent___internal___contentDigest' |
+  'parent___parent___internal___description' |
+  'parent___parent___internal___fieldOwners' |
+  'parent___parent___internal___ignoreType' |
+  'parent___parent___internal___mediaType' |
+  'parent___parent___internal___owner' |
+  'parent___parent___internal___type' |
+  'parent___children' |
+  'parent___children___id' |
+  'parent___children___parent___id' |
+  'parent___children___parent___children' |
+  'parent___children___children' |
+  'parent___children___children___id' |
+  'parent___children___children___children' |
+  'parent___children___internal___content' |
+  'parent___children___internal___contentDigest' |
+  'parent___children___internal___description' |
+  'parent___children___internal___fieldOwners' |
+  'parent___children___internal___ignoreType' |
+  'parent___children___internal___mediaType' |
+  'parent___children___internal___owner' |
+  'parent___children___internal___type' |
+  'parent___internal___content' |
+  'parent___internal___contentDigest' |
+  'parent___internal___description' |
+  'parent___internal___fieldOwners' |
+  'parent___internal___ignoreType' |
+  'parent___internal___mediaType' |
+  'parent___internal___owner' |
+  'parent___internal___type' |
+  'children' |
+  'children___id' |
+  'children___parent___id' |
+  'children___parent___parent___id' |
+  'children___parent___parent___children' |
+  'children___parent___children' |
+  'children___parent___children___id' |
+  'children___parent___children___children' |
+  'children___parent___internal___content' |
+  'children___parent___internal___contentDigest' |
+  'children___parent___internal___description' |
+  'children___parent___internal___fieldOwners' |
+  'children___parent___internal___ignoreType' |
+  'children___parent___internal___mediaType' |
+  'children___parent___internal___owner' |
+  'children___parent___internal___type' |
+  'children___children' |
+  'children___children___id' |
+  'children___children___parent___id' |
+  'children___children___parent___children' |
+  'children___children___children' |
+  'children___children___children___id' |
+  'children___children___children___children' |
+  'children___children___internal___content' |
+  'children___children___internal___contentDigest' |
+  'children___children___internal___description' |
+  'children___children___internal___fieldOwners' |
+  'children___children___internal___ignoreType' |
+  'children___children___internal___mediaType' |
+  'children___children___internal___owner' |
+  'children___children___internal___type' |
+  'children___internal___content' |
+  'children___internal___contentDigest' |
+  'children___internal___description' |
+  'children___internal___fieldOwners' |
+  'children___internal___ignoreType' |
+  'children___internal___mediaType' |
+  'children___internal___owner' |
+  'children___internal___type' |
+  'internal___content' |
+  'internal___contentDigest' |
+  'internal___description' |
+  'internal___fieldOwners' |
+  'internal___ignoreType' |
+  'internal___mediaType' |
+  'internal___owner' |
+  'internal___type';
 
 export type SiteFilterInput = {
-  id?: Maybe<StringQueryOperatorInput>,
-  parent?: Maybe<NodeFilterInput>,
-  children?: Maybe<NodeFilterListInput>,
-  internal?: Maybe<InternalFilterInput>,
+  buildTime?: Maybe<DateQueryOperatorInput>,
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
   port?: Maybe<IntQueryOperatorInput>,
   host?: Maybe<StringQueryOperatorInput>,
   polyfill?: Maybe<BooleanQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
-  buildTime?: Maybe<DateQueryOperatorInput>,
+  id?: Maybe<StringQueryOperatorInput>,
+  parent?: Maybe<NodeFilterInput>,
+  children?: Maybe<NodeFilterListInput>,
+  internal?: Maybe<InternalFilterInput>,
 };
 
 export type SiteGroupConnection = {
@@ -3402,7 +3583,7 @@ export type IndexQueryVariables = {};
 export type IndexQuery = { markdownRemark: Maybe<(
     Pick<MarkdownRemark, 'html'>
     & { frontmatter: Maybe<(
-      Pick<MarkdownRemarkFrontmatter, 'title' | 'heading' | 'subheading' | 'callToAction' | 'callToActionSmallText'>
+      Pick<MarkdownRemarkFrontmatter, 'title' | 'heading' | 'subheading' | 'callToAction' | 'callToActionURL' | 'callToActionSmallText'>
       & { backgroundImage: Maybe<{ childImageSharp: Maybe<{ fluid: Maybe<GatsbyImageSharpFluidFragment> }> }> }
     )> }
   )>, allMarkdownRemark: { nodes: Array<(
@@ -3423,6 +3604,14 @@ export type PlansQueryVariables = {};
 
 
 export type PlansQuery = { markdownRemark: Maybe<Pick<MarkdownRemark, 'html' | 'id'>> };
+
+export type SubscriptionQueryVariables = {};
+
+
+export type SubscriptionQuery = { allMarkdownRemark: { nodes: Array<(
+      Pick<MarkdownRemark, 'html' | 'id'>
+      & { frontmatter: Maybe<Pick<MarkdownRemarkFrontmatter, 'plan'>> }
+    )> } };
 
 export type TripPlannerQueryVariables = {};
 

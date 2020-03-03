@@ -5,6 +5,6 @@ section: slide
 image: ../../../images/plan-a-trip-animation.gif
 ---
 
-# Plan a Trip
+## A Trip Planner for your Blog
 
-Readers can plan a trip with sites in the **Destination Wish List**
+Readers can plan a trip based on the your posts stored in the **Destination Wish List**
