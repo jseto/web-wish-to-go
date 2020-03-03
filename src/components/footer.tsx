@@ -101,7 +101,7 @@ const Footer = class extends React.Component {
                 <a title="twitter" href="https://twitter.com/wish_to_go">
                   <i className="fab fa-twitter-square"></i>
                 </a>
-                <a title="instagram" href="https://instagram.com">
+                <a title="instagram" href="https://instagram.com/wish_to_go">
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>

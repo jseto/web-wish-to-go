@@ -808,8 +808,8 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___align' |
   'childMarkdownRemark___frontmatter___imageColumnWidth' |
   'childMarkdownRemark___frontmatter___className' |
-  'childMarkdownRemark___frontmatter___section' |
   'childMarkdownRemark___frontmatter___tripPlanner' |
+  'childMarkdownRemark___frontmatter___section' |
   'childMarkdownRemark___frontmatter___image___sourceInstanceName' |
   'childMarkdownRemark___frontmatter___image___absolutePath' |
   'childMarkdownRemark___frontmatter___image___relativePath' |
@@ -1843,8 +1843,8 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___align' |
   'frontmatter___imageColumnWidth' |
   'frontmatter___className' |
-  'frontmatter___section' |
   'frontmatter___tripPlanner' |
+  'frontmatter___section' |
   'frontmatter___image___sourceInstanceName' |
   'frontmatter___image___absolutePath' |
   'frontmatter___image___relativePath' |
@@ -2111,8 +2111,8 @@ export type MarkdownRemarkFrontmatter = {
   align?: Maybe<Scalars['String']>,
   imageColumnWidth?: Maybe<Scalars['Int']>,
   className?: Maybe<Scalars['String']>,
-  section?: Maybe<Scalars['String']>,
   tripPlanner?: Maybe<Scalars['String']>,
+  section?: Maybe<Scalars['String']>,
   image?: Maybe<File>,
   plan?: Maybe<Scalars['String']>,
   date?: Maybe<Scalars['Date']>,
@@ -2145,8 +2145,8 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   align?: Maybe<StringQueryOperatorInput>,
   imageColumnWidth?: Maybe<IntQueryOperatorInput>,
   className?: Maybe<StringQueryOperatorInput>,
-  section?: Maybe<StringQueryOperatorInput>,
   tripPlanner?: Maybe<StringQueryOperatorInput>,
+  section?: Maybe<StringQueryOperatorInput>,
   image?: Maybe<FileFilterInput>,
   plan?: Maybe<StringQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
@@ -3025,6 +3025,10 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___trackingId' |
   'pluginCreator___pluginOptions___head' |
   'pluginCreator___pluginOptions___anonymize' |
+  'pluginCreator___pluginOptions___websiteId' |
+  'pluginCreator___pluginOptions___enableDuringDevelop' |
+  'pluginCreator___pluginOptions___defer' |
+  'pluginCreator___pluginOptions___enableImprovedAccessibility' |
   'pluginCreator___pluginOptions___short_name' |
   'pluginCreator___pluginOptions___start_url' |
   'pluginCreator___pluginOptions___background_color' |
@@ -3264,6 +3268,10 @@ export type SitePluginFieldsEnum =
   'pluginOptions___trackingId' |
   'pluginOptions___head' |
   'pluginOptions___anonymize' |
+  'pluginOptions___websiteId' |
+  'pluginOptions___enableDuringDevelop' |
+  'pluginOptions___defer' |
+  'pluginOptions___enableImprovedAccessibility' |
   'pluginOptions___short_name' |
   'pluginOptions___start_url' |
   'pluginOptions___background_color' |
@@ -3406,6 +3414,10 @@ export type SitePluginPluginOptions = {
   trackingId?: Maybe<Scalars['String']>,
   head?: Maybe<Scalars['Boolean']>,
   anonymize?: Maybe<Scalars['Boolean']>,
+  websiteId?: Maybe<Scalars['String']>,
+  enableDuringDevelop?: Maybe<Scalars['Boolean']>,
+  defer?: Maybe<Scalars['Boolean']>,
+  enableImprovedAccessibility?: Maybe<Scalars['Boolean']>,
   short_name?: Maybe<Scalars['String']>,
   start_url?: Maybe<Scalars['String']>,
   background_color?: Maybe<Scalars['String']>,
@@ -3439,6 +3451,10 @@ export type SitePluginPluginOptionsFilterInput = {
   trackingId?: Maybe<StringQueryOperatorInput>,
   head?: Maybe<BooleanQueryOperatorInput>,
   anonymize?: Maybe<BooleanQueryOperatorInput>,
+  websiteId?: Maybe<StringQueryOperatorInput>,
+  enableDuringDevelop?: Maybe<BooleanQueryOperatorInput>,
+  defer?: Maybe<BooleanQueryOperatorInput>,
+  enableImprovedAccessibility?: Maybe<BooleanQueryOperatorInput>,
   short_name?: Maybe<StringQueryOperatorInput>,
   start_url?: Maybe<StringQueryOperatorInput>,
   background_color?: Maybe<StringQueryOperatorInput>,
