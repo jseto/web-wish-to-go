@@ -16,7 +16,10 @@ export class TripPlanner extends React.Component<GraphQLProps> {
 
 		return (
 			<Layout>
-				<SEO title="Trip planner" />
+				<SEO title="Trip planner"
+					description={ data.markdownRemark.excerpt }
+					featuredImage={ data.markdownRemark.frontmatter.featuredImage?.publicURL }
+				/>
 
 				<div className="hero is-primary" style={{ textAlign: 'center' }}>
 				<div className="hero-body">
@@ -56,9 +59,13 @@ export const query = graphql`
 query TripPlanner {
   markdownRemark(frontmatter: {pageTemplate: {eq: "trip-planner"}, blockName: {eq: "header"}}) {
 		html
+		excerpt
 		id
 		frontmatter {
 			tripPlanner
+			featuredImage {
+				publicURL
+			}
 		}
 	}
 	allMarkdownRemark(filter: {frontmatter: {pageTemplate: {eq: "trip-planner"}, blockName: {eq: "block"}}}, sort: {order: ASC, fields: frontmatter___order}) {

@@ -808,7 +808,6 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___align' |
   'childMarkdownRemark___frontmatter___imageColumnWidth' |
   'childMarkdownRemark___frontmatter___className' |
-  'childMarkdownRemark___frontmatter___tripPlanner' |
   'childMarkdownRemark___frontmatter___section' |
   'childMarkdownRemark___frontmatter___image___sourceInstanceName' |
   'childMarkdownRemark___frontmatter___image___absolutePath' |
@@ -886,6 +885,7 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___featuredImage___publicURL' |
   'childMarkdownRemark___frontmatter___featuredImage___id' |
   'childMarkdownRemark___frontmatter___featuredImage___children' |
+  'childMarkdownRemark___frontmatter___tripPlanner' |
   'childMarkdownRemark___excerpt' |
   'childMarkdownRemark___rawMarkdownBody' |
   'childMarkdownRemark___fileAbsolutePath' |
@@ -1843,7 +1843,6 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___align' |
   'frontmatter___imageColumnWidth' |
   'frontmatter___className' |
-  'frontmatter___tripPlanner' |
   'frontmatter___section' |
   'frontmatter___image___sourceInstanceName' |
   'frontmatter___image___absolutePath' |
@@ -1971,6 +1970,7 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___featuredImage___childMarkdownRemark___timeToRead' |
   'frontmatter___featuredImage___childMarkdownRemark___tableOfContents' |
   'frontmatter___featuredImage___childMarkdownRemark___children' |
+  'frontmatter___tripPlanner' |
   'excerpt' |
   'rawMarkdownBody' |
   'fileAbsolutePath' |
@@ -2111,7 +2111,6 @@ export type MarkdownRemarkFrontmatter = {
   align?: Maybe<Scalars['String']>,
   imageColumnWidth?: Maybe<Scalars['Int']>,
   className?: Maybe<Scalars['String']>,
-  tripPlanner?: Maybe<Scalars['String']>,
   section?: Maybe<Scalars['String']>,
   image?: Maybe<File>,
   plan?: Maybe<Scalars['String']>,
@@ -2119,6 +2118,7 @@ export type MarkdownRemarkFrontmatter = {
   category?: Maybe<Scalars['String']>,
   tags?: Maybe<Array<Maybe<Scalars['String']>>>,
   featuredImage?: Maybe<File>,
+  tripPlanner?: Maybe<Scalars['String']>,
 };
 
 
@@ -2145,7 +2145,6 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   align?: Maybe<StringQueryOperatorInput>,
   imageColumnWidth?: Maybe<IntQueryOperatorInput>,
   className?: Maybe<StringQueryOperatorInput>,
-  tripPlanner?: Maybe<StringQueryOperatorInput>,
   section?: Maybe<StringQueryOperatorInput>,
   image?: Maybe<FileFilterInput>,
   plan?: Maybe<StringQueryOperatorInput>,
@@ -2153,6 +2152,7 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   category?: Maybe<StringQueryOperatorInput>,
   tags?: Maybe<StringQueryOperatorInput>,
   featuredImage?: Maybe<FileFilterInput>,
+  tripPlanner?: Maybe<StringQueryOperatorInput>,
 };
 
 export type MarkdownRemarkGroupConnection = {
@@ -3633,8 +3633,11 @@ export type TripPlannerQueryVariables = {};
 
 
 export type TripPlannerQuery = { markdownRemark: Maybe<(
-    Pick<MarkdownRemark, 'html' | 'id'>
-    & { frontmatter: Maybe<Pick<MarkdownRemarkFrontmatter, 'tripPlanner'>> }
+    Pick<MarkdownRemark, 'html' | 'excerpt' | 'id'>
+    & { frontmatter: Maybe<(
+      Pick<MarkdownRemarkFrontmatter, 'tripPlanner'>
+      & { featuredImage: Maybe<Pick<File, 'publicURL'>> }
+    )> }
   )>, allMarkdownRemark: { nodes: Array<Pick<MarkdownRemark, 'html' | 'id'>> } };
 
 export type BlogEntryPageQueryVariables = {
