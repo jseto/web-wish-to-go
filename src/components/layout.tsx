@@ -10,6 +10,7 @@ import './all.sass'
 import './wish-to-go-widget-customization.scss'
 import { Navbar } from "./navbar";
 import Footer from './footer'
+import CookieConsent from 'react-cookie-consent'
 
 interface LayoutState {
 	script: any;
@@ -34,6 +35,12 @@ export class Layout extends React.Component<{}, LayoutState> {
 				<Footer/>
 
 				{ this.state && this.state.script }
+
+				<CookieConsent 
+			    acceptOnScroll={true}
+				>
+					We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.
+				</CookieConsent>
 
 	    </Fragment>
 	  )
