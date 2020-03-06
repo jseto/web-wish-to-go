@@ -15,11 +15,11 @@ Paris, the cosmopolitan capital of France, is one Europe's largest cities, with 
 
 ## Things to do
 
-- **Château de Versailles (Versailles)** <WishWidget country="FR" city="Paris" activity="Vesailles" post="/france/paris/#things-to-do"></WishWidget>
+- **Château de Versailles (Versailles)** <WishWidget country="FR" city="Paris" activity="Vesailles" post="/travel/france/paris/#things-to-do"></WishWidget>
 
 	Must be seen. France's most exquisite chateau, on the outskirts of the city, easily visited by train. Once the home to Louis XVI and Marie Antoinette.
 
-- **Notre Dame Cathedral** <WishWidget country="FR" city="Paris" activity="Notre Dame" post="/france/paris/#things-to-do" picture="https://images.unsplash.com/photo-1576653764709-7d175299e6d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"></WishWidget>
+- **Notre Dame Cathedral** <WishWidget country="FR" city="Paris" activity="Notre Dame" post="/travel/france/paris/#things-to-do" picture="https://images.unsplash.com/photo-1576653764709-7d175299e6d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"></WishWidget>
 
 	![Notre Dame](https://images.unsplash.com/photo-1576653764709-7d175299e6d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
 
@@ -29,7 +29,7 @@ Paris, the cosmopolitan capital of France, is one Europe's largest cities, with 
 
 	One of the finest museums in the world. Home of the Mona Lisa and innumerable others. Enormous building and collection, plan at least two visits.
 
-- **Eiffel Tower** <WishWidget country="FR" city="Paris" activity="Eiffel" picture="https://images.unsplash.com/photo-1565881606991-789a8dff9dbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" post="/france/paris/#things-to-do"></WishWidget>
+- **Eiffel Tower** <WishWidget country="FR" city="Paris" activity="Eiffel" picture="https://images.unsplash.com/photo-1565881606991-789a8dff9dbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" post="/travel/france/paris/#things-to-do"></WishWidget>
 
 	![Eiffel Tower](https://images.unsplash.com/photo-1565881606991-789a8dff9dbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
 

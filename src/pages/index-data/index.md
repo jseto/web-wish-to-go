@@ -21,4 +21,4 @@ className: ''
 
 - Have you ever imagined that your blog could have a wish list? Do you imagine how powerful a destination wish list can be for your blog?
 
-[Read More](/destination-wish-list-for-your-travel-blog/)
+[Read More](/travel-blog-monetization/destination-wish-list-for-your-travel-blog/)

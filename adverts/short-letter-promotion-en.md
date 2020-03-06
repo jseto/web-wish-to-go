@@ -10,7 +10,7 @@ Have you ever wondered why big marketplaces as _Amazon_ use wish list for their 
 
 Have you ever imagined that your blog could have a wish list? Do you imagine how powerful a destination wish list can be for your blog?
 
-If you think that a destination wish list can be useful for your travel blog and for your readers or want to know why wish lists are a powerful marketing tool, [have a look at this blog entry](https://wish-to-go.com/destination-wish-list-for-your-travel-blog/).
+If you think that a destination wish list can be useful for your travel blog and for your readers or want to know why wish lists are a powerful marketing tool, [have a look at this blog entry](https://wish-to-go.com/travel-blog-monetization/destination-wish-list-for-your-travel-blog/).
 
 Thank you for reading
 

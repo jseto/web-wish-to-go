@@ -15,32 +15,32 @@ France has been the world's most popular tourist destination for quite some time
 
 ## Where to go
 
-- [Paris](/france/paris) <WishWidget country="FR" city="Paris" label="true" picture="https://images.unsplash.com/photo-1500039436846-25ae2f11882e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" post="/france/paris"></WishWidget>
+- [Paris](/travel/france/paris) <WishWidget country="FR" city="Paris" label="true" picture="https://images.unsplash.com/photo-1500039436846-25ae2f11882e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" post="/travel/travel/france/paris"></WishWidget>
 
-	- [Château de Versailles (Versailles)](/france/paris/#things-to-do)	<WishWidget country="FR" city="Paris" activity="Vesailles" post="/france/paris/#things-to-do"></WishWidget>
+	- [Château de Versailles (Versailles)](/travel/france/paris/#things-to-do)	<WishWidget country="FR" city="Paris" activity="Vesailles" post="/travel/travel/france/paris/#things-to-do"></WishWidget>
 
-	- [Notre Dame Cathedral](/france/paris/#things-to-do)	<WishWidget country="FR" city="Paris" activity="Notre Dame" post="/france/paris/#things-to-do" picture="https://images.unsplash.com/photo-1576653764709-7d175299e6d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"></WishWidget>
+	- [Notre Dame Cathedral](/travel/france/paris/#things-to-do)	<WishWidget country="FR" city="Paris" activity="Notre Dame" post="/travel/travel/france/paris/#things-to-do" picture="https://images.unsplash.com/photo-1576653764709-7d175299e6d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"></WishWidget>
 
-	- [The Louvre](/france/paris/#things-to-do)	<WishWidget country="FR" city="Paris" activity="Louvre"></WishWidget>
+	- [The Louvre](/travel/france/paris/#things-to-do)	<WishWidget country="FR" city="Paris" activity="Louvre"></WishWidget>
 
-	- [Eiffel Tower](/france/paris/#things-to-do)	<WishWidget country="FR" city="Paris" activity="Eiffel" picture="https://images.unsplash.com/photo-1565881606991-789a8dff9dbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" post="/france/paris/#things-to-do"></WishWidget>
+	- [Eiffel Tower](/travel/france/paris/#things-to-do)	<WishWidget country="FR" city="Paris" activity="Eiffel" picture="https://images.unsplash.com/photo-1565881606991-789a8dff9dbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" post="/travel/travel/france/paris/#things-to-do"></WishWidget>
 
-- [Nice](/france/nice) <WishWidget country="FR" city="Nice"></WishWidget>
+- [Nice](/travel/france/nice) <WishWidget country="FR" city="Nice"></WishWidget>
 
-	- [Colline du Chateau](/france/nice/#what-to-see)	<WishWidget country="FR" city="Nice" activity="Colline du Chateau"></WishWidget>
+	- [Colline du Chateau](/travel/france/nice/#what-to-see)	<WishWidget country="FR" city="Nice" activity="Colline du Chateau"></WishWidget>
 
-	- [Museum of Asian art](/france/nice/#museums)	<WishWidget country="FR" city="Nice" activity="Museum of Asian Art"></WishWidget>
+	- [Museum of Asian art](/travel/france/nice/#museums)	<WishWidget country="FR" city="Nice" activity="Museum of Asian Art"></WishWidget>
 
-	- [Parc Phoenix](/france/nice/#museums)	<WishWidget country="FR" city="Nice" activity="Parc Phoenix"></WishWidget>
+	- [Parc Phoenix](/travel/france/nice/#museums)	<WishWidget country="FR" city="Nice" activity="Parc Phoenix"></WishWidget>
 
-	- [Musee Matisse](/france/nice/#museums)	<WishWidget country="FR" city="Nice" activity="Musee Matisse"></WishWidget>
+	- [Musee Matisse](/travel/france/nice/#museums)	<WishWidget country="FR" city="Nice" activity="Musee Matisse"></WishWidget>
 
-- [Strasbourg](/france/strasbourg) <WishWidget country="FR" city="Strasbourg"></WishWidget>
+- [Strasbourg](/travel/france/strasbourg) <WishWidget country="FR" city="Strasbourg"></WishWidget>
 
-	- [Maison Kammerzell](/france/strasbourg/#what-to-see) <WishWidget country="FR" city="Strasbourg" activity="Maison Kammerzell"></WishWidget>
+	- [Maison Kammerzell](/travel/france/strasbourg/#what-to-see) <WishWidget country="FR" city="Strasbourg" activity="Maison Kammerzell"></WishWidget>
 
-	- [L'Opéra](/france/strasbourg/#what-to-see) <WishWidget country="FR" city="Strasbourg" activity="Opera House"></WishWidget>
+	- [L'Opéra](/travel/france/strasbourg/#what-to-see) <WishWidget country="FR" city="Strasbourg" activity="Opera House"></WishWidget>
 
-	- [Petite France](/france/strasbourg/#what-to-see) <WishWidget country="FR" city="Strasbourg" activity="Paetite France"></WishWidget>
+	- [Petite France](/travel/france/strasbourg/#what-to-see) <WishWidget country="FR" city="Strasbourg" activity="Paetite France"></WishWidget>
 
-	- [European district](/france/strasbourg/#what-to-see) <WishWidget country="FR" city="Strasbourg" activity="European district"></WishWidget>
+	- [European district](/travel/france/strasbourg/#what-to-see) <WishWidget country="FR" city="Strasbourg" activity="European district"></WishWidget>

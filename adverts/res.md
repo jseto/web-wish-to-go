@@ -9,7 +9,7 @@ bien cuidado y trabajado. Una lista, donde tus lectores puedan marcar los destin
 
 Si crees que una lista de destinos deseados puede ser útil para tu blog de viajes y para tus lectores o quieres saber porque las listas de deseos son una potente herramienta para el marketing, mira aquí 
 
-https://wish-to-go.com/lista-de-destinos-deseados-para-tu-blog-de-viajes/
+https://wish-to-go.com/travel-blog-monetization/lista-de-destinos-deseados-para-tu-blog-de-viajes/
 
 
 
@@ -27,4 +27,4 @@ Have you ever imagined that your blog could have a wish list? Do you imagine how
 
 If you think that a destination wish list can be useful for your travel blog and for your readers or want to know why wish lists are a powerful marketing tool, have a look here.
 
-https://wish-to-go.com/destination-wish-list-for-your-travel-blog/
+https://wish-to-go.com/travel-blog-monetization/destination-wish-list-for-your-travel-blog/

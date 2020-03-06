@@ -45,6 +45,8 @@ Joanna starts browsing travel blogs to make the actual plan for her trip. She wi
 >
 > Don't miss my articles about what to see there.
 >
+> The best hotel I stayed was at Wonders Hotel. The people there was so nice. You can follow this link to book at this hotel.
+>
 > I was in Wonderland at the same time of the year as you will be. I got a sunburn there because the sun hits very strong now. I recommend buying the sunblock before you go.
 >
 > You can find a link below where you can buy a good quality sunblock and also get the same travel insurance that I get when I'm travelling abroad.

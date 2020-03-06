@@ -9,12 +9,13 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 	const isTravelBlogPage = category !== 'generic';
 	const isGenericBlog = category === 'generic';
-
 	const slug = createFilePath({
 		node,
 		getNode,
-		basePath: isTravelBlogPage? 'src/posts/travel' : 'src/posts/generic'
+		basePath: 'src/posts'
 	})
+
+	console.log('Post found at: ', slug)
 
 	createNodeField({
     node,

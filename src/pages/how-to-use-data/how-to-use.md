@@ -282,7 +282,7 @@ The following code in a post about Bangkok,
 	Bangkok is the capital city of Thailand
 	<WishWidget
 		country="TH"
-		post="/my-posts/countries/thailand">
+		post="/travel/my-posts/countries/thailand">
 	</WishWidget>.
 	<!-- Here you set the post attribute because there is a more specific 
 			post about Thailand as a country in /my-post/countries/thailand -->
@@ -302,7 +302,7 @@ will show
 > 	Bangkok is the capital city of Thailand
 > 	<WishWidget
 > 		country="TH"
-> 		post="/posts/countries/thailand">
+> 		post="/travel/posts/countries/thailand">
 > 	</WishWidget>.
 > </p>
 

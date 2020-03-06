@@ -66,18 +66,18 @@ module.exports = {
 				path: `${__dirname}/src/pages`,
 			}
 		},
+		// {
+		// 	resolve: `gatsby-source-filesystem`,
+		// 	options: {
+		// 		name: `travel-posts`,
+		// 		path: `${__dirname}/src/posts/travel`,
+		// 	}
+		// },
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
-				name: `travel-posts`,
-				path: `${__dirname}/src/posts/travel`,
-			}
-		},
-		{
-			resolve: `gatsby-source-filesystem`,
-			options: {
-				name: `generic-posts`,
-				path: `${__dirname}/src/posts/generic`,
+				name: `posts`,
+				path: `${__dirname}/src/posts`,
 			}
 		},
 		{

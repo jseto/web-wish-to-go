@@ -15,23 +15,23 @@ Thailand is the country in Southeast Asia most visited by tourists, and for good
 
 ## Where to go
 
-- [Bangkok](/thailand/bangkok)
+- [Bangkok](/travel/thailand/bangkok)
 
 	- [Grand Palace and Emerald Buddha](https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80) <WishWidget	country="TH" city="Bangkok" activity="Grand Palace"	picture="https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80"></WishWidget>
 
-	- [Wat Pho](/thailand/bangkok/#wat-pho) <WishWidget	country="TH" city="Bangkok" activity="Wat Pho"></WishWidget>
+	- [Wat Pho](/travel/thailand/bangkok/#wat-pho) <WishWidget	country="TH" city="Bangkok" activity="Wat Pho"></WishWidget>
 
-	- [Wat Arun](/thailand/bangkok/#wat-arun) <WishWidget	country="TH" city="Bangkok" activity="Wat Arun"></WishWidget>
+	- [Wat Arun](/travel/thailand/bangkok/#wat-arun) <WishWidget	country="TH" city="Bangkok" activity="Wat Arun"></WishWidget>
 
-- [The North and the mountains](/thailand/the-north-and-the-mountains-of-thailand)
+- [The North and the mountains](/travel/thailand/the-north-and-the-mountains-of-thailand)
 
-	- [Chiang Mai](/thailand/the-north-and-the-mountains-of-thailand/#chiang-mai) <WishWidget	country="TH"	city="Chiang Mai"	picture="https://wikitravel.org/upload/shared//4/46/Chiang_Mai_Banner.jpg"></WishWidget>
+	- [Chiang Mai](/travel/thailand/the-north-and-the-mountains-of-thailand/#chiang-mai) <WishWidget	country="TH"	city="Chiang Mai"	picture="https://wikitravel.org/upload/shared//4/46/Chiang_Mai_Banner.jpg"></WishWidget>
 
-	- [Doi Intanon](/thailand/the-north-and-the-mountains-of-thailand/#other-places-to-visit) <WishWidget	country="TH" city="Chiang Mai" activity="Doi Intanon"></WishWidget>
+	- [Doi Intanon](/travel/thailand/the-north-and-the-mountains-of-thailand/#other-places-to-visit) <WishWidget	country="TH" city="Chiang Mai" activity="Doi Intanon"></WishWidget>
 
-	- [Doi Suthep](/thailand/the-north-and-the-mountains-of-thailand/#other-places-to-visit) <WishWidget country="TH"	city="Chiang Mai"	activity="Doi Suthep"></WishWidget>
+	- [Doi Suthep](/travel/thailand/the-north-and-the-mountains-of-thailand/#other-places-to-visit) <WishWidget country="TH"	city="Chiang Mai"	activity="Doi Suthep"></WishWidget>
 
-	- [Pai](/thailand/the-north-and-the-mountains-of-thailand/#other-places-to-visit) <WishWidget	country="TH"	city="Pai"	picture="https://wikitravel.org/upload/shared//thumb/e/ec/Huai_Nam_Dang_National_Park.jpg/300px-Huai_Nam_Dang_National_Park.jpg"></WishWidget>
+	- [Pai](/travel/thailand/the-north-and-the-mountains-of-thailand/#other-places-to-visit) <WishWidget	country="TH"	city="Pai"	picture="https://wikitravel.org/upload/shared//thumb/e/ec/Huai_Nam_Dang_National_Park.jpg/300px-Huai_Nam_Dang_National_Park.jpg"></WishWidget>
 
 - The South and the islands
 

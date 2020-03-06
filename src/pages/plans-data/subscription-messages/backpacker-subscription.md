@@ -31,9 +31,9 @@ When you install **Wish To Go** in your travel blog, your are giving to your rea
 
 To learn more about the benefits of **Wish To Go** for you and your readers you can read the following related articles:
 
-- [A Wish List for your Travel Blog](/destination-wish-list-for-your-travel-blog/)
+- [A Wish List for your Travel Blog](/travel-blog-monetization/destination-wish-list-for-your-travel-blog/)
 
-- [Let Joanna fall in love with your Travel Blog](/joanna/)
+- [Let Joanna fall in love with your Travel Blog](/stories/joanna/)
 
 ## Where I can find information about How To Install _Wish To Go_?
 

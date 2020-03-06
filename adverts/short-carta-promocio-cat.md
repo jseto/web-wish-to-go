@@ -8,7 +8,7 @@ Has pensat algun cop per què els grans comerços electrònics com _Amazon_ tene
 
 Has imaginat algun cop que el teu blog de viatges tingui una llista de desitjos? ¿Imagines quina potència pot tenir una llista de destinacions desitjades per al teu blog?
 
-Si creus que una llista de destinacions desitjades pot ser útil per al teu blog de viatges i per als teus lectors o vols saber por què les llistes de desitjos són una eina potent de màrqueting, [dóna un cop d'ull a aquest article](https://wish-to-go.com/lista-de-destinos-deseados-para-tu-blog-de-viajes/).
+Si creus que una llista de destinacions desitjades pot ser útil per al teu blog de viatges i per als teus lectors o vols saber por què les llistes de desitjos són una eina potent de màrqueting, [dóna un cop d'ull a aquest article](https://wish-to-go.com/travel-blog-monetization/lista-de-destinos-deseados-para-tu-blog-de-viajes/).
 
 A més a més ho tenim en català
 

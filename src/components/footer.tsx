@@ -62,17 +62,17 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
 										<li>
-                      <Link className="navbar-item" to="/spain/spain/">
+                      <Link className="navbar-item" to="/travel/spain/spain/">
                         Spain
                       </Link>
                     </li>
 										<li>
-                      <Link className="navbar-item" to="/france/france/">
+                      <Link className="navbar-item" to="/travel/france/france/">
                         France
                       </Link>
                     </li>
 										<li>
-                      <Link className="navbar-item" to="/thailand/thailand/">
+                      <Link className="navbar-item" to="/travel/thailand/thailand/">
                         Thailand
                       </Link>
                     </li>
@@ -109,9 +109,9 @@ const Footer = class extends React.Component {
 						<div className="column">
 							<small>
 								Made with ❤️ in
-								<Link to="/spain/barcelona"> Barcelona </Link>
+								<Link to="/travel/spain/barcelona"> Barcelona </Link>
 								and
-								<Link to="/thailand/bangkok"> Bangkok </Link>
+								<Link to="/travel/thailand/bangkok"> Bangkok </Link>
 							</small>
 						</div>
           </div>
