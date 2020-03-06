@@ -12,6 +12,7 @@
     "gatsby-plugin-advanced-sitemap": "^1.5.2",
     "gatsby-plugin-catch-links": "^2.1.26",
     "gatsby-plugin-crisp-chat": "^3.2.2",
+    "gatsby-plugin-google-gtag": "^1.1.22",
     "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-manifest": "^2.2.42",
     "gatsby-plugin-offline": "^3.0.35",
