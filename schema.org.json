@@ -1,0 +1,56 @@
+{
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "WebSite",
+			"@id": "https://www.bemytravelmuse.com/#website",
+			"url": "https://www.bemytravelmuse.com/",
+			"name": "Be My Travel Muse",
+			"inLanguage": "en-US",
+			"description": "Solo Female Travel",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https://www.bemytravelmuse.com/?s={search_term_string}",
+				"query-input": "required name=search_term_string"
+			}
+		},
+		{
+			"@type": "ImageObject",
+			"@id": "https://www.bemytravelmuse.com/how-to-make-money-with-travel-blog/#primaryimage",
+			"inLanguage": "en-US",
+			"url": "https://s27922.pcdn.co/wp-content/uploads/2016/08/maldives.jpg.webp",
+			"width": 960,
+			"height": 960
+		},
+		{
+			"@type": "WebPage",
+			"@id": "https://www.bemytravelmuse.com/how-to-make-money-with-travel-blog/#webpage",
+			"url": "https://www.bemytravelmuse.com/how-to-make-money-with-travel-blog/",
+			"name": "So You Want to Be a Travel Blogger? How to Make Money",
+			"isPartOf": {
+				"@id": "https://www.bemytravelmuse.com/#website"
+			},
+			"inLanguage": "en-US",
+			"primaryImageOfPage": {
+				"@id": "https://www.bemytravelmuse.com/how-to-make-money-with-travel-blog/#primaryimage"
+			},
+			"datePublished": "2018-01-18T14:00:21+00:00",
+			"dateModified": "2020-01-14T02:19:46+00:00",
+			"author": {
+				"@id": "https://www.bemytravelmuse.com/#/schema/person/c5380f7c8a7de6e05643ea02d924c703"
+			},
+			"description": "How can you make money with your travel blog! These are the top 10 ways that I got to earning a six-figure income from my blog, with tons of resources to help you on your journey."
+		},
+		{
+			"@type": [
+				"Person"
+			],
+			"@id": "https://www.bemytravelmuse.com/#/schema/person/c5380f7c8a7de6e05643ea02d924c703",
+			"name": "Kristin",
+			"sameAs": [
+				"https://www.facebook.com/BeMyTravelMuse",
+				"https://twitter.com/bemytravelmuse"
+			]
+		}
+	]
+}

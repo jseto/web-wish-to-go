@@ -14,6 +14,5 @@ Don't bloat your site with non-related adverts, readers hate it. Use a clever ad
 
 - Traveller can book lodging, trips and tours from the Trip Planner
 - No cookie expiration worries. Your reader will purchase immediately from the Trip Planner.
-<!--
-[Read More](/focussed-advert-strategy)
--->
+
+[Read More→](/travel-blog-monetization/how-to-improve-affiliate-marketing)

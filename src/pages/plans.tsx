@@ -13,7 +13,9 @@ interface GraphQLProps {
 
 export const Plans: React.FC<GraphQLProps> = ({ data }) => {
 
-	typeof window !== 'undefined' && window['gtag']('event', 'conversion', {'send_to': 'AW-661213510/Ul9xCKXKpskBEMaipbsC'}) 		// cSpell: disable-line
+	typeof window !== 'undefined' && 
+		window['gtag'] &&																																							// cSpell: disable-line
+			window['gtag']('event', 'conversion', {'send_to': 'AW-661213510/Ul9xCKXKpskBEMaipbsC'}) 		// cSpell: disable-line
 
 	return (
 		<Layout>

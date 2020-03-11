@@ -35,6 +35,8 @@ To learn more about the benefits of **Wish To Go** for you and your readers you 
 
 - [Let Joanna fall in love with your Travel Blog](/stories/joanna/)
 
+- [How to Improve Your Travel Blog Affiliate Marketing? (5 Must Do Steps)](/travel-blog-monetization/how-to-improve-affiliate-marketing/)
+
 ## Where I can find information about How To Install _Wish To Go_?
 
 You have the full documentation [here](/how-to-use/).
