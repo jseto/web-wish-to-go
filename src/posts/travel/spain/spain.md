@@ -11,9 +11,10 @@ tags:
 
 ![Spain - Photo by Kaitlin Dowis on Unsplash](https://images.unsplash.com/photo-1515443961218-a51367888e4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 
-Spain is a diverse country sharing the Iberian Peninsula with Portugal at the western end of the Mediterranean Sea. It is the country with the third-largest number of UNESCO World Heritage Sites, after Italy and China.
+Spain has always been one of the favourite tourist places not only in Europe, but all over the world. And no wonder. Here are just a few of the reasons that make it one of the most successful tourist destinations.
 
-Spain is considered an exotic country in Europe due to its friendly inhabitants, relaxed lifestyle, its cuisine, vibrant nightlife, and world-famous folklore and festivities. Among many places worth visiting are Spain's thriving capital Madrid, the vibrant coastal city of Barcelona, the famous _Running of the Bulls_ at Pamplona, major Andalusian cities with Islamic architecture, like Seville, Granada and Córdoba, the Way of St. James and the idyllic Balearic and Canary Islands.
+It is a country equally rich in culture, art, gastronomy and entertainment. The mix of Gothic, Romanesque and Moorish architecture, bullfighting, unparalleled Spanish food and a sunny climate are some reasons why this country attracts thousands of visitors every month.
+Madrid and Barcelona are the cities that receive most tourists each year. The Royal Palace, the Prado Museum, the Sagrada Familia or the architecture of Antonio Gaudí are just a few examples of what both European cities have to offer.
 
 ## Where to go
 

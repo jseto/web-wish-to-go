@@ -11,31 +11,24 @@ tags:
 
 ![Bilbao](https://images.unsplash.com/photo-1554212264-aae064407bd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80)
 
-The city is situated on the banks of the _Nervión_, a tidal river. The climate in Bilbao is milder than in most other parts of the peninsula, rarely falling below freezing in winter, or rising above 35ºC in summer. There is also more rain, which is a mixed blessing. The green hills of Bilbao are a welcome relief after an extended stay in the dry plains in the south, but planning a day at the beach is more risky. The population of Bilbao proper is just over 372,000, but within the metropolitan area there are over 1,000,000 inhabitants. Bilbao is divided into eight district areas: _Deusto_, _Uribarri_, _Otxarkoaga_/_Txurdinaga_, _Begoña_, _Ibaiondo_, _Abando_, _Rekalde_ and _Basurto_/_Zorroza_.
+Bilbao, is the capital of the province of Biscay, in the autonomous community of the Basque Country, and has approximately 350,000 inhabitants. It is a city in constant expansion and never stops evolving. As the industries that used to occupy a large part of the banks of the estuary have disappeared, the city has left behind its sad and grey image and has become a cosmopolitan city, with a mixture of old buildings and others of a more contemporary architecture. For all these reasons, Bilbao today is a place worth visiting, paying attention to everything around it.
 
 ## Things to Do
 
 ### Alhóndiga
 <WishWidget country="ES" city="Bilbao" activity="Alhondiga" label="true"></WishWidget>
 
-An amazing building which has recently been modernized and is now called *Centro Azkuna / Azkuna Zentroa*. It is a complex containing a library, several bars and restaurants, a cinema and even a roof swimming pool with a glass floor.
-
-### Birthplace of Miguel de Unamuno
-<WishWidget country="ES" city="Bilbao" activity="Alhondiga" label="true"></WishWidget>
-
-Next to _Plaza Unamuno_ (Metro station: _Casco Viejo_) is the birthplace of Spanish author born on the 29th of September 1864. His works include the novels *Niebla* and *San Manuel Bueno, Mártir*, which are both read in AP Spanish Literature classes in the United States. Unamuno died on the 31st of December 1936 in Salamanca.
+The interior of this building has 43 columns decorated with striking shapes and colours, as well as an indoor swimming pool, whose floor is made of glass, so that visitors can observe how the users swim above their heads. In addition to the swimming pool, the building has movie theaters, an auditorium and several exhibition halls, as well as restaurants and cafes.
 
 ### Teatro Arriaga
 <WishWidget country="ES" city="Bilbao" activity="Teatro Arriaga" label="true"></WishWidget>
 
-Originally inaugurated on the 31st of May 1890, on the site of several former theatres, the first _Teatro Arriaga_ burnt down on the 22nd of December 1914. The second _Teatro Arriaga_ opened on the 5th of June 1919 with an ornate façade and beautiful interior. The theater and the square in front of it were named after _Juan Crisóstomo de Arriaga_, a composer from Bilbao.
+It is a neo-baroque building from the end of the 19th century, designed by the architect Joaquín de Rucoba. In it, the lovers of the opera will be able to enjoy spectacles of dance, musicals, zarzuela and wonderful theatrical representations.
 
-There is a tourist information office in the building: the entrance is on the left side as you face the theatre.
+### Guggenheim
+<WishWidget country="ES" city="Bilbao" activity="Guggenheim" label="true"></WishWidget>
 
-### Estación de Santander
-<WishWidget country="ES" city="Bilbao" activity="Estación de Santander" label="true"></WishWidget>
-
-The train station also known as La Concordia, was built between 1898-1902 on the banks of the _Nervión_. Designed by the engineer _Valentín Gorbeña_, with the *art nouveau* main façade added later with a design by the architect _Severino Achúcarro_.
+It is the Bilbao museum par excellence, and is a must if you pass through the city. Its design, by Canadian architect Frank O.Ghery, does not go unnoticed. It was inaugurated on October 18, 1997. If the building is seen from the estuary, it resembles a boat, thus paying homage to the city and its shiny panels emulate the scales of a fish.
 
 ### Puente de San Antón
 <WishWidget country="ES" city="Bilbao" activity="Puente de San Anton" label="true"></WishWidget>
@@ -47,11 +40,11 @@ Next to the _Iglesia de San Antón_ sits Bilbao's most emblematic bridge.
 
 ![Mercado de la Ribera](https://wikitravel.org/upload/shared//thumb/c/cf/MercadoRiberaBilbao.jpg/200px-MercadoRiberaBilbao.jpg)
 
-Another emblem next to the _Iglesia de San Antón_ is the _Mercado de la Rivera_. One of the biggest covered markets in Europe. It was built in 1929 on the site of the original Rivera Street market. Produce fish and meat are sold in the market every morning, except Sundays.
+It is the largest market in Bilbao, and the best known. It is located in front of the Nervión estuary and was remodelled in 2010, going from having a stone façade, to being mostly glazed, giving it more light and modernity.
 
 ### Plaza Nueva
 <WishWidget country="ES" city="Bilbao" activity="Plaza Nueva" label="true"></WishWidget>
 
 ![Plaza Nueva](https://wikitravel.org/upload/shared//thumb/b/b7/PlazaNuevaBilbao.jpg/200px-PlazaNuevaBilbao.jpg)
 
-Bilbao's _Plaza Nueva_ was originally named _Plaza de Fernando VII_. Construction began on the plaza on December 31, 1829 and finished exactly 20 years later on December 31, 1849. This plaza was the seat of the _Diputación de Vizcaya_ until July 1900 when the _Diputación_ moved to its new home on the _Gran Vía_.
+Here you can taste the best _pintxos_ in the whole city, as well as sit on one of its many terraces, as long as the weather in the north allows it.

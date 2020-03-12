@@ -11,11 +11,11 @@ tags:
 
 ![Thailand - Photo by Sumit Chinchane on Unsplash](https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1023&q=80)
 
-Thailand is the country in Southeast Asia most visited by tourists, and for good reason. You can find almost anything here: thick jungle as green as can be, crystal blue waters that feel more like a warm bath than a swim in the ocean, and food that can curl your nose hairs while dancing across your taste buds. Exotic, yet safe; cheap, yet equipped with every modern amenity you need, there is something for every interest and every price bracket, from beach front backpacker bungalows to some of the best luxury hotels in the world. And despite the heavy flow of tourism, Thailand retains its quintessential Thai heritage, with a culture and history all its own and a carefree people famed for their smiles and their fun-seeking _sanuk_ lifestyle. Many travellers come to Thailand and extend their stay well beyond their original plans and others never find a reason to leave. Whatever your cup of tea, they know how to make it in Thailand.
+Thailand is a huge country full of unexpected experiences. It is the most popular destination in Southeast Asia. People goes there for many reasons, a flourish economy,stuning landscapes, tropical beaches, nice people or excellent food. It is a very easy country to move around. Transport infrastures are pretty good and modern and they have a long well established tourist industry. This makes the traveller feel like at home despite of the language, the ancestral traditions or the exotic countenance of their people. They call themselfs _The Country of Smiles_ and they are not wrong. Since they are children they are taught to smile nicely by parents, uncles and friends. So be ready to enjoy a unique experience that many visitore will never forget.
 
 ## Where to go
 
-- [Bangkok](/travel/thailand/bangkok)
+- [Bangkok](/travel/thailand/bangkok) <WishWidget	country="TH" city="Bangkok" picture="https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80"></WishWidget>
 
 	- [Grand Palace and Emerald Buddha](https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80) <WishWidget	country="TH" city="Bangkok" activity="Grand Palace"	picture="https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80"></WishWidget>
 
