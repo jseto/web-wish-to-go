@@ -119,15 +119,15 @@ module.exports = {
         },
       },
     },
-		// {
-    //   resolve: 'gatsby-plugin-crisp-chat',
-    //   options: {
-    //     websiteId: '303df9ad-9ed5-4144-bd8f-d72d0e84b4a8',
-    //     enableDuringDevelop: true, // Optional. Disables Crisp Chat during gatsby develop. Defaults to true.
-    //     defer: true, // Optional. Sets the Crisp loading script to defer instead of async. Defaults to false.
-    //     enableImprovedAccessibility: false // Optional. Sets aria-label attribute on pop-up icon for screen readers. Defaults to true.
-    //   },
-    // },
+		{
+      resolve: 'gatsby-plugin-crisp-chat',
+      options: {
+        websiteId: '303df9ad-9ed5-4144-bd8f-d72d0e84b4a8',
+        enableDuringDevelop: true, // Optional. Disables Crisp Chat during gatsby develop. Defaults to true.
+        defer: true, // Optional. Sets the Crisp loading script to defer instead of async. Defaults to false.
+        enableImprovedAccessibility: false // Optional. Sets aria-label attribute on pop-up icon for screen readers. Defaults to true.
+      },
+    },
 		`gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,

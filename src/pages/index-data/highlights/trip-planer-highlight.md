@@ -10,7 +10,7 @@ section: productHighlights
 
 ### Trip Planning Tool for Enhanced Reader's Experience
 
-To complement the Wish List, the plugin implements a **Trip Planner** where your readers can plan their next trip based on the **destinations stored in the wish list**.
+To complement the Wish List, the plugin implements a **Trip Planner** where your readers can plan their next trip based on the **destinations stored in the wish list app**.
 
 - Select destination from different countries.
 - Synchronize **Flights** and destination arriving and leaving dates.

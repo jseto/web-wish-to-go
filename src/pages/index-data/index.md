@@ -20,6 +20,6 @@ className: ''
 
 - Have you ever wondered why big marketplaces as _Amazon_ use wish list to **increase visitor's engagement**?
 
-- Do you know how easy is to install a **plugin for your travel blog** to implement a **Travel Bucketlist** for your readers? Click below to understand why a **destination wish list** can increase your travel website traffic?
+- Do you know how easy is to install a **plugin for your travel blog** to implement a **Travel Bucketlist** for your readers? Click below to understand why a **destination wish list app** can increase your travel website traffic?
 
 [Learn More](/travel-blog-monetization/destination-wish-list-for-your-travel-blog/)
