@@ -13,13 +13,13 @@ interface GraphQLProps {
 }
 
 const Index: React.FC<GraphQLProps> = ({data}) => {
-	const { backgroundImage, heading, subheading, callToAction, callToActionSmallText, callToActionURL } = data.markdownRemark.frontmatter;
+	const { backgroundImage, title, description, heading, subheading, callToAction, callToActionSmallText, callToActionURL } = data.markdownRemark.frontmatter;
 	const { html } = data.markdownRemark
 	const blocks = data.allMarkdownRemark.nodes;
 
 	return (
 	  <Layout>
-	    <SEO title="Home" />
+	    <SEO title={ title } description={ description } />
 			<Banner
 				header={ heading }
 				subheader={ subheading }
@@ -81,6 +81,7 @@ query Index {
 		html
     frontmatter {
 			title
+			description
 			heading
 			subheading
 			callToAction

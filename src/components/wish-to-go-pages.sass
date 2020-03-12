@@ -94,7 +94,7 @@
 			padding: 0.5em
 			background-color: #f8f8f8
 
-	h1
+	h2
 		color: #00bda0
 		min-height: 2em
 		text-align: center
@@ -109,12 +109,13 @@
 		margin-left: auto
 		margin-right: auto
 
-	blockquote
+	h3
 		background-color: unset
 		border-left: none
 		font-variant-caps: all-small-caps
 		padding: 0
 		font-size: 1.3em
+		font-weight: normal
 		color: steelblue
 	// a
 	// 	@extend .is-pulled-right
@@ -173,7 +174,7 @@
 	padding: 1em 2em 4em 2em
 	border-radius: 8px
 	margin-bottom: 2em
-	h1
+	h2
 		text-align: center
 		color: $primary
 		@extend .is-size-4-mobile
@@ -197,16 +198,18 @@
 		margin-top: 1em
 		@media screen and ( max-width: 500px )
 			font-size: 1.2rem !important
-		@extend .is-size-4-mobile
-		@extend .is-size-3-tablet
-		@extend .is-size-2-desktop
+		@extend .is-size-3-mobile
+		@extend .is-size-2-tablet
+		@extend .is-size-1-desktop
 		@extend .is-size-1
 	.gatsby-resp-image-wrapper, ul
 		margin-top: -17em
-		@media screen and ( max-width: $tablet - 1px )
-			margin-top: -8em
 		@media screen and ( max-width: $desktop )
-			margin-top: -10em
+			margin-top: -14em
+		@media screen and ( max-width: $tablet - 1px )
+			margin-top: -12em
+		@media screen and ( max-width: 500px )
+			margin-top: -7em
 	ul
 		@extend .button 
 		@extend .is-success 

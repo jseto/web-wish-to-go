@@ -7,4 +7,4 @@ image: ../../../images/plan-a-trip-animation.gif
 
 ## A Trip Planner for your Blog
 
-Readers can plan a trip based on the your posts stored in the **Destination Wish List**
+The plugin let your readers plan a trip based on the destinations stored in the **Destination Wish List**.
