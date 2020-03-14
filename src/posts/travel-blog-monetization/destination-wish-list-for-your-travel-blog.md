@@ -65,3 +65,8 @@ To complement the heart _widget_, you have the trip planner _widget_. The trip p
 
 You can see how **Wish To Go** works in our [blog demo](https://wish-to-go.com/blog). 
 
+## Further Reading
+
+A deep approach on how to setup your travel blog strategies to [increase your affiliate links](/travel-blog-monetization/how-to-improve-affiliate-marketing/) conversion rate.
+
+If you want to evade a little bit, read the adventures of an [avid travel blog follower](/stories/joanna/).

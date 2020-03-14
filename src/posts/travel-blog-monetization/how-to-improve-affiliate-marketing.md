@@ -86,7 +86,7 @@ You may think that it is impossible to know when your readers are ready to trave
 
   Many readers start to ask questions about the destinations they want to visit just before they are going to travel. Many others only read the comments when are ready to travel looking for third party opinions. Do not hesitate to answer the comments and add affiliate links to the hotel where you stayed or the tour you took there. They trust you and they would like to stay at the same place that you stayed before.
 
-  This strategy is outlined by Lauren Juliff in [this article about funding travel blogs](https://www.neverendingfootsteps.com/how-to-fund-travel-blog).
+  This strategy is outlined by Lauren Juliff in [this excellent article about funding travel blogs](https://www.neverendingfootsteps.com/how-to-fund-travel-blog).
 
 - Using a tool to recognize readers intention.
 
@@ -118,3 +118,12 @@ Affiliate marketing can be a good way to monetize your travel blog. If you follo
 
 Here is the [YouTube channel talking about SEO](https://www.youtube.com/channel/UCytOqtKYpACcWMD14UjhSeQ) that I talk above.
 
+## Further Reading
+
+The article below highlights the benefits of instaling a **Destination Wish List** _plugin_ in your blog, in special how it can help to boost traffic site.
+
+[A Travel Bucket List for your Travel Site](/travel-blog-monetization/destination-wish-list-for-your-travel-blog/)
+
+The following link relates the story of Joanna, an eager travel blog reader. 
+
+[Let Joanna fall in Love with Your Travel Blog](/stories/joanna/)
