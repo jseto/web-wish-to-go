@@ -10,7 +10,7 @@ section: productHighlights
 
 ### A Plugin to Increase Visitor Engagement
 
-[Wish To Go Plugin](/subscribe/?plans=backpacker) implements a **Travel BucketList** that allows your readers to add destinations in the same way you add products in a **wish list**.
+[Wish To Go Plugin](/subscription/?plan=backpacker) implements a **Travel BucketList** that allows your readers to add destinations in the same way you add products in a **wish list**.
 
 Every online store have a wish list. Why a travel blog shouldn't have one? Wish lists are an excellent tool to increase income:
 

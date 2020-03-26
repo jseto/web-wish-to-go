@@ -15,7 +15,7 @@ export class HowToUse extends React.Component<GraphQLProps> {
 
 		return (
 			<Layout>
-				<SEO title="How to use" />
+				<SEO title="How to use" description={ data.markdownRemark.excerpt }/>
 
 				<div className="hero is-primary" style={{ textAlign: 'center' }}>
 				<div className="hero-body">
@@ -42,6 +42,7 @@ query HowToUse {
   markdownRemark(frontmatter: {pageTemplate: {eq: "how-to-use"}, blockName: {eq: "content"}}) {
 		html
 		id
+		excerpt
 		frontmatter {
 			tripPlanner
 		}

@@ -10,7 +10,7 @@ export class Contact extends React.Component {
 
 		return (
 			<Layout>
-				<SEO title="Sign-up" />
+				<SEO title="Contact" description="Contact"/>
 
 				<div className="hero is-primary" style={{ textAlign: 'center' }}>
 				<div className="hero-body">

@@ -6,12 +6,14 @@ import { graphql } from "gatsby"
 import { BlogEntryPageQuery } from "../../graphql-types"
 import { HTMLContent } from "../components/content"
 import SideBar from "../components/side-bar"
+import { Social } from "../components/social"
 
 interface GraphQLProps {
 	data: BlogEntryPageQuery;
+	location: Location;
 }
 
-export const BlogEntryPage: React.FC<GraphQLProps> = ({ data }) => {
+export const BlogEntryPage: React.FC<GraphQLProps> = ( {data, location} ) => {
 	const { title, category } = data.markdownRemark.frontmatter;
 
 	return (
@@ -26,6 +28,9 @@ export const BlogEntryPage: React.FC<GraphQLProps> = ({ data }) => {
 				<div className="columns is-multiline blog-entry-page">
 
 					<div className="column is-8">
+
+						<Social url={location.href}/>
+
 						<MarkdownBlock 
 							className={ `main-column ${ category || '' }` }
 							content={ data.markdownRemark.html }

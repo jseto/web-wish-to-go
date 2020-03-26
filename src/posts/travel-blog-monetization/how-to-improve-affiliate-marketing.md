@@ -1,5 +1,5 @@
 ---
-title: How to Improve Your Travel Blog Affiliate Marketing? (7 Must do steps)
+title: How to Improve Your Travel Blog Affiliate Marketing?
 date: 2020-03-09T16:47:19Z
 category: generic
 featuredImage: ../../images/understanding-digital-marketing.jpg

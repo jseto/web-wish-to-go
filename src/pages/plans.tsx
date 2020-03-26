@@ -19,7 +19,7 @@ export const Plans: React.FC<GraphQLProps> = ({ data }) => {
 
 	return (
 		<Layout>
-			<SEO title="Plans" /> 
+			<SEO title="Plans" description="Plugin Plans" /> 
 
 			<div className="plans-header hero is-primary">
 			<div className="hero-body">

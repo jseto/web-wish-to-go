@@ -16,6 +16,7 @@ export const Blog: React.FC<GraphQLProps> = ({ data }) => {
 		<Layout>
 			<SEO 
 				title="Travel Blog demo" 
+				description="Travel Blog demo"
 			/>
 
 			<div className="hero is-primary" style={{ textAlign: 'center' }}>
