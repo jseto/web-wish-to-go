@@ -51,9 +51,9 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="https://wordpress.org/plugins/wish-to-go/">
+                      <a className="navbar-item" href="https://wordpress.org/plugins/wish-to-go/">
                         Wordpress Plugin
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </section>

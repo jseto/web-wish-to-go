@@ -691,7 +691,6 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___title' |
   'childMarkdownRemark___frontmatter___pageTemplate' |
   'childMarkdownRemark___frontmatter___blockName' |
-  'childMarkdownRemark___frontmatter___order' |
   'childMarkdownRemark___frontmatter___description' |
   'childMarkdownRemark___frontmatter___heading' |
   'childMarkdownRemark___frontmatter___subheading' |
@@ -810,6 +809,7 @@ export type FileFieldsEnum =
   'childMarkdownRemark___frontmatter___imageColumnWidth' |
   'childMarkdownRemark___frontmatter___className' |
   'childMarkdownRemark___frontmatter___section' |
+  'childMarkdownRemark___frontmatter___order' |
   'childMarkdownRemark___frontmatter___tripPlanner' |
   'childMarkdownRemark___frontmatter___featuredImage___sourceInstanceName' |
   'childMarkdownRemark___frontmatter___featuredImage___absolutePath' |
@@ -1653,7 +1653,6 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___title' |
   'frontmatter___pageTemplate' |
   'frontmatter___blockName' |
-  'frontmatter___order' |
   'frontmatter___description' |
   'frontmatter___heading' |
   'frontmatter___subheading' |
@@ -1847,6 +1846,7 @@ export type MarkdownRemarkFieldsEnum =
   'frontmatter___imageColumnWidth' |
   'frontmatter___className' |
   'frontmatter___section' |
+  'frontmatter___order' |
   'frontmatter___tripPlanner' |
   'frontmatter___featuredImage___sourceInstanceName' |
   'frontmatter___featuredImage___absolutePath' |
@@ -2103,7 +2103,6 @@ export type MarkdownRemarkFrontmatter = {
   title?: Maybe<Scalars['String']>,
   pageTemplate?: Maybe<Scalars['String']>,
   blockName?: Maybe<Scalars['String']>,
-  order?: Maybe<Scalars['Int']>,
   description?: Maybe<Scalars['String']>,
   heading?: Maybe<Scalars['String']>,
   subheading?: Maybe<Scalars['String']>,
@@ -2117,6 +2116,7 @@ export type MarkdownRemarkFrontmatter = {
   imageColumnWidth?: Maybe<Scalars['Int']>,
   className?: Maybe<Scalars['String']>,
   section?: Maybe<Scalars['String']>,
+  order?: Maybe<Scalars['Int']>,
   tripPlanner?: Maybe<Scalars['String']>,
   featuredImage?: Maybe<File>,
   image?: Maybe<File>,
@@ -2139,7 +2139,6 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   title?: Maybe<StringQueryOperatorInput>,
   pageTemplate?: Maybe<StringQueryOperatorInput>,
   blockName?: Maybe<StringQueryOperatorInput>,
-  order?: Maybe<IntQueryOperatorInput>,
   description?: Maybe<StringQueryOperatorInput>,
   heading?: Maybe<StringQueryOperatorInput>,
   subheading?: Maybe<StringQueryOperatorInput>,
@@ -2153,6 +2152,7 @@ export type MarkdownRemarkFrontmatterFilterInput = {
   imageColumnWidth?: Maybe<IntQueryOperatorInput>,
   className?: Maybe<StringQueryOperatorInput>,
   section?: Maybe<StringQueryOperatorInput>,
+  order?: Maybe<IntQueryOperatorInput>,
   tripPlanner?: Maybe<StringQueryOperatorInput>,
   featuredImage?: Maybe<FileFilterInput>,
   image?: Maybe<FileFilterInput>,
@@ -2387,8 +2387,6 @@ export type QueryAllSitePageArgs = {
 export type QuerySiteArgs = {
   buildTime?: Maybe<DateQueryOperatorInput>,
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
-  port?: Maybe<IntQueryOperatorInput>,
-  host?: Maybe<StringQueryOperatorInput>,
   polyfill?: Maybe<BooleanQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   id?: Maybe<StringQueryOperatorInput>,
@@ -2500,8 +2498,6 @@ export type QueryAllSitePluginArgs = {
 export type Site = Node & {
   buildTime?: Maybe<Scalars['Date']>,
   siteMetadata?: Maybe<SiteSiteMetadata>,
-  port?: Maybe<Scalars['Int']>,
-  host?: Maybe<Scalars['String']>,
   polyfill?: Maybe<Scalars['Boolean']>,
   pathPrefix?: Maybe<Scalars['String']>,
   id: Scalars['ID'],
@@ -2705,8 +2701,6 @@ export type SiteFieldsEnum =
   'siteMetadata___description' |
   'siteMetadata___author' |
   'siteMetadata___siteUrl' |
-  'port' |
-  'host' |
   'polyfill' |
   'pathPrefix' |
   'id' |
@@ -2799,8 +2793,6 @@ export type SiteFieldsEnum =
 export type SiteFilterInput = {
   buildTime?: Maybe<DateQueryOperatorInput>,
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
-  port?: Maybe<IntQueryOperatorInput>,
-  host?: Maybe<StringQueryOperatorInput>,
   polyfill?: Maybe<BooleanQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   id?: Maybe<StringQueryOperatorInput>,

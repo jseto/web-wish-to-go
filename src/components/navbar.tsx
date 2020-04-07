@@ -84,9 +84,9 @@ export class Navbar extends React.Component<{}, NavbarState> {
 							<Link className="navbar-item" to="/trip-planner">
 								Trip Planner
 							</Link>
-							<Link className="navbar-item" to="https://wordpress.org/plugins/wish-to-go/">
+							<a className="navbar-item" href="https://wordpress.org/plugins/wish-to-go/">
 								Wordpress Plugin
-							</Link>
+							</a>
 						</div>
 					</div>
 				</div>
