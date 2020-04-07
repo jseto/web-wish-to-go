@@ -5,6 +5,6 @@ section: slide
 image: ../../../images/click-on-the-hearts-animation.gif
 ---
 
-## Let Readers to Like your Posts
+## A Travel Bucket List
 
-Click on the hearts shown by the plugin next to your posts to add them to the **Travel Bucket List**.
+Your readers can click on the hearts ❤️ shown by the plugin to **Bookmark your posts**.

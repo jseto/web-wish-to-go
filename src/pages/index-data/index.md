@@ -16,10 +16,24 @@ imageColumnWidth: 4
 className: ''
 ---
 
-## How _Wish To Go Plugin_ can help your Travel Blog Engagement?
+## The Travel Bucket List Plugin for your Travel Blog 
 
-- Have you ever wondered why big marketplaces as _Amazon_ use wish list to **increase visitor's engagement**?
+- **Wish To Go** helps to **boost** your Travel Blog traffic
+- Your readers bookmark your posts to add destinations to a Travel Bucket List
+- They'll keep returning to check the free Trip Planner and you get their email without being pushy.
 
-- Do you know how easy is to install a **plugin for your travel blog** to implement a **Travel Bucketlist** for your readers? Click below to understand why a **destination wish list app** can increase your travel website traffic?
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WRngkBikAUU" frameborder="0" allowfullscreen></iframe>
+</div>
+
+## How _Wish To Go Plugin_ can help your Travel Blog Readers Engagement?
+
+### Readers will Come Back to Check their Travel Wish List
+
+The _Travel Bucket List_ widget allows your readers to **bookmark post and destinations** that you review in your article. **Visitor Engagement** is an important metric to boost your blog traffic and rank in Google's organic search.
+
+### Get Reader's Email Address without Friction
+
+Your readers will understand that they need to identify themself with an email address to have a personal Travel Bucket List. No need for invasive pop-ups asking for email or useless e-book offers.
 
 [Learn More](/travel-blog-monetization/destination-wish-list-for-your-travel-blog/)
