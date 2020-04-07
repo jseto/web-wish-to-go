@@ -145,7 +145,10 @@ module.exports = {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
 				develop: false,
-				whitelist: [ 'gatsby-resp-image-wrapper', 'joanna-banner', 'is-1', 'is-2', 'is-3', 'is-4', 'is-5', 'is-6', 'is-8', 'is-10', 'is-12' ],
+        whitelist: [ 
+          'gatsby-resp-image-wrapper', 'joanna-banner', 'book-demo',
+          'video-container',
+          'is-1', 'is-2', 'is-3', 'is-4', 'is-5', 'is-6', 'is-8', 'is-10', 'is-12' ],
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins

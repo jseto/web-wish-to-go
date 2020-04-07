@@ -23,7 +23,7 @@ className: ''
 - They'll keep returning to check the free Trip Planner and you get their email without being pushy.
 
 <div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WRngkBikAUU" frameborder="0" allowfullscreen></iframe>
+<iframe style="position: absolute; top: 0; left: 0;	width: 100%; height: 100%" width="560" height="315" src="https://www.youtube.com/embed/WRngkBikAUU" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## How _Wish To Go Plugin_ can help your Travel Blog Readers Engagement?
