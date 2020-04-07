@@ -1,0 +1,7 @@
+- Hey!
+- What are you doing to **engage with your readers**?
+- Just **Waiting**?
+- **Wish To Go** helps to **boost** your Travel Blog traffic
+- Your readers bookmark your posts to add destinations to a Travel Bucket List
+- They'll keep returning to check the free Trip Planner and you get their email without being pushy
+- Try **Wish To Go** for **Free** in the link below.

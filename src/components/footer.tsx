@@ -50,6 +50,11 @@ const Footer = class extends React.Component {
                         Trip Planner
                       </Link>
                     </li>
+                    <li>
+                      <Link className="navbar-item" to="https://wordpress.org/plugins/wish-to-go/">
+                        Wordpress Plugin
+                      </Link>
+                    </li>
                   </ul>
                 </section>
               </div>
