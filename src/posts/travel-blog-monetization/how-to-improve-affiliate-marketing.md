@@ -20,9 +20,9 @@ After cooling down my brain, I realized that I could offer an affiliation progra
 
 ## Affiliate Marketing for Travel Sites
 
-If you are new to blogging or never tried to monetize your travel blog, you probably are lost the same way as I was lost when I saw that _search engine optimization_ video. But don't worry, I will try to explain it. In case that you already know what is an affiliate program, you can skip to the next entry.
+If you are new to blogging or never tried to monetize your travel blog, you probably are lost the same way as I was lost when I saw that _search engine optimization_ video. But don't worry, I will try to explain it. In case that you are writting a travel blog for money, then you already know what is an affiliate program, and therefore you can skip to the next entry.
 
-Being short, _affiliate marketing_ is a way to earn commissions by diverting traffic from your site to a third party website that offers goods or services. If a visitor that you sent to them buys something, then you get the commission. Nowadays, most electronic marketplaces offer some kind of affiliate programs to have free advertisement from bloggers, influencers or other social media actors. _Amazon_ was a pioneer in this field. The increasing expenses on internet advertisement, the difficulty to stay at the top of search engine listings and the huge product catalogue, pushed the first electronic market actor to launch their affiliate programme called _Amazon Associates_.
+Being short, _affiliate marketing_ answers the question: **How to make money from a travel blog?**. In general is a way to earn commissions by diverting traffic from your site to a third party website that offers goods or services. If a visitor that you sent to them buys something, then you get the commission. Nowadays, most electronic marketplaces offer some kind of affiliate programs to have free advertisement from bloggers, influencers or other social media actors. _Amazon_ was a pioneer in this field. The increasing expenses on internet advertisement, the difficulty to stay at the top of search engine listings and the huge product catalogue, pushed the first electronic market actor to launch their affiliate programme called _Amazon Associates_.
 
 Jeff Bezos and his team realized that they could not afford to advertise their whole product portfolio. Then they decided to use [Wikinomics](https://amzn.to/2wNkd67) (the economy based in cooperative collaboration) and enrol a silent legion of sellers, mainly bloggers at that time. _Amazon_ offers their affiliates a commission of the customer purchase in case the blogger owner, influencer or whoever is able to derive traffic to _Amazon_ electronic shop.
 
@@ -38,7 +38,7 @@ You are called _the publisher_ in this world. The travel blogger who is trying t
 
 ## What are the rules (from the advertiser point of view)
 
-You are the small fish here and the rules are set by the advertisers. The rules can vary depending on the affiliate program that you have chosen. Anyway, there are common aspects that you should be aware. I will not talk about legal nor economic aspects; it is not my field. I will talk how the commission is attributed to whom.
+You are the small fish here and the rules are set by the advertisers, in other words, the travel blog affiliate programs. The rules can vary depending on the affiliate program that you have chosen. Anyway, there are common aspects that you should be aware. I will not talk about legal nor economic aspects; it is not my field. I will talk how the commission is attributed to whom.
 
 ### The Bitter Cookie
 
@@ -50,11 +50,11 @@ The most evident happens when the cookie expires. An expired cookie doesn't enti
 
 The later case looks fair, because the _advertiser_ respects your effort to divert traffic to him, giving you a grace period. But, what happens if your reader visits another blog that implements an affiliate program with the same _advertiser_? Bad news. The majority of programs use a last cookie grants the commission. This is so because it is difficult to stablish a shared commission scheme. You can always be on the bright side of life and think that you will be the last!
 
-![How to improve affiliate benefits - Photo by Hal Gatewood on Unsplash](../../images/optimize-affiliation-programs.jpg)
+![How to improve travel booking affiliate benefits - Photo by Hal Gatewood on Unsplash](../../images/optimize-affiliation-programs.jpg)
 
-## How to Optimize Affiliate Conversion Rate?
+## How to Optimize Travel Affiliation Conversion Rate?
 
-To improve your affiliate conversion ratios, i.e. make money from you travel blog affiliate links, you have to think about how the rules of the _advertiser_ guys work, but also use a bit of neuromarketing and understand when your readers are ready to buy.
+To improve your affiliate conversion ratios, i.e. make money with your travel blog affiliate links, you have to think about how the rules of the _advertiser_ guys work, but also use a bit of neuromarketing and understand when your readers are ready to buy.
 
 ### 1. Be Relevant on What you Offer
 
@@ -74,35 +74,35 @@ Again, being relevant will be useful to convert your sales from affiliate links.
 
 This is the tricky part but **if you master it, your affiliate link income will soar**.
 
-Any marketing handbook says that you cannot sell if the customer is not ready to buy. It is quite obvious, but many marketers forget about this fact. There are many reasons why customers are not ready to buy but let's focus on your readers. 
+Any marketing handbook says that **you cannot sell if the customer is not ready to buy**. It is quite obvious, but many marketers forget about this fact. There are many reasons why customers are not ready to buy but let's focus on your readers. 
 
 Your readers are travellers and you can think on several factors that make them to postpone the decision to start a trip. Lack of time or money are the main obstacles. But your readers are also dreamers and despite they don't have time or money, they will keep reading your posts in the hope that they could afford to travel in the future. With this _customer_ profile, it makes very difficult to forecast when a reader will be ready to travel.
 
-Another reason why you should know when your visitor is ready to travel, on top of the generic marketing reasons, is the _bitter cookie_. As I said above, if the reader visits the affiliate website well before decides to buy, your cookie will be expired or another blogger will have acquired the _last to arrive_ condition and your commission will vanish.
+Another reason why **you should know when your visitor is ready to travel**, on top of the generic marketing reasons, is the _bitter cookie_. As I said above, if the reader visits the affiliate website well before decides to buy, your cookie will be expired or another blogger will have acquired the _last to arrive_ condition and your commission will vanish.
 
 You may think that it is impossible to know when your readers are ready to travel having only, as much, their email addresses. But in fact there are several ways to know it at least from some of them.
 
-- Reading the visitor's comments.
+- **Reading the visitor's comments**.
 
   Many readers start to ask questions about the destinations they want to visit just before they are going to travel. Many others only read the comments when are ready to travel looking for third party opinions. Do not hesitate to answer the comments and add affiliate links to the hotel where you stayed or the tour you took there. They trust you and they would like to stay at the same place that you stayed before.
 
   This strategy is outlined by Lauren Juliff in [this excellent article about funding travel blogs](https://www.neverendingfootsteps.com/how-to-fund-travel-blog).
 
-- Using a tool to recognize readers intention.
+- **Using a tool to recognize readers intention**.
 
-  A tool in the form of a plugin or a piece of code that you insert in your pages can help to find when your reader are willing to travel. You can use [Wish To Go](https://wish-to-go.com/subscription/?plan=backpacker) to guess when your readers are ready to travel. This plugin also offers affiliate links for flights, hotels and tours only when they have decided to book. *Wish To Go* is a free tool that includes a heart widget. The readers can click on the heart in the same way they like pictures on _Instagram_. You can insert this widget in any part of your post and it will, when clicked, add the destination in your post to a kind of electronic bucket list. When your readers are ready to travel, they can use the included travel planner widget to start planning the trip from the bucket list that they created some time ago by clicking on the hearts. When your visitors start planning, that means that they are ready to travel. As I mentioned above, the plugin allows booking flights, hotels and tours from the data in the trip planner. Therefore, the affiliate link are relevant to your visitor and appear just when she/he is ready to buy. Moreover, the plugin lets you to compile lists of readers that are planning a trip by destination and email. So then, you can launch pertinent and focussed mailing campaigns that will not end in the spam folder.
+  A tool in the form of a _travel blog plugin_ or a piece of code that you insert in your pages can help to find when your reader are willing to travel. You can use [Wish To Go](https://wish-to-go.com/subscription/?plan=backpacker) to guess when your readers are ready to travel. This plugin also offers affiliate links for flights, hotels and tours only when they have decided to book. **Wish To Go** is a _free tool_ that includes a heart widget. The readers can click on the heart in the same way they like pictures on _Instagram_. You can insert this widget in any part of your post and it will, when clicked, add the destination in your post to a kind of electronic _travel bucket list_. **When your readers are ready to travel**, they can use the included travel planner widget to start planning the trip from the bucket list that they created some time ago by clicking on the hearts. When your visitors start planning, that means that they are ready to travel. As I mentioned above, **the plugin allows booking flights, hotels and tours from the data in the trip planner**. Therefore, the affiliate link are _relevant_ to your visitor and appear just when she/he is ready to buy. Moreover, the plugin lets you to compile lists of readers that are planning a trip by destination and email. So then, you can launch pertinent and focussed mailing campaigns that will not end in the spam folder.
 
   You can try the plugin for free [here](https://wish-to-go.com/subscription/?plan=backpacker).
 
 ### 4. Choose Few Affiliate Programs
 
-There are plenty of affiliate marketing programs out there. This fact can be overwhelming at the beginning and make difficult a simple selection. Just don't be tempted to offer several programs to your readers, so they can freely use any of them.
+There are plenty of companies offering affiliate programs out there but you should aim for the best travel blog affiliate programs. This fact can be overwhelming at the beginning and make difficult a simple selection. Just don't be tempted to offer several programs to your readers, so they can freely use any of them.
 
 By doing that, you are putting your readers on stress. Believe me. Our brains get stressed when they have to choose. An interesting experiment based on the ideas of the book [Paradox of Choice](https://amzn.to/2TToRHP), can be found [here](https://neilpatel.com/blog/too-many-choices/).
 
 Despite stressing your customer's brain, showing too much affiliate links or widgets will lead to the same problems of [bloating your pages with adverts](#2._do_not_bloat_your_pages_with_adverts).
 
-Choose one program for each area and have one as a backup. You can have one for booking flights, other for hotels, for tours, etc. But choose the ones with proven reputation. You don't want your readers book a flight from your travel blog and find the flight they bought does not exist.
+Choose one program for each area and have one as a backup. You can have one for booking flights, other for hotels, for tours, etc. But choose the ones with proven reputation. You don't want your readers book a flight from your travel blog and find the flight they bought does not exist. And don't forget that the best affiliate for a travel blog is not the best for a generic blog.
 
 ### 5. Don't be Cheeky
 
