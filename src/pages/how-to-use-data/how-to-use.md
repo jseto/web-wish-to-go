@@ -4,9 +4,15 @@ blockName: content
 order: 1
 ---
 
-# How To Use
+# How To Use Wish To Go
 
-Installing **Wish To Go** in your blog is really easy. We provide 2 widgets in the form of an _HTML_ tag; the [WishWidget](#the-wishwidget-tag) and the [TravelPlanWidget](#the-travelplanwidget-tag). The first is the heart button to indicate which destinations are _wished_ by your readers. The second is used to implement the **Trip Planner** in your blog. In order the widgets to work, you should load the JavaScript code in your page.
+> For an installation guide of the [Travel Planner Wordpress plugin, click here](https://wordpress.org/plugins/wish-to-go/)
+
+Installing **Wish To Go** in your blog is really easy. We provide several widgets in the form of an _HTML_ tag. The [WishWidget](#the-wishwidget-tag) shows a heart next to posts destinations where the reader can click to add them to the _Travel Bucket List_. The [ShareTripWidget](##the-sharetripwidget-tag) is used to share the travel blogger trips with their readers. 
+
+[TravelPlanWidget](#the-travelplanwidget-tag) is used to implement the **Trip Planner** in your blog. Finally, the [WishCounterWidget Tag Reference](#the-wishcounterwidget-tag) shows a heart with the number of selected destinations and by clicking on it, shows the _Travel Planner_.
+
+In order the widgets to work, you should load the JavaScript code in your page.
 
 - [Loading the JavaScript Code](#loading-the-javascript-code)
 
@@ -17,6 +23,10 @@ Installing **Wish To Go** in your blog is really easy. We provide 2 widgets in t
 - [TravelPlanWidget Tag Reference](#the-travelplanwidget-tag)
 
 - [WishCounterWidget Tag Reference](#the-wishcounterwidget-tag)
+
+- [ShareWTripWidget Tag Reference](#the-sharetripwidget-tag)
+
+	Attributes: [`user-id`](#user-id), [`trip-name`](#trip-name), [`icon-url`](#icon-url), [`label`](#label), [`sub-label`](#sub-label)
 
 ## Loading the JavaScript Code
 
@@ -394,7 +404,7 @@ Change the _xxxx-xxx-xxx-xxx_ string by your own customer's id.
 
 ## The WishCounterWidget Tag
 
-This tag will show a heart icon with a wish counter in the top right corner of the heart. The Trip Planner will appear a a modal window when the user click on it. If you don't want a modal window you can set the page URL where you have the **Travel Plan Widget** using the `trip-planner` attribute.
+This tag will show a heart icon with a wish counter in the top right corner of the heart. The Trip Planner will appear a modal window when the user clicks on it. If you don't want a modal window, you can set the page URL where you have the **Travel Plan Widget** using the `trip-planner` attribute.
 
 This widget is to be used in the bottom of your blog pages or as a menu item in the way it is used as a shopping chart in marketplaces.
 
@@ -402,14 +412,53 @@ This widget is to be used in the bottom of your blog pages or as a menu item in 
 
 #### `trip-planner`
 
-URL where you have the **Travel Plan Widget**. When the user clicks on the **WishCounterWidget** it will be send to the URL specified in this attribute. If you leave this attribute empty or it is not declared, when the user clicks on the _widget_ a modal window with the Travel Plan will appear. We recommend **not setting** this attribute as it will improve the _user experience_.
+URL where you have the **Travel Plan Widget**. When the user clicks on the **WishCounterWidget**, it will be sent to the URL specified in this attribute. If you leave this attribute empty or it is not declared, when the user clicks on the _widget_ a modal window with the Travel Plan will appear. We recommend **not setting** this attribute as it will improve the _user experience_.
 
-#### `customer-id`
+## The ShareTripWidget Tag
 
-Set your customer id.
+The ShareTripWidget copies an stored trip from a user, typically the blogger user to a readers _Travel Planner_. This is a nice way to share trips with readers, so they don't have to do it by themself.
 
+This widget shows a big button with information about the trip to share. When the reader clicks the **ShareTripWidget** button, the associated trip is copied to the reader's personal Travel Planner and opens it in a modal dialog.
 
+The following code: 
 
+```html
+<ShareTripWidget
+	user-id="xxxx-xxx-xxx-xxx"
+	trip-name="Wish To Go Trip to Thailand"
+	icon-url="https://static-images/blogger.png"
+>
+</ShareTripWidget>
+```
+will produce 
+
+> <ShareTripWidget
+> 	user-id="5RgbbnW5uDZV0sofyNe3NWws1qs1"
+> 	trip-name="Wish To Go Trip to Thailand"
+> 	icon-url="/static-images/blogger.png">
+> </ShareTripWidget>
+
+### ShareTripWidget attributes
+
+#### `user-id`
+
+This is the `user-id` of the user owning the trip to share. Normally, it is the blogger's `user-id`, but can be any existing user.
+
+#### `trip-name`
+
+The stored trip name in the `user-id` **Travel Planner**.
+
+#### `icon-url`
+
+The source trip owner avatar. It's an optional attribute.
+
+#### `label`
+
+Text to display in the main area of the **ShareTripWidget**. If not set, a standard message is displayed. Contain details of the itinerary and a _call to action_ to invite the reader to click on it.
+
+#### `sub-label`
+
+Smaller text displayed in the **ShareTripWidget**. If not set, a standard message is displayed. Use it to engage with your readers telling that it is your personal itinerary.
 
 [^country_wishwidget]: A ***Country WishWidget*** is a **WishWidget** with the `country` attribute set but not `city` and `activity` attributes. It is used to denote that the **WishWidget** describes a country as a whole.
 

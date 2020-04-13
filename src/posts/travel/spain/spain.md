@@ -16,6 +16,8 @@ Spain has always been one of the favourite tourist places not only in Europe, bu
 It is a country equally rich in culture, art, gastronomy and entertainment. The mix of Gothic, Romanesque and Moorish architecture, bullfighting, unparalleled Spanish food and a sunny climate are some reasons why this country attracts thousands of visitors every month.
 Madrid and Barcelona are the cities that receive most tourists each year. The Royal Palace, the Prado Museum, the Sagrada Familia or the architecture of Antonio Gaudí are just a few examples of what both European cities have to offer.
 
+<ShareTripWidget user-id="5RgbbnW5uDZV0sofyNe3NWws1qs1" trip-name="Wish To Go Trip to Spain" icon-url="/static-images/blogger.png"></ShareTripWidget>
+
 ## Where to go
 
 - [Barcelona](/travel/spain/barcelona) <WishWidget	country="ES"	city="Barcelona"	picture="https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80" post="/travel/spain/barcelona"></WishWidget>

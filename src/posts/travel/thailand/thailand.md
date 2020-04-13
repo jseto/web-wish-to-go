@@ -11,7 +11,10 @@ tags:
 
 ![Thailand - Photo by Sumit Chinchane on Unsplash](https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1023&q=80)
 
+
 Thailand is a huge country full of unexpected experiences. It is the most popular destination in Southeast Asia. People goes there for many reasons, a flourish economy,stuning landscapes, tropical beaches, nice people or excellent food. It is a very easy country to move around. Transport infrastures are pretty good and modern and they have a long well established tourist industry. This makes the traveller feel like at home despite of the language, the ancestral traditions or the exotic countenance of their people. They call themselfs _The Country of Smiles_ and they are not wrong. Since they are children they are taught to smile nicely by parents, uncles and friends. So be ready to enjoy a unique experience that many visitore will never forget.
+
+<ShareTripWidget user-id="5RgbbnW5uDZV0sofyNe3NWws1qs1" trip-name="Wish To Go Trip to Thailand" icon-url="/static-images/blogger.png"></ShareTripWidget>
 
 ## Where to go
 
