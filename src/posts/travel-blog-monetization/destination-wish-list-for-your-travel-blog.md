@@ -23,6 +23,12 @@ Have you ever imagined that your blog could have a destination wish list? Do you
 
 Keep reading to know why destination wish list can be useful for your travel blog, both, for your readers and for your blog as a powerful marketing tool. 
 
+### 9 Clever Ways To Increase Traffic & Get Blog Followers (Beyond SEO)
+
+<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/12968822/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/f30078/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+Listen to Jessie's from [Jessie on a journey](https://jessieonajourney.com) podcast on [how to get more blog readers](https://jessieonajourney.com/increase-traffic-get-blog-followers/?utm_source=newsletter&utm_medium=email&utm_campaign=the_profitable_travel_blogger_podcast_is_back_giveaway&utm_term=2020-04-14) and how important is to engage with your followers.
+
 ## How a Destination Wish List Can Help Your Readers?
 
 A wish list helps your readers to plan their trips. As they read your blog, they can bookmark the destinations they like with just a click.
