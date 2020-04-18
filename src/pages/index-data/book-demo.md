@@ -2,7 +2,7 @@
 pageTemplate: index
 blockName: block
 className: book-demo
-order: 1
+order: 4
 ---
 
 ## Book a Demo

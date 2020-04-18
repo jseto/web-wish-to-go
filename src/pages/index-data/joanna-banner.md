@@ -2,7 +2,7 @@
 pageTemplate: index
 blockName: block
 className: joanna-banner
-order: 2
+order: 5
 ---
 
 ## Let Joanna Fall in Love with your Travel Blog

@@ -49,8 +49,8 @@ export class Layout extends React.Component<{}, LayoutState> {
 
 export const SectionBody: React.FC = ({ children })=>{
 	return (
-		<section className="section">
-			<div className="container">
+		<section className="">
+			<div className="-container">
 				<div className="content">
 					<div className="columns is-desktop">
 						<div className="column is-8-fulscreen is-offset-2-fulscreen">

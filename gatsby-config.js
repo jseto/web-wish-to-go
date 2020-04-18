@@ -66,13 +66,6 @@ module.exports = {
 				path: `${__dirname}/src/pages`,
 			}
 		},
-		// {
-		// 	resolve: `gatsby-source-filesystem`,
-		// 	options: {
-		// 		name: `travel-posts`,
-		// 		path: `${__dirname}/src/posts/travel`,
-		// 	}
-		// },
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
@@ -80,17 +73,6 @@ module.exports = {
 				path: `${__dirname}/src/posts`,
 			}
 		},
-		// {
-    //   resolve: `gatsby-plugin-gtag`,
-    //   options: {
-    //     // your google analytics tracking id
-    //     trackingId: `UA-152680555-1`,
-    //     // Puts tracking script in the head instead of the body
-    //     head: false,
-    //     // enable ip anonymization
-    //     anonymize: false,
-    //   },
-		// },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {

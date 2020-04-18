@@ -20,14 +20,14 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 	return (
 	  <Layout>
 	    <SEO title={ title } description={ description } />
-			<Banner
+			{/* <Banner
 				header={ heading }
 				subheader={ subheading }
 				backgroundImage={ backgroundImage }
 				callToAction={ callToAction }
 				callToActionSmallText={ callToActionSmallText }
 				callToActionURL={ callToActionURL }
-			/>
+			/> */}
 			<SectionBody>
 
 				{/* <div className="box" style={{ backgroundColor: '#fdddd0'}}>
@@ -35,16 +35,6 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 							Learn how Wish to go can help you to enhance your readers experience
 						</h1>
 				</div> */}
-
-				<HTMLContent className="index-header" content={ html } />
-		
-				{/* <img
-					src={logo}
-					alt="Wish to go"
-					style={{ height: '15em' }}
-				/> */}
-
-				<ProductHighlights />
 
 				{
 					blocks.map( block =>
@@ -59,6 +49,16 @@ const Index: React.FC<GraphQLProps> = ({data}) => {
 						/>
 					)
 				}
+
+				<HTMLContent className="index-header" content={ html } />
+		
+				{/* <img
+					src={logo}
+					alt="Wish to go"
+					style={{ height: '15em' }}
+				/> */}
+
+				<ProductHighlights />
 
         {/* <div className="columns">
           <div className="column is-12 has-text-centered">

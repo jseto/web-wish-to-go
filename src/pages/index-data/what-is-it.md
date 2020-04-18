@@ -4,7 +4,7 @@ blockName: block
 leftImage: ../../images/wish-to-go-icon.png
 align: vertical
 imageColumnWidth: 3
-order: 3
+order: 6
 ---
 
 ## What's _Wish to go_ plugin

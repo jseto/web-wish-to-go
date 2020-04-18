@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,200,300,500,700,900&display=swap')
 @import "~bulma/sass/utilities/initial-variables"
 
 // Config vars
@@ -6,7 +6,12 @@
 
 $body-min-width: 0
 
-$kaldi-red: #D64000
+$main-blue: #325082
+$light-blue: #b8d2ff
+$soft-blue: #86a4da
+
+
+$kaldi-red: $main-blue
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
@@ -14,6 +19,7 @@ $primary-invert: $kaldi-red-invert
 $secondary: #66f
 $body-color: #333
 $black: #2b2523
+
 
 $navbar-item-img-max-height: 3rem
 $navbar-item-hover-background-color: $kaldi-red
@@ -122,6 +128,28 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
+body
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+.content
+  h1
+    text-align: center
+    color: $main-blue
+    font-size: 3.25rem
+    margin: 0.5em 0 0.425em
+
+  h2
+    text-align: center
+    color: $main-blue
+    font-size: 2.5rem
+    // @extend .is-size-4-mobile
+    // @extend .is-size-2
+    // line-height: 2em
+    margin-bottom: 1em
+    margin-top: 2em
+
+  h3
+    color: $main-blue
 
 // responsiveness
 +tablet-only

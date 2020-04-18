@@ -34,7 +34,7 @@ const MarkdownBlock: React.FC<MarkdownBlockProps> = ({
 			</div>
 
 			<div className={`column is-${ contentColumnWidth }`}>
-				<HTMLContent className="content" content={content} />
+				<HTMLContent className="-content" content={content} />
 			</div>
 
 			<div className={ imageColumnWidth? `column is-${ imageColumnWidth}` : ''}>
