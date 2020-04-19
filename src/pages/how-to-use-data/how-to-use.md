@@ -196,7 +196,7 @@ This city name has to be consistent in all your blog site. If you use different 
 		country="TH"
 		city="Bangkok">
 	</WishWidget>.
-</P>
+</p>
 ```
 
 The above code produces:
@@ -207,7 +207,7 @@ The above code produces:
 > 		country="TH"
 > 		city="Bangkok">
 > 	</WishWidget>.
-> </P>
+> </p>
 
 _The above snippet is telling to the system that the **Wish to go** heart is in the semantic context of the city of Bangkok in Thailand_
 
@@ -283,7 +283,7 @@ The following code in a post about Bangkok,
 	Bangkok
 	<WishWidget
 		country="TH"
-		city="Bangkok"
+		city="Bangkok">
 	</WishWidget>
 	<!-- Above you don't need to specify the post attribute
 			as the post URL	is this page address -->
@@ -305,7 +305,7 @@ will show
 > 	Bangkok
 > 	<WishWidget
 > 		country="TH"
-> 		city="Bangkok"
+> 		city="Bangkok">
 > 	</WishWidget>
 > </h1>
 > <p>
