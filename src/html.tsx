@@ -40,7 +40,7 @@ export const HTML: React.FC = (props: any ) => {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-				{/* <script type="text/javascript" src={ `${ wishToGoHost }wish-to-go.main.js` }/> */}
+				<script type="text/javascript" src={ `${ wishToGoHost }wish-to-go.main.js` }/>
       </body>
     </html>
   )
