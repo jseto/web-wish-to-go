@@ -1,6 +1,6 @@
 ---
 pageTemplate: index
-blockName: block
+blockName: readersBenefit
 order: 2
 className: readers-benefit
 ---

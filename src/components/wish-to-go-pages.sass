@@ -85,41 +85,6 @@
 	margin-bottom: -200px
 	text-align: center
 
-.product-highlights 
-	.column 
-		.highlight-element
-			// border: solid 1px #0005
-			box-shadow: 4px 4px 10px #0003
-			border-radius: 10px
-			padding: 0.5em
-			background-color: #f8f8f8
-
-	h2
-		color: #00bda0
-		min-height: 2em
-		text-align: center
-		padding-bottom: 0.3em
-		border-bottom: solid 4px #bbb
-		
-	li
-		margin-bottom: 0
-
-	img
-		display: block
-		margin-left: auto
-		margin-right: auto
-
-	h3
-		background-color: unset
-		border-left: none
-		font-variant-caps: all-small-caps
-		padding: 0
-		font-size: 1.3em
-		font-weight: normal
-		color: steelblue
-	// a
-	// 	@extend .is-pulled-right
-
 .index-block .gatsby-image-wrapper
 	// display: block
 	margin-left: auto
@@ -169,6 +134,20 @@
 	margin-left: 1.5em
 	margin-right: 1.5em
 
+.round-blue-button
+	font-variant: all-small-caps
+	font-size: 1.4em
+	font-weight: 500
+	border: solid $light-blue 0.15em 
+	border-radius: 10em
+	padding: 0em 0.7em 0.1em 0.7em
+	color: $white
+
+	&:hover
+		border-color: $white
+
+.index-page
+
 .index-header
 	background-color: $main-blue
 	padding: 3em 10%
@@ -178,6 +157,11 @@
 
 	h2
 		color: $white
+	
+	h3
+		color: $white
+		margin-bottom: 2em
+		font-size: 2em
 
 	@media screen and ( max-width: $tablet - 1px )
 		// padding: 0.5em
@@ -191,23 +175,11 @@
 		&:not(:last-child)
 			margin-bottom: 1.5em
 
-	a
-		font-variant: all-small-caps
-		font-size: 1.4em
-		font-weight: 500
-		border: solid $light-blue 0.15em 
-		border-radius: 10em
-		padding: 0em 0.7em 0.1em 0.7em
-		color: $white
-		// @extend .button
-		// @extend .is-success
-		// @extend .is-pulled-right
-
-		&:hover
-			border-color: $white
-
 	p img
 		width: 200px
+
+	a
+		@extend .round-blue-button
 
 .readers-benefit
 	padding: 3em 10%
@@ -231,6 +203,54 @@
 	p
 		text-align: center
 		color: gray
+
+.product-highlights 
+	max-width: 1000px
+	margin-left: auto
+	margin-right: auto
+	margin: 4em 2em
+
+	.column 
+		.highlight-element
+			// border: solid 1px #0005
+			box-shadow: 4px 4px 10px #0003
+			border-radius: 10px
+			padding: 0.5em
+			background-color: $main-blue
+
+	h2
+		color: $white
+		min-height: 2em
+		text-align: center
+		padding-bottom: 0.3em
+		border-bottom: solid 4px #bbb
+		
+	img
+		display: block
+		margin-left: auto
+		margin-right: auto
+
+	h3
+		color: $white
+		border-left: none
+		font-variant-caps: all-small-caps
+		padding: 0
+		font-size: 1.75em
+		font-weight: 100
+
+	p, li
+		font-weight: 300
+		color: $light-blue
+
+	strong
+		color: $light-blue
+
+	li
+		margin-bottom: 0
+
+	a
+		color: $white
+
 
 .joanna-banner
 	margin-top: 1em
@@ -268,32 +288,47 @@
 		a
 			color: inherit		
 
-
 .book-demo
-	background-color: #eff
-	padding: 1em
-	border-radius: 8px
+	background-color: $soft-blue
+	padding: 0 1em
+	padding-bottom: 5em
 	margin: 0em
+	.column
+		max-width: 750px
+		margin-left: auto
+		margin-right: auto
 
 	h2
 		text-align: center
-		color: $primary
-		@extend .is-size-4-mobile
-		@extend .is-size-2
+		color: $white
+		// @extend .is-size-4-mobile
+		// @extend .is-size-2
 		// line-height: 2em
-		margin-bottom: 1em
-		margin-top: 0.5em
+		// margin-bottom: 1em
+		// margin-top: 0.5em
 
-	bockquote
-			
+	blockquote
+		margin: 2em
+		&:not(:last-child)
+			margin-bottom: 5em 
+		
+		border: none
+		border-radius: 0 40% 
+		p
+			padding: 1em 0
+			font-size: 1.2em
+
+	p
+		text-align: center
+		font-weight: 100
+		font-size: 1.5em
+		// margin: 4em 0
+
 	a
-		@extend .button
-		@extend .is-success
-		@extend .is-fullwidth
-		width: 50%
-		margin-left: auto
-		margin-right: auto
-	
+		@extend .round-blue-button
+		background-color: $main-blue
+		font-size: 1.3em
+
 	li
 		@extend .is-size-7
 		

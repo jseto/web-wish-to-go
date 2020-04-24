@@ -1,6 +1,6 @@
 ---
 pageTemplate: index
-blockName: block
+blockName: joannaBanner
 className: joanna-banner
 order: 5
 ---
